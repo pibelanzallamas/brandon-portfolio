@@ -1,3 +1,129 @@
+@font-face {
+  font-family: "wipeout";
+  src: url("../fonts/F5000.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "2097";
+  src: url("../fonts/2097.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "amalgama";
+  src: url("../fonts/Amalgama.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "angular";
+  src: url("../fonts/F500 Ang-ular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+.navbar {
+  background-color: #ff9900;
+  width: auto;
+  padding: 1.4rem 1rem;
+}
+
+.links {
+  color: #0575f5;
+  font-family: "2097";
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-around;
+}
+.links a {
+  text-decoration: none;
+  padding: 0.2em;
+}
+.links a:visited {
+  color: inherit;
+}
+.links a:hover, .links a:focus {
+  color: #ff5454;
+  text-decoration: underline;
+}
+
+@media (min-width: 700px) {
+  .navbar {
+    font-size: 28px;
+  }
+  .links {
+    font-size: 2rem;
+  }
+}
+.all {
+  background-image: url("../../public/fondo2.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+}
+
+.content {
+  font-family: "amalgama";
+  color: #0575f5;
+}
+
+.title {
+  font-size: 1.3rem;
+  padding: 1rem;
+  padding-top: 2rem;
+  padding-bottom: 0;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  padding-top: 0.5rem;
+  padding-left: 1rem;
+  padding-bottom: 4rem;
+  color: #e84855;
+  text-decoration: underline;
+}
+
+.home-image {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+}
+.home-image img {
+  width: 100%;
+  height: auto;
+  border: #ff9900 5px groove;
+}
+
+.bio {
+  padding: 1rem;
+  padding-bottom: 3rem;
+}
+
+.profile-pic {
+  text-align: center;
+}
+.profile-pic img {
+  width: 45%;
+  heigth: 45%;
+  border-radius: 50%;
+  border: #ff9900 5px groove;
+}
+
+.image {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 3rem;
+}
+.image img {
+  width: 100%;
+  height: auto;
+  border: #ff9900 5px groove;
+}
+
+.description {
+  padding: 1rem;
+}
+
 * {
   margin: 0;
   padding: 0;
