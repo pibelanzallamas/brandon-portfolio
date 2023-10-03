@@ -22,6 +22,12 @@
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: "assegai";
+  src: url("../fonts/Assegai Rounded.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
 .navbar {
   background-color: #ff9900;
   width: auto;
@@ -109,19 +115,45 @@
   border: #ff9900 5px groove;
 }
 
-.image {
+.project-title {
+  font-size: 1.3rem;
+  padding-top: 2rem;
+  padding-bottom: 0.7rem;
   padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 3rem;
+  color: #e84855;
+  text-decoration: underline;
 }
-.image img {
+
+.project-image {
+  padding-left: 1rem;
+  padding-right: 3rem;
+  padding-bottom: 0.7rem;
+}
+.project-image img {
   width: 100%;
   height: auto;
   border: #ff9900 5px groove;
 }
 
-.description {
+.project-description {
   padding: 1rem;
+  text-align: left;
+  font-family: "amalgama";
+}
+
+.project-logos {
+  padding: 1rem;
+}
+.project-logos ul {
+  display: flex;
+  justify-content: space-around;
+}
+.project-logos li {
+  display: inline-block;
+}
+.project-logos img {
+  height: 10vh;
+  width: auto;
 }
 
 * {
