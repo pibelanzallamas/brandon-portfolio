@@ -13,7 +13,9 @@ function Home() {
     <div className="all">
       <div className="content">
         <div className="title">
-          <h1>brandon castillo</h1>
+          <span className="fixed">
+            <h1>brandon castillo&#10048;</h1>
+          </span>
         </div>
         <div className="subtitle">
           <h3>web designer</h3>

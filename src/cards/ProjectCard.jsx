@@ -4,7 +4,7 @@ function ProjectCard({ project }) {
       <div className="project-title">
         <h3>{project.name}</h3>
       </div>
-      <div className="project-description">
+      <div className="project-subtitle">
         <p>
           {project.month} {project.year}
         </p>
