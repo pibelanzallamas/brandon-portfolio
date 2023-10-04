@@ -49,7 +49,7 @@
   color: inherit;
 }
 .links a:hover, .links a:focus {
-  color: #ff5454;
+  color: #e84855;
   text-decoration: underline;
 }
 
@@ -89,24 +89,26 @@
   text-decoration: underline;
 }
 
-.home-image {
+.image {
   padding-left: 1rem;
   padding-right: 1rem;
   padding-bottom: 1rem;
 }
-.home-image img {
+.image img {
   width: 100%;
   height: auto;
   border: #ff9900 5px groove;
 }
 
-.bio {
+.profile-title {
   padding: 1rem;
-  padding-bottom: 3rem;
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
 }
 
 .profile-pic {
   text-align: center;
+  padding-bottom: 1rem;
 }
 .profile-pic img {
   width: 45%;
@@ -115,10 +117,15 @@
   border: #ff9900 5px groove;
 }
 
+.profile-description {
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+
 .project-title {
   font-size: 1.3rem;
   padding-top: 2rem;
-  padding-bottom: 0.7rem;
+  padding-bottom: 1rem;
   padding-left: 1rem;
   color: #e84855;
   text-decoration: underline;
@@ -152,8 +159,47 @@
   display: inline-block;
 }
 .project-logos img {
-  height: 10vh;
+  height: 4rem;
   width: auto;
+}
+
+.contact-links {
+  font-size: 1.3rem;
+  padding: 1rem;
+  text-align: center;
+}
+.contact-links a:hover {
+  color: #e84855;
+  cursor: pointer;
+}
+
+.email {
+  padding: 1rem;
+}
+
+.button-inicio {
+  font-size: 1rem;
+  padding: 1rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.button-inicio a {
+  padding: 0.8rem;
+  border: blue 1px solid;
+  border-radius: 1rem;
+}
+.button-inicio a:hover {
+  background-color: #e2adf2;
+  color: #403f4c;
+  cursor: pointer;
+}
+
+.credits {
+  text-align: center;
+}
+.credits section {
+  color: #e2adf2;
 }
 
 * {
