@@ -4,9 +4,9 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="links">
-        <a href="#projects">Projects</a>
-        <a href="#videos">Videos</a>
-        <a href="#contact">Contact</a>
+        <Link to="/projects">Projects</Link>
+        <Link to="/videos">Videos</Link>
+        <Link to="/contact">Contact</Link>
       </div>
     </div>
   );

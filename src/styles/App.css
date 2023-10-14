@@ -1,10 +1,4 @@
 @font-face {
-  font-family: "wipeout";
-  src: url("../fonts/F5000.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
   font-family: "2097";
   src: url("../fonts/2097.ttf") format("truetype");
   font-weight: normal;
@@ -16,22 +10,10 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: "angular";
-  src: url("../fonts/F500 Ang-ular.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "assegai";
-  src: url("../fonts/Assegai Rounded.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 .navbar {
   background-color: #ff9900;
   width: auto;
-  padding: 1.4rem 1rem;
+  padding: 1.5rem 1rem;
 }
 
 .links {
@@ -40,12 +22,15 @@
   font-size: 1.2rem;
   display: flex;
   justify-content: space-around;
+  cursor: pointer;
 }
 .links a {
   padding: 0.2em;
 }
 .links a:hover, .links a:focus {
-  color: #e84855;
+  border-radius: 9px;
+  background-color: #0575f5;
+  color: white;
 }
 
 @media (min-width: 700px) {
@@ -69,104 +54,60 @@
   font-size: 1.3rem;
   padding: 1rem;
   padding-top: 2rem;
-  padding-bottom: 0;
+  border: solid red 1px;
 }
 
 .subtitle {
+  border: solid red 1px;
   font-size: 1.3rem;
-  padding-top: 0.5rem;
-  padding-left: 1rem;
-  padding-bottom: 4rem;
+  padding: 1rem;
   color: #e84855;
-  text-decoration: underline;
 }
 
 .image {
-  padding-left: 1rem;
-  padding-right: 1rem;
-  padding-bottom: 1rem;
+  border: solid red 1px;
+  padding: 1rem;
 }
 .image img {
   width: 100%;
   height: auto;
-  border: #ff9900 5px groove;
+  border: #ff9900 4px solid;
 }
 
 .profile-title {
+  border: solid red 1px;
   padding: 1rem;
   font-size: 1.5rem;
   padding-top: 3rem;
   padding-bottom: 1rem;
 }
 
+.profile-description {
+  border: solid red 1px;
+  padding: 1rem;
+  padding-bottom: 2rem;
+}
+
 .profile-pic {
+  border: solid red 1px;
   text-align: center;
 }
 .profile-pic img {
   width: 45%;
-  heigth: 45%;
+  height: 45%;
   border-radius: 50%;
   border: #ff9900 5px groove;
 }
 
-.profile-description {
-  padding: 1rem;
-  padding-bottom: 2rem;
-}
-
-.contact-links {
-  font-size: 1.3rem;
-  padding: 1rem;
-  text-align: center;
-}
-.contact-links a:hover {
-  color: #e84855;
-  cursor: pointer;
-}
-
-.credits {
-  text-align: center;
-}
-.credits section {
-  color: #e2adf2;
-}
-
-.button-inicio {
-  font-size: 1rem;
-  padding: 1rem;
-  text-align: center;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-.button-inicio a {
-  padding: 0.8rem;
-  border: blue 1px solid;
-  border-radius: 1rem;
-}
-.button-inicio a:hover {
-  background-color: #e2adf2;
-  color: #403f4c;
-  cursor: pointer;
-}
-
 @media (min-width: 700px) {
-  .content {
-    padding-left: 3rem;
-  }
-  .title {
-    font-size: 2rem;
-  }
-  .subtitle {
-    padding-bottom: 1rem;
-    font-size: 2rem;
-  }
-  .image {
-    padding-top: 1rem;
-    padding-right: 20rem;
-  }
   .profile-title {
+    text-decoration: underline;
     font-size: 2rem;
     padding-bottom: 3rem;
+  }
+  .profile-description {
+    font-size: 2rem;
+    padding-right: 3rem;
   }
   .profile-pic {
     padding-left: 10rem;
@@ -175,10 +116,6 @@
   }
   .profile-pic img {
     border: #ff9900 10px groove;
-  }
-  .profile-description {
-    font-size: 2rem;
-    padding-right: 3rem;
   }
 }
 .project-title {
@@ -252,6 +189,41 @@
     width: auto;
   }
 }
+.contact-links {
+  font-size: 1.3rem;
+  padding: 1rem;
+  text-align: center;
+}
+.contact-links a:hover {
+  color: #e84855;
+  cursor: pointer;
+}
+
+.credits {
+  text-align: center;
+}
+.credits section {
+  color: #e2adf2;
+}
+
+.button-inicio {
+  font-size: 1rem;
+  padding: 1rem;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.button-inicio a {
+  padding: 0.8rem;
+  border: blue 1px solid;
+  border-radius: 1rem;
+}
+.button-inicio a:hover {
+  background-color: #0575f5;
+  color: white;
+  cursor: pointer;
+}
+
 * {
   margin: 0;
   padding: 0;
