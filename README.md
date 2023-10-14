@@ -1,5 +1,5 @@
 # Portfolio de Brandon
-Presentacion de todos mis trabajos como web developer, desde el primero que hice en enero del 2023 hasta los ultimos que estoy haciendo hasta la fecha en octubre 2023. Cada trabajo me enseño algo nuevo, y en cada trabajo implemente tecnicas nuevas, metodos nuevos, diseños nuevos, y librerias nuevas. 
+Presentacion de todos mis trabajos como web developer, desde el primero que realice en enero del 2023 hasta los ultimos que estoy fabricando hasta la fecha en octubre 2023. Cada trabajo me enseño algo nuevo, y en cada trabajo implemente tecnicas nuevas, metodos nuevos, diseños nuevos, y tecnologías nuevas. 
 
 ### Principales
 - House of Dev (Septiembre 2023)
