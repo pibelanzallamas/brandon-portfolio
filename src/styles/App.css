@@ -80,11 +80,6 @@
   padding-bottom: 1rem;
 }
 
-.profile-description {
-  padding: 1rem;
-  padding-bottom: 2rem;
-}
-
 .profile-pic {
   text-align: center;
 }
@@ -93,6 +88,21 @@
   height: 45%;
   border-radius: 50%;
   border: #ff9900 5px groove;
+}
+
+.profile-description {
+  padding-top: 0;
+  padding-left: 1rem;
+  padding-right: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.lists {
+  padding-left: 2rem;
+}
+
+.bio {
+  padding-left: 1rem;
 }
 
 @media (min-width: 700px) {
@@ -211,7 +221,7 @@
 }
 .button-inicio a {
   padding: 0.8rem;
-  border: blue 1px solid;
+  border: #0575f5 1px solid;
   border-radius: 1rem;
 }
 .button-inicio a:hover {

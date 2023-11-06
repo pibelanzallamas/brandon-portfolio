@@ -4,18 +4,30 @@ function Profile() {
   return (
     <div className="all">
       <div className="content">
-        <div className="profile-title">
-          <h2>Profile</h2>
+        <div className="title">
+          <h1>Profile</h1>
         </div>
         <div className="profile-pic">
           <img src="/imagenCv.png"></img>
         </div>
         <div className="profile-description">
-          <p>
-            Nacido y criado en la ciudad de Buenos Aires, inicio su carrera como
-            musico luego de ver School of Rock amante del diseño, la música, y
-            el arte. Su nueva pasión es el diseño de paginas web.
+          <div className="project-title">bio</div>
+          <p className="bio">
+            Born and rise in Argentina. I like design. I like innovation. I like
+            exploring new fields. I like good products.
           </p>
+          <div className="project-title">techonlogies</div>
+          <ul className="lists">
+            <li>NodeJs</li>
+            <li>React</li>
+            <li>Sequelize</li>
+            <li>Express</li>
+            <li>Sass</li>
+            <li>JWT</li>
+            <li>Figma</li>
+            <li>Visual Studio Code</li>
+            <li>Postgres</li>
+          </ul>
         </div>
         <Credits />
       </div>
