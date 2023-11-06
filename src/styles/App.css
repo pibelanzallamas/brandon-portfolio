@@ -73,57 +73,6 @@
   border: #ff9900 4px solid;
 }
 
-.profile-title {
-  padding: 1rem;
-  font-size: 1.5rem;
-  padding-top: 3rem;
-  padding-bottom: 1rem;
-}
-
-.profile-pic {
-  text-align: center;
-}
-.profile-pic img {
-  width: 45%;
-  height: 45%;
-  border-radius: 50%;
-  border: #ff9900 5px groove;
-}
-
-.profile-description {
-  padding-top: 0;
-  padding-left: 1rem;
-  padding-right: 1.5rem;
-  padding-bottom: 2rem;
-}
-
-.lists {
-  padding-left: 2rem;
-}
-
-.bio {
-  padding-left: 1rem;
-}
-
-@media (min-width: 700px) {
-  .profile-title {
-    text-decoration: underline;
-    font-size: 2rem;
-    padding-bottom: 3rem;
-  }
-  .profile-description {
-    font-size: 2rem;
-    padding-right: 3rem;
-  }
-  .profile-pic {
-    padding-left: 10rem;
-    padding-right: 10rem;
-    padding-bottom: 3rem;
-  }
-  .profile-pic img {
-    border: #ff9900 10px groove;
-  }
-}
 .project-title {
   font-size: 1.3rem;
   padding-top: 2rem;
@@ -193,6 +142,57 @@
   .project-logos img {
     height: 6rem;
     width: auto;
+  }
+}
+.profile-title {
+  padding: 1rem;
+  font-size: 1.5rem;
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
+.profile-pic {
+  text-align: center;
+}
+.profile-pic img {
+  width: 45%;
+  height: 45%;
+  border-radius: 50%;
+  border: #ff9900 5px groove;
+}
+
+.profile-description {
+  padding-top: 0;
+  padding-left: 1rem;
+  padding-right: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+.lists {
+  padding-left: 2rem;
+}
+
+.bio {
+  padding-left: 1rem;
+}
+
+@media (min-width: 700px) {
+  .profile-title {
+    text-decoration: underline;
+    font-size: 2rem;
+    padding-bottom: 3rem;
+  }
+  .profile-description {
+    font-size: 2rem;
+    padding-right: 3rem;
+  }
+  .profile-pic {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 3rem;
+  }
+  .profile-pic img {
+    border: #ff9900 10px groove;
   }
 }
 .contact-links {

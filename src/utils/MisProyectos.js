@@ -6,17 +6,10 @@ const projects = [
     month: "sep",
     author: "Brandon Castillo",
     image: "/house-of-dev-image.png",
-    web: "www",
-    youtube: "youtube",
+    web: "https://house-of-dev-client.vercel.app",
+    youtube: "https://youtu.be/yAHY14qSS8Y",
     github: "https://github.com/pibelanzallamas/house-of-dev-client",
-    description: `Aplicación web diseña con la ayuda de Css y Figma.
-    Funcionalidades escritas con React, React Router, Redux y Axios.
-    Contiene las funcionalidades de buscar propiedades por barrio,
-    ciudad, pais, habitaciones, disponibilidad, categorias (PH, Casa,
-    etc), y ademas ordenarlas por precio o fecha de publicación. Se
-    pueden guardar favoritos, escribir reviews, y agendar citas
-    programadas. En el modo admin se puede modificar todo, usuarios,
-    propiedades, citas, reviews. Y agegar también!`,
+    description: `Web application designed with the help of CSS and Figma. Functionalities implemented using React, Redux, and Axios. It includes features for searching properties by neighborhood, city, country, rooms, availability, categories (PH, House, etc), and also sorting them by price or publication date. Users can save favorites, write reviews, and schedule appointments. In admin mode, you can modify everything, including users, properties, appointments, and reviews.`,
     tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
   },
   {
@@ -29,8 +22,7 @@ const projects = [
     web: "",
     youtube: "youtube",
     github: "https://github.com/pibelanzallamas/26-checkpoint-TMDB",
-    description: `Motor principal de búsqueda de películas que permite marcar favoritos, 
-    explorar las más populares, ver sus sitios web y más.`,
+    description: `Main movie search engine that allows you to bookmark favorites, explore the most popular ones, get their details, visit their websites, and more.`,
     tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
   },
   {
@@ -43,8 +35,7 @@ const projects = [
     web: "https://pibelanzallamas.github.io/metalhead",
     youtube: "youtube",
     github: "https://github.com/pibelanzallamas/metalhead",
-    description: `Proyecto individual donde recopilo muchos de mis
-    videojuegos favoritos de la playstation 1 y sus canciones.`,
+    description: `Personal project of mine, that includes a mixtape of ps1 videogames screenshots, jungle and breakcore music and some 90s bands playing live.`,
     tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
   },
   {
@@ -57,8 +48,7 @@ const projects = [
     web: "https://pibelanzallamas.github.io/sacrificialsuicide",
     youtube: "youtube",
     github: "https://github.com/pibelanzallamas/sacrificialsuicide",
-    description: `Pequeña aplicacion que te informa cuantos dias
-    llevas vivo en la tierra. No es eso importante?`,
+    description: `Little project that counts your days in this earth. It's in spanish.`,
     tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
   },
 ];

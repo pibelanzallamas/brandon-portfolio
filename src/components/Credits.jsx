@@ -15,7 +15,7 @@ function Credits() {
       </div>
 
       <div className="button-inicio">
-        <a onClick={scrollToTop}>Inicio</a>
+        <a onClick={scrollToTop}>Top</a>
       </div>
     </div>
   );

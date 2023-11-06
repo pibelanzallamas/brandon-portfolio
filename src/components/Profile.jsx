@@ -16,7 +16,7 @@ function Profile() {
             Born and rise in Argentina. I like design. I like innovation. I like
             exploring new fields. I like good products.
           </p>
-          <div className="project-title">techonlogies</div>
+          <div className="project-title">technologies</div>
           <ul className="lists">
             <li>NodeJs</li>
             <li>React</li>
