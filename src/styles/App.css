@@ -27,7 +27,7 @@
   cursor: pointer;
 }
 .links a {
-  padding: 0.2em;
+  padding: 0.4em;
 }
 .links a:hover, .links a:focus {
   border-radius: 9px;

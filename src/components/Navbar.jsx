@@ -4,6 +4,8 @@ function Navbar() {
   return (
     <div className="navbar">
       <div className="links">
+        <Link to="/">Home</Link>
+        <Link to="/profile">Profile</Link>
         <Link to="/projects">Projects</Link>
         <Link to="/videos">Videos</Link>
         <Link to="/contact">Contact</Link>

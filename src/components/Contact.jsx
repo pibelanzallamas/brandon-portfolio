@@ -5,7 +5,6 @@ function Contact() {
   return (
     <div className="all">
       <div className="content">
-        <Profile />
         <div id="contact" name="contact" className="title">
           <h1>contact</h1>
         </div>
