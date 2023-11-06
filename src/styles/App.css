@@ -23,7 +23,7 @@
   font-family: "2097";
   font-size: 1.2rem;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   cursor: pointer;
 }
 .links a {
@@ -36,11 +36,14 @@
 }
 
 @media (min-width: 700px) {
+  .navbar {
+    padding: 1.55rem 1rem;
+  }
   .links {
     font-size: 2rem;
   }
-  .navbar {
-    padding: 1.3rem 1rem;
+  .links a {
+    padding: 0.25rem 0.4rem;
   }
 }
 .all {
@@ -204,7 +207,7 @@
 
 @media (min-width: 700px) {
   .sub {
-    font-size: 2.3rem;
+    font-size: 2rem;
     text-align: center;
     padding-bottom: 1.4rem;
   }
@@ -224,7 +227,6 @@
     padding-top: 1rem;
     padding-left: 20rem;
     padding-right: 20rem;
-    padding-bottom: 1rem;
   }
   .profile-pic img {
     border: #ff9900 10px groove;

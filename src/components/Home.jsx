@@ -11,13 +11,9 @@ function Home() {
           <h3>web designer</h3>
         </div>
         <div className="image">
-          <img src="/cowboy-bebop-fast.gif"></img>
+          <img src="/cowboy-bebop-fast.gif" alt="ed-riding-bike"></img>
         </div>
-        <div style={{ "text-align": "center", "font-size": "3rem" }}>✨</div>
-
-        <div className="credits project-description">
-          <p>All Rights Reserved. Page designed by Brandon Castillo. 2023.</p>
-        </div>
+        <Credits />
       </div>
     </div>
   );

@@ -10,6 +10,8 @@ const projects = [
     youtube: "https://youtu.be/yAHY14qSS8Y",
     github: "https://github.com/pibelanzallamas/house-of-dev-client",
     description: `Web application designed with the help of CSS and Figma. Functionalities implemented using React, Redux, and Axios. It includes features for searching properties by neighborhood, city, country, rooms, availability, categories (PH, House, etc), and also sorting them by price or publication date. Users can save favorites, write reviews, and schedule appointments. In admin mode, you can modify everything, including users, properties, appointments, and reviews.`,
+    // description:
+    //   "Real State app for liking, commenting, and scheduling appointments for various properties with different filters and a search bar.",
     tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
   },
   {
@@ -22,7 +24,7 @@ const projects = [
     web: "",
     youtube: "youtube",
     github: "https://github.com/pibelanzallamas/26-checkpoint-TMDB",
-    description: `Main movie search engine that allows you to bookmark favorites, explore the most popular ones, get their details, visit their websites, and more.`,
+    description: `Web application for searching movies, viewing the trending ones, saving favorites, and visiting their websites.`,
     tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
   },
   {
@@ -35,7 +37,7 @@ const projects = [
     web: "https://pibelanzallamas.github.io/metalhead",
     youtube: "youtube",
     github: "https://github.com/pibelanzallamas/metalhead",
-    description: `Personal project of mine, that includes a mixtape of ps1 videogames screenshots, jungle and breakcore music and some 90s bands playing live.`,
+    description: `Personal project of mine, that includes a mixtape of ps1 videogames screenshots, jungle music and some 90s bands.`,
     tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
   },
   {
