@@ -9,13 +9,11 @@ function Projects() {
         <div id="projects" name="projects" className="title">
           <h1>projects</h1>
         </div>
-
         {projects.map((project) => (
           <div key={project.id}>
             <ProjectCard project={project} />
           </div>
         ))}
-
         <Credits />
       </div>
     </div>

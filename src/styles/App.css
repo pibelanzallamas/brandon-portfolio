@@ -39,6 +39,9 @@
   .links {
     font-size: 2rem;
   }
+  .navbar {
+    padding: 1.3rem 1rem;
+  }
 }
 .all {
   background-image: url("../../public/fondo2.jpg");
@@ -53,7 +56,7 @@
 }
 
 .title {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   padding: 1rem;
   padding-top: 2rem;
 }
@@ -73,6 +76,15 @@
   border: #ff9900 4px solid;
 }
 
+@media (min-width: 700px) {
+  .title, .subtitle {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .image {
+    padding: 1rem 9rem;
+  }
+}
 .project-title {
   font-size: 1.3rem;
   padding-top: 2rem;
@@ -119,15 +131,21 @@
 @media (min-width: 700px) {
   .project-title {
     font-size: 2rem;
+    text-align: center;
+  }
+  .project-subtitle {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0rem;
   }
   .project-image {
-    padding-right: 14rem;
-    padding-bottom: 3rem;
+    padding: 1rem 9rem;
   }
   .project-description {
     font-size: 2rem;
+    padding: 1rem 9rem;
     padding-bottom: 2rem;
-    padding-right: 3rem;
+    text-align: center;
   }
   .project-logos {
     padding: 1rem;
@@ -142,6 +160,14 @@
   .project-logos img {
     height: 6rem;
     width: auto;
+  }
+}
+@media (min-width: 700px) {
+  .videos {
+    padding-left: 12rem;
+    padding-right: 12rem;
+    width: 100%;
+    height: 450px;
   }
 }
 .profile-title {
@@ -168,28 +194,37 @@
   padding-bottom: 2rem;
 }
 
-.lists {
-  padding-left: 2rem;
-}
-
 .bio {
   padding-left: 1rem;
 }
 
+.lists {
+  padding-left: 2rem;
+}
+
 @media (min-width: 700px) {
-  .profile-title {
-    text-decoration: underline;
-    font-size: 2rem;
-    padding-bottom: 3rem;
+  .sub {
+    font-size: 2.3rem;
+    text-align: center;
+    padding-bottom: 1.4rem;
   }
   .profile-description {
     font-size: 2rem;
-    padding-right: 3rem;
+    padding: 1rem 5rem;
+    text-align: center;
+    padding-bottom: 3rem;
+  }
+  .lists {
+    list-style-type: none;
+  }
+  .bio {
+    padding-bottom: 1rem;
   }
   .profile-pic {
-    padding-left: 10rem;
-    padding-right: 10rem;
-    padding-bottom: 3rem;
+    padding-top: 1rem;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    padding-bottom: 1rem;
   }
   .profile-pic img {
     border: #ff9900 10px groove;
@@ -230,6 +265,18 @@
   cursor: pointer;
 }
 
+@media (min-width: 700px) {
+  .credits {
+    font-size: 1.4rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
+    padding-top: 1rem;
+  }
+  .button-inicio {
+    padding-top: 0.4rem;
+    padding-bottom: 3rem;
+  }
+}
 * {
   margin: 0;
   padding: 0;
@@ -239,7 +286,7 @@
   text-decoration: none;
 }
 * a:visited {
-  color: inherit;
+  color: #0575f5;
 }
 
 body {

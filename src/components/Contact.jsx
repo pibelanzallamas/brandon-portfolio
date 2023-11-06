@@ -1,4 +1,3 @@
-import Profile from "./Profile";
 import Credits from "./Credits";
 
 function Contact() {
@@ -17,7 +16,7 @@ function Contact() {
             <h2>Github</h2>
           </a>
           <a
-            href={"https://www.linkedin.com/in/brandon-castillo-dev/"}
+            href={"https://www.linkedin.com/in/brandon-castillo-dev"}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -38,7 +37,7 @@ function Contact() {
             <h2>Twitter</h2>
           </a>
           <a
-            href={"https://www.instagram.com/castill0.666/"}
+            href={"https://www.instagram.com/castill0.666"}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -52,7 +51,7 @@ function Contact() {
             <h2>Twitch</h2>
           </a>
           <a
-            href={"https://www.youtube.com/@Brandooon95/"}
+            href={"https://www.youtube.com/@Brandooon95"}
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -66,14 +65,18 @@ function Contact() {
             <h2>Codewars</h2>
           </a>
           <a
-            href={"https://leetcode.com/pibelanzallamas/"}
+            href={"https://leetcode.com/pibelanzallamas"}
             target="_blank"
             rel="noopener noreferrer"
           >
             <h2>LeetCode</h2>
           </a>
         </div>
-        <Credits />
+        <div style={{ "text-align": "center", "font-size": "3rem" }}>✨</div>
+
+        <div className="credits project-description">
+          <p>All Rights Reserved. Page designed by Brandon Castillo. 2023.</p>
+        </div>
       </div>
     </div>
   );

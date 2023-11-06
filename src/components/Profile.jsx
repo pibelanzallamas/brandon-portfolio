@@ -7,16 +7,17 @@ function Profile() {
         <div className="title">
           <h1>Profile</h1>
         </div>
-        <div className="profile-pic">
-          <img src="/imagenCv.png"></img>
-        </div>
         <div className="profile-description">
-          <div className="project-title">bio</div>
+          <div className="profile-pic">
+            <img src="/imagenCv.png"></img>
+          </div>
+          <div className="project-title sub">bio</div>
           <p className="bio">
-            Born and rise in Argentina. I like design. I like innovation. I like
-            exploring new fields. I like good products.
+            I was born and raised in Argentina. I have a passion for design,
+            innovation, and exploring new fields. I appreciate the value of
+            well-crafted products.
           </p>
-          <div className="project-title">technologies</div>
+          <div className="project-title sub">technologies</div>
           <ul className="lists">
             <li>NodeJs</li>
             <li>React</li>
