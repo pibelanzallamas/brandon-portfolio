@@ -212,12 +212,12 @@
 
 @media (min-width: 700px) {
   .sub {
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-align: center;
     padding-bottom: 1.4rem;
   }
   .profile-description {
-    font-size: 2rem;
+    font-size: 1.8rem;
     padding: 1rem 5rem;
     text-align: center;
     padding-bottom: 1rem;
@@ -229,7 +229,6 @@
     padding-bottom: 1rem;
   }
   .profile-pic {
-    padding-top: 1rem;
     padding-left: 20rem;
     padding-right: 20rem;
   }
@@ -237,20 +236,6 @@
     border: #ff9900 10px groove;
   }
 }
-.testing {
-  border: solid 1px red;
-  padding-left: 2rem;
-  padding-right: 1rem;
-  padding-bottom: 3rem;
-  padding-top: 1em;
-  margin: 2rem;
-  width: 200px;
-  height: 200px;
-  background-color: #999;
-  color: red;
-  border-radius: 20px;
-}
-
 .contact-links {
   font-size: 1.3rem;
   padding: 1rem;
