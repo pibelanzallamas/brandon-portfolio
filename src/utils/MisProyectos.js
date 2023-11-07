@@ -10,8 +10,6 @@ const projects = [
     youtube: "https://youtu.be/yAHY14qSS8Y",
     github: "https://github.com/pibelanzallamas/house-of-dev-client",
     description: `Web application designed with the help of CSS and Figma. Functionalities implemented using React, Redux, and Axios. It includes features for searching properties by neighborhood, city, country, rooms, availability, categories (PH, House, etc), and also sorting them by price or publication date. Users can save favorites, write reviews, and schedule appointments. In admin mode, you can modify everything, including users, properties, appointments, and reviews.`,
-    // description:
-    //   "Real State app for liking, commenting, and scheduling appointments for various properties with different filters and a search bar.",
     tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
   },
   {

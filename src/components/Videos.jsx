@@ -10,7 +10,7 @@ function Videos() {
           {projects.map((project) => {
             return (
               <>
-                <p className="project-title" key={project.id}>
+                <p className="project-title video-title" key={project.id}>
                   {project.name}
                 </p>
                 <iframe
