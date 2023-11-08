@@ -2,7 +2,7 @@ import Credits from "./Credits";
 
 function Contact() {
   return (
-    <div className="all">
+    <div className="all contact-all">
       <div className="content">
         <div id="contact" name="contact" className="title">
           <h1>contact</h1>
@@ -72,7 +72,12 @@ function Contact() {
             <h2>LeetCode</h2>
           </a>
         </div>
-        <Credits />
+        <div style={{ "text-align": "center", "font-size": "3rem" }}>✨</div>
+
+        <div className="credits project-description">
+          <p>All Rights Reserved. Page designed by Brandon Castillo. 2023.</p>
+        </div>
+        {/* <Credits /> */}
       </div>
     </div>
   );

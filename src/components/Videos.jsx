@@ -5,8 +5,10 @@ function Videos() {
   return (
     <div className="all">
       <div className="content">
-        <div id="videos" name="videos" className="title">
-          <h1>videos</h1>
+        <div className="title vid-title">
+          <h1>Videos</h1>
+        </div>
+        <div className="videos-content">
           {projects.map((project) => {
             return (
               <>

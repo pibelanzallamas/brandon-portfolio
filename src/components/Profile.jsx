@@ -4,7 +4,7 @@ function Profile() {
   return (
     <div className="all">
       <div className="content">
-        <div className="title">
+        <div className="title prof-title">
           <h1>Profile</h1>
         </div>
         <div className="profile-description">
@@ -29,9 +29,13 @@ function Profile() {
             <li>Visual Studio Code</li>
             <li>Postgres</li>
           </ul>
-          <div className="testing"></div>
         </div>
-        <Credits />
+        {/* <Credits /> */}
+        <div style={{ "text-align": "center", "font-size": "3rem" }}>✨</div>
+
+        <div className="credits project-description">
+          <p>All Rights Reserved. Page designed by Brandon Castillo. 2023.</p>
+        </div>
       </div>
     </div>
   );

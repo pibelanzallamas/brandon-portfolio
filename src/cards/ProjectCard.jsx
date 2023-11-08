@@ -1,6 +1,6 @@
 function ProjectCard({ project }) {
   return (
-    <div>
+    <div className="project-content">
       <div className="project-title">
         <h3>{project.name}</h3>
       </div>
