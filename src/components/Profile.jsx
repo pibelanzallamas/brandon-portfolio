@@ -30,12 +30,7 @@ function Profile() {
             <li>Postgres</li>
           </ul>
         </div>
-        {/* <Credits /> */}
-        <div style={{ "text-align": "center", "font-size": "3rem" }}>✨</div>
-
-        <div className="credits project-description">
-          <p>All Rights Reserved. Page designed by Brandon Castillo. 2023.</p>
-        </div>
+        <Credits />
       </div>
     </div>
   );
