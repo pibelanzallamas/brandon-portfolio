@@ -19,7 +19,7 @@ const projects = [
     month: "jul",
     author: "Brandon Castillo",
     image: "/tmdb-image.png",
-    web: "",
+    web: "https://my-movie-crib-front.vercel.app",
     youtube: "youtube",
     github: "https://github.com/pibelanzallamas/my-movie-crib",
     description: `Web application for searching movies, viewing the trending ones, saving favorites, and visiting their websites.`,
