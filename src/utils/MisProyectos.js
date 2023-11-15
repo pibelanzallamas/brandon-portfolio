@@ -21,7 +21,7 @@ const projects = [
     image: "/MMC-Home.png",
     web: "https://my-movie-crib-front.vercel.app",
     youtube: "",
-    github: "https://github.com/pibelanzallamas/my-movie-crib",
+    github: "https://github.com/pibelanzallamas/my-movie-crib-front",
     description: `Web application for searching movies, viewing the trending ones, saving favorites, and visiting their websites.`,
     tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
   },
