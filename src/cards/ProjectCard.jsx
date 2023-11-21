@@ -21,17 +21,17 @@ function ProjectCard({ project }) {
         <ul>
           <li>
             <a href={project.web} target="_blank" rel="noopener noreferrer">
-              <img src="/weblogo.png"></img>
+              <img src="/logos/weblogo.png"></img>
             </a>
           </li>
           <li>
             <a href={project.youtube} target="_blank" rel="noopener noreferrer">
-              <img src="/youtubelogo.png"></img>
+              <img src="/logos/youtubelogo.png"></img>
             </a>
           </li>
           <li>
             <a href={project.github} target="_blank" rel="noopener noreferrer">
-              <img src="githublogo3.png"></img>
+              <img src="/logos/githublogo.png"></img>
             </a>
           </li>
         </ul>
