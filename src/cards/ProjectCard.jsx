@@ -10,7 +10,7 @@ function ProjectCard({ project }) {
         </p>
       </div>
       <div className="project-image">
-        <img src={project.image}></img>
+        <img src={project.image} alt={project.name + " imagen"}></img>
       </div>
 
       <div className="project-description">
@@ -21,17 +21,17 @@ function ProjectCard({ project }) {
         <ul>
           <li>
             <a href={project.web} target="_blank" rel="noopener noreferrer">
-              <img src="/logos/weblogo.png"></img>
+              <img src="/logos/weblogo.png" alt={"logo-web"}></img>
             </a>
           </li>
           <li>
             <a href={project.youtube} target="_blank" rel="noopener noreferrer">
-              <img src="/logos/youtubelogo.png"></img>
+              <img src="/logos/youtubelogo.png" alt={"logo-youtube"}></img>
             </a>
           </li>
           <li>
             <a href={project.github} target="_blank" rel="noopener noreferrer">
-              <img src="/logos/githublogo.png"></img>
+              <img src="/logos/githublogo.png" alt={"logo-github"}></img>
             </a>
           </li>
         </ul>
