@@ -27,7 +27,7 @@ nav {
   font-size: 1.4rem;
 }
 .links a {
-  padding: 0.4em;
+  padding: 0.25rem 0.4rem;
 }
 .links a:hover, .links a:focus {
   color: white;
