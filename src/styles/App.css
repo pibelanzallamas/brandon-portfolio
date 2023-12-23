@@ -10,34 +10,35 @@
   font-weight: normal;
   font-style: normal;
 }
-.navbar {
-  background-color: #ff9900;
+nav {
   width: auto;
-  padding: 1.3rem 1rem;
+  background-color: #ff9900;
   overflow-x: scroll;
   white-space: nowrap;
+  padding: 1.3rem 1rem;
 }
 
 .links {
-  color: #0575f5;
   font-family: "2097";
-  font-size: 1.2rem;
+  color: #0575f5;
+  cursor: pointer;
   display: flex;
   justify-content: space-between;
-  cursor: pointer;
+  font-size: 1.4rem;
 }
 .links a {
   padding: 0.4em;
 }
 .links a:hover, .links a:focus {
-  border-radius: 9px;
-  background-color: #0575f5;
   color: white;
+  background-color: #0575f5;
+  border-radius: 9px;
 }
 
 @media (min-width: 700px) {
-  .navbar {
-    padding: 1.55rem 1rem;
+  nav {
+    padding: 1.55em 1rem;
+    overflow-x: hidden;
   }
   .links {
     justify-content: space-around;
@@ -48,7 +49,7 @@
   }
 }
 .all {
-  background-image: url("../../public/home/fondo.jpg");
+  background-image: url("../../public/img-public/fondo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
@@ -288,6 +289,11 @@
   cursor: pointer;
 }
 
+.star {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
 .credits {
   text-align: center;
 }
@@ -330,13 +336,10 @@
 }
 * a {
   text-decoration: none;
+  color: #0575f5;
 }
 * a:visited {
   color: #0575f5;
-}
-
-body {
-  overflow-x: hidden;
 }
 
 /*# sourceMappingURL=App.css.map */

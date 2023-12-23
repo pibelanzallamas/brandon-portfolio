@@ -9,7 +9,7 @@ function Profile() {
         </div>
         <div className="profile-description">
           <div className="profile-pic">
-            <img src="/profile/imagenCv.png" alt="profile-pic"></img>
+            <img src="/profile-pic/imagenCv.png" alt="profile-pic"></img>
           </div>
           <div className="project-title sub">bio</div>
           <p className="bio">
