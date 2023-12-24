@@ -5,30 +5,22 @@ function Videos() {
   return (
     <div className="all">
       <div className="content">
-        <div className="title vid-title">
-          <h1>Videos</h1>
-        </div>
-        <div className="videos-content">
-          {projects.map((project) => {
-            return (
-              <>
-                <p className="project-title video-title" key={project.id}>
-                  {project.name}
-                </p>
-                <iframe
-                  width="100%"
-                  height="auto"
-                  src="https://www.youtube.com/embed/yAHY14qSS8Y?si=yesp3E0Jl0I8-qza"
-                  title="YouTube video player"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                  allowfullscreen
-                  className="videos"
-                ></iframe>
-              </>
-            );
-          })}
-        </div>
+        <h1>Videos</h1>
+        {projects.map((project) => (
+          <div key={project.id}>
+            <p className="subtitle top">{project.name}</p>
+            <iframe
+              width="100%"
+              height="auto"
+              src="https://www.youtube.com/embed/yAHY14qSS8Y?si=yesp3E0Jl0I8-qza"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+              className=" top"
+            ></iframe>
+          </div>
+        ))}
         <Credits />
       </div>
     </div>

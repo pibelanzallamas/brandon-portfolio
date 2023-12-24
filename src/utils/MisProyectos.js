@@ -37,7 +37,7 @@ const projects = [
     web: "https://pibelanzallamas.github.io/metalhead",
     youtube: "",
     github: "https://github.com/pibelanzallamas/metalhead",
-    description: `Personal project of mine, that includes a mixtape of ps1 videogames screenshots, jungle music and some 90s bands.`,
+    description: `Personal project of mine, that includes a mixtape of ps1 videogames, breakcore music and 90s bands.`,
     tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
   },
   {
@@ -50,7 +50,7 @@ const projects = [
     web: "https://pibelanzallamas.github.io/sacrificialsuicide",
     youtube: "",
     github: "https://github.com/pibelanzallamas/sacrificialsuicide",
-    description: `Little project that counts your days in this earth. It's in spanish.`,
+    description: `Little project that counts your days in this earth.`,
     tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
   },
 ];

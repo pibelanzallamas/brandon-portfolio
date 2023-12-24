@@ -2,17 +2,13 @@ function ProjectCard({ project }) {
   return (
     <div>
       <h3 className="subtitle top">{project.name}</h3>
-
       <p className="top">
         {project.month} {project.year}
       </p>
-
       <div className="image top">
         <img src={project.image} alt={project.name + " imagen"}></img>
       </div>
-
       <p className="project-description top"> {project.description}</p>
-
       <div className="project-logos top">
         <ul>
           <li>

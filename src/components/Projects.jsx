@@ -6,9 +6,7 @@ function Projects() {
   return (
     <div className="all">
       <div className="content">
-        <div className="title">
-          <h1>projects</h1>
-        </div>
+        <h1>projects</h1>
         {projects.map((project) => (
           <div key={project.id}>
             <ProjectCard project={project} />
