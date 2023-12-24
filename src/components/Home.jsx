@@ -11,7 +11,10 @@ function Home() {
           <h3>web designer</h3>
         </div>
         <div className="image">
-          <img src="/home/cowboy-bebop-fast.gif" alt="ed-riding-bike"></img>
+          <img
+            src="/img-public/cowboy-bebop-fast.gif"
+            alt="ed-riding-bike"
+          ></img>
         </div>
         <Credits />
       </div>

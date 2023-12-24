@@ -7,12 +7,12 @@ function Credits() {
   };
 
   return (
-    <div>
-      <div className="star">✨</div>
-      <div className="credits project-description">
-        <p>All Rights Reserved. Page designed by Brandon Castillo. 2023.</p>
-      </div>
-      <div className="button-inicio">
+    <div className="credits-all">
+      <p className="star">✨</p>
+      <p className="credits">
+        All Rights Reserved. Page designed by Brandon Castillo. 2023.
+      </p>
+      <div className="button-top">
         <a onClick={scrollToTop}>Top</a>
       </div>
     </div>
