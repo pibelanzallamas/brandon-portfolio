@@ -13,7 +13,7 @@ function Credits() {
         All Rights Reserved. Page designed by Brandon Castillo. 2023.
       </p>
       <div className="button-top">
-        <a onClick={scrollToTop}>Top</a>
+        <button onClick={scrollToTop}>Top</button>
       </div>
     </div>
   );

@@ -294,15 +294,16 @@ nav {
 
 .button-top {
   font-size: 0.75rem;
-  padding-top: 2rem;
-  padding-bottom: 1rem;
 }
-.button-top a {
+.button-top button {
+  font-family: amalgama;
+  background-color: transparent;
+  color: #0575f5;
   padding: 0.7rem;
   border: #0575f5 1px solid;
   border-radius: 1rem;
 }
-.button-top a:hover {
+.button-top button:hover {
   background-color: #0575f5;
   color: white;
   cursor: pointer;
