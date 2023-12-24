@@ -9,7 +9,9 @@ const projects = [
     web: "https://house-of-dev-client.vercel.app",
     youtube: "",
     github: "https://github.com/pibelanzallamas/house-of-dev-client-deploy",
-    description: `Web application designed with the help of SASS and Figma. Functionalities implemented using React, Redux, and Axios. It includes features for searching properties by neighborhood, city, country, rooms, availability, categories (PH, House, etc), and also sorting them by price or publication date. Users can save favorites, write reviews, and schedule appointments. In admin mode, you can modify everything, including users, properties, appointments, and reviews.`,
+    // description: `Web application designed with the help of SASS and Figma. Functionalities implemented using React, Redux, and Axios. It includes features for searching properties by neighborhood, city, country, rooms, availability, categories (PH, House, etc), and also sorting them by price or publication date. Users can save favorites, write reviews, and schedule appointments. In admin mode, you can modify everything, including users, properties, appointments, and reviews.`,
+    description:
+      "Website with several filters, saved of properties, appointment schedule, admin mode and more.",
     tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
   },
   {

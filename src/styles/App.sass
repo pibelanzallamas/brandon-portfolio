@@ -2,11 +2,17 @@
   font-family: '2097'
   src: url('../fonts/2097.ttf') format('truetype')
   font-weight: normal
-  font-style: normal  
+  font-style: normal
 
 @font-face 
   font-family: 'amalgama'
   src: url('../fonts/Amalgama.ttf') format('truetype')
+  font-weight: normal
+  font-style: normal
+
+@font-face 
+  font-family: 'fusion'
+  src: url('../fonts/WO3.ttf') format('truetype')
   font-weight: normal
   font-style: normal  
 
@@ -17,7 +23,6 @@ $onyx: #403f4cff
 $red-crayola: #e84855ff
 
 @import "Navbar"
-@import "Home"
 @import "Projects"
 @import "Videos"
 @import "Profile"
@@ -33,3 +38,31 @@ $red-crayola: #e84855ff
     color: $blue-crayola
   a:visited
     color: $blue-crayola
+
+.all
+  background-image: url("../../public/img-public/fondo.jpg")
+  background-size: cover
+  background-repeat: no-repeat
+  min-height: 100vh
+  
+.content
+  font-family: "amalgama"
+  color: $blue-crayola
+  padding: 1rem
+
+.top
+  padding-top: 1rem
+
+.subtitle
+  font-size: 1.3rem
+  color: $red-crayola
+
+.image    
+  img
+    width: 100%
+    border: $orange-peel 4px solid  
+
+@media (min-width: 700px)
+  .title,.subtitle
+    font-size: 2rem
+    text-align: center

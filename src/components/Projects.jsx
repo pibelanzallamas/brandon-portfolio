@@ -6,7 +6,7 @@ function Projects() {
   return (
     <div className="all">
       <div className="content">
-        <div id="projects" name="projects" className="title pro-title">
+        <div className="title">
           <h1>projects</h1>
         </div>
         {projects.map((project) => (

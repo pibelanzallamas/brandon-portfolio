@@ -1,23 +1,19 @@
 function ProjectCard({ project }) {
   return (
-    <div className="project-content">
-      <div className="project-title">
-        <h3>{project.name}</h3>
-      </div>
-      <div className="project-subtitle">
-        <p>
-          {project.month} {project.year}
-        </p>
-      </div>
-      <div className="project-image">
+    <div>
+      <h3 className="subtitle top">{project.name}</h3>
+
+      <p className="top">
+        {project.month} {project.year}
+      </p>
+
+      <div className="image top">
         <img src={project.image} alt={project.name + " imagen"}></img>
       </div>
 
-      <div className="project-description">
-        <p>{project.description}</p>
-      </div>
+      <p className="project-description top"> {project.description}</p>
 
-      <div className="project-logos">
+      <div className="project-logos top">
         <ul>
           <li>
             <a href={project.web} target="_blank" rel="noopener noreferrer">
