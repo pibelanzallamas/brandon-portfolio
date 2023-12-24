@@ -2,7 +2,7 @@ function ProjectCard({ project }) {
   return (
     <div>
       <h3 className="subtitle top">{project.name}</h3>
-      <p className="top">
+      <p className="date top">
         {project.month} {project.year}
       </p>
       <div className="image top">

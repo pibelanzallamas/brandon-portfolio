@@ -47,18 +47,10 @@ nav {
     overflow-x: hidden;
   }
   .links {
+    font-size: 1.5rem;
     justify-content: space-around;
-    font-size: 2rem;
-  }
-  .links a {
-    padding: 0.25rem 0.4rem;
   }
 }
-.star, .credits, .button-top {
-  padding-top: 1rem;
-  text-align: center;
-}
-
 .star {
   font-size: 2rem;
 }
@@ -82,15 +74,7 @@ nav {
 
 @media (min-width: 700px) {
   .credits {
-    font-size: 1.4rem;
-    padding-left: 12rem;
-    padding-right: 12rem;
-    padding-top: 1rem;
-  }
-  .button-inicio {
-    padding-top: 1rem;
-    font-size: 1rem;
-    padding-bottom: 2rem;
+    font-size: 1.2rem;
   }
 }
 .project-description {
@@ -110,36 +94,14 @@ nav {
 }
 
 @media (min-width: 700px) {
-  .project-title {
-    font-size: 2rem;
-    text-align: center;
-  }
-  .project-subtitle {
-    font-size: 2rem;
-    text-align: center;
-    padding: 0rem;
-  }
-  .project-image {
-    padding: 1rem 9rem;
+  .date {
+    font-size: 1.4rem;
   }
   .project-description {
-    font-size: 2rem;
-    padding: 1rem 9rem;
-    text-align: center;
-  }
-  .project-logos {
-    padding: 1rem;
-  }
-  .project-logos ul {
-    display: flex;
-    justify-content: space-around;
-  }
-  .project-logos li {
-    display: inline-block;
+    font-size: 1.4rem;
   }
   .project-logos img {
-    height: 6rem;
-    width: auto;
+    height: 5rem;
   }
 }
 .profile-pic img {
@@ -231,9 +193,16 @@ nav {
 }
 
 @media (min-width: 700px) {
-  .title, .subtitle {
-    font-size: 2rem;
+  .content {
+    width: 60%;
+    margin: 0 auto;
     text-align: center;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .subtitle {
+    font-size: 2.4rem;
   }
 }
 
