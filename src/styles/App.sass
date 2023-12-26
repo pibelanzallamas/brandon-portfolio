@@ -10,12 +10,6 @@
   font-weight: normal
   font-style: normal
 
-@font-face 
-  font-family: 'fusion'
-  src: url('../fonts/WO3.ttf') format('truetype')
-  font-weight: normal
-  font-style: normal  
-
 $orange-peel: #ff9900ff
 $blue-crayola: #0575f5ff
 $mauve: #e2adf2ff
@@ -50,7 +44,7 @@ $red-crayola: #e84855ff
   padding: 1rem
 
 .top
-  padding-top: 1rem
+  margin-top: 1rem
 
 .center 
   text-align: center
@@ -63,6 +57,9 @@ $red-crayola: #e84855ff
   img
     width: 100%
     border: $orange-peel 4px solid
+  
+iframe
+  border: $orange-peel 4px solid 
 
 @media (min-width: 700px)
   .content
@@ -73,5 +70,7 @@ $red-crayola: #e84855ff
     font-size: 3rem
   .subtitle
     font-size: 2.4rem
+  iframe 
+    height: 40vh
+    max-width: 85%
 
-    

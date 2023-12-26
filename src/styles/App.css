@@ -10,16 +10,10 @@
   font-weight: normal;
   font-style: normal;
 }
-@font-face {
-  font-family: "fusion";
-  src: url("../fonts/WO3.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal;
-}
 nav {
   width: auto;
   background-color: #ff9900;
-  overflow-x: scroll;
+  overflow-x: auto;
   white-space: nowrap;
   padding: 1rem;
 }
@@ -43,11 +37,11 @@ nav {
 
 @media (min-width: 700px) {
   nav {
-    padding: 1.55em 1rem;
+    padding: 1.4em 1rem;
     overflow-x: hidden;
   }
   .links {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     justify-content: space-around;
   }
 }
@@ -73,6 +67,9 @@ nav {
 }
 
 @media (min-width: 700px) {
+  .star {
+    font-size: 2rem;
+  }
   .credits {
     font-size: 1.2rem;
   }
@@ -175,7 +172,7 @@ nav {
 }
 
 .top {
-  padding-top: 1rem;
+  margin-top: 1rem;
 }
 
 .center {
@@ -192,6 +189,10 @@ nav {
   border: #ff9900 4px solid;
 }
 
+iframe {
+  border: #ff9900 4px solid;
+}
+
 @media (min-width: 700px) {
   .content {
     width: 60%;
@@ -203,6 +204,10 @@ nav {
   }
   .subtitle {
     font-size: 2.4rem;
+  }
+  iframe {
+    height: 40vh;
+    max-width: 85%;
   }
 }
 
