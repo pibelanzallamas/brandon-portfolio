@@ -12,7 +12,7 @@ function Videos() {
             <iframe
               width="100%"
               height="auto"
-              src="https://www.youtube.com/embed/yAHY14qSS8Y?si=yesp3E0Jl0I8-qza"
+              src={project.youtube}
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
