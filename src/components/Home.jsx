@@ -6,7 +6,7 @@ function Home() {
       <div className="content">
         <h1>brandon castillo</h1>
         <h3 className="subtitle top">web developer</h3>
-        <div className="image top">
+        <div className="image top contact">
           <img
             src="/img-public/cowboy-bebop-fast.gif"
             alt="ed-riding-bike"
