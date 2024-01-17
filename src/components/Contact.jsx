@@ -1,3 +1,4 @@
+import React from "react";
 import Credits from "./Credits";
 import links from "../utils/MisLinks";
 import ContactCard from "../cards/ContactCard";
@@ -7,7 +8,7 @@ function Contact() {
     <div className="all">
       <div className="content">
         <h1>contact</h1>
-        <div className="top">
+        <div className="top contact">
           {links.map((link) => (
             <ContactCard link={link} />
           ))}
