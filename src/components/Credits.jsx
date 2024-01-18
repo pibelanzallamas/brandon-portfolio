@@ -2,11 +2,11 @@ import { useState } from "react";
 import moon from "../assets/half-moon.svg";
 import { setTheme } from "../state/theme";
 import { setLang } from "../state/lang";
-import { useDispatch } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
 
 function Credits() {
   const [dark, setDark] = useState(false);
-  const [esp, setEsp] = useState(false);
+  const lan = useSelector((state) => state.lang.esp);
   const dispatch = useDispatch();
 
   const scrollToTop = () => {
@@ -17,20 +17,14 @@ function Credits() {
   };
 
   function handleDarkMode() {
-    setDark(!dark);
     dispatch(setTheme(!dark));
-  }
-
-  function handleEspMode() {
-    setEsp(!esp);
-    dispatch(setLang(!esp));
   }
 
   return (
     <div>
       <p className="star top center">✨</p>
       <p className="credits top center">
-        {esp ? (
+        {lan ? (
           <>
             Todos los derechos reservados. Página diseñada por Brandon Castillo.
             2023
@@ -44,13 +38,14 @@ function Credits() {
           <img src={moon} alt="moon" />
         </button>
         <button onClick={scrollToTop}>Top</button>
-        {esp ? (
-          <>
-            <button onClick={handleEspMode}>Eng</button>
-          </>
-        ) : (
-          <button onClick={handleEspMode}>Esp</button>
-        )}
+
+        <button
+          onClick={() => {
+            dispatch(setLang(!lan));
+          }}
+        >
+          {lan ? "Eng" : "Esp"}
+        </button>
       </div>
     </div>
   );
