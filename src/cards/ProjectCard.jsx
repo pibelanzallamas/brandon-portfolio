@@ -1,4 +1,8 @@
+import { useSelector } from "react-redux";
+
 function ProjectCard({ project }) {
+  const esp = useSelector((state) => state.lang.esp);
+
   return (
     <div>
       <h3 className="subtitle top">{project.name}</h3>
@@ -8,7 +12,9 @@ function ProjectCard({ project }) {
       <div className="image top">
         <img src={project.image} alt={project.name + " imagen"}></img>
       </div>
-      <p className="project-description top"> {project.description}</p>
+      <p className="project-description top">
+        {esp ? project.descripcion : project.description}
+      </p>
       <div className="project-logos top">
         <ul>
           <li>

@@ -1,20 +1,35 @@
 import Credits from "./Credits";
+import { useSelector } from "react-redux";
 
 function Profile() {
+  const esp = useSelector((state) => state.lang.esp);
+
   return (
     <div className="all">
       <div className="content">
-        <h1>Profile</h1>
+        <h1>{esp ? <>Perfil</> : <>Profile</>}</h1>
         <div className="profile-pic top center">
           <img src="/profile-pic/imagenCv.png" alt="profile-pic"></img>
         </div>
         <p className="subtitle top">bio</p>
         <p className="top profile-description">
-          I was born in Argentina. My parents are peruvian. I have a passion for
-          design and innovation. I appreciate the value of well-crafted
-          products.
+          {esp ? (
+            <>
+              Nací en Argentina. Mis padres son peruanos. Tengo una pasión por
+              el diseño y la innovación. Aprecio el valor de productos bien
+              elaborados.
+            </>
+          ) : (
+            <>
+              I was born in Argentina. My parents are peruvian. I have a passion
+              for design and innovation. I appreciate the value of well-crafted
+              products.
+            </>
+          )}
         </p>
-        <p className="subtitle top">technologies</p>
+        <p className="subtitle top">
+          {esp ? <>tecnologías</> : <>technologies</>}
+        </p>
         <ul className="lists top">
           <li>NodeJs</li>
           <li>Express</li>
