@@ -10,8 +10,9 @@ function Profile() {
         </div>
         <p className="subtitle top">bio</p>
         <p className="top profile-description">
-          I was born in Argentina. I have a passion for design and innovation. I
-          appreciate the value of well-crafted products.
+          I was born in Argentina. My parents are peruvian. I have a passion for
+          design and innovation. I appreciate the value of well-crafted
+          products.
         </p>
         <p className="subtitle top">technologies</p>
         <ul className="lists top">
