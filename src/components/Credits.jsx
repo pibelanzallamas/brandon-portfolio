@@ -1,11 +1,9 @@
-import { useState } from "react";
-import moon from "../assets/half-moon.svg";
+import { useSelector, useDispatch } from "react-redux";
 import { setTheme } from "../state/theme";
 import { setLang } from "../state/lang";
-import { useDispatch, useSelector } from "react-redux";
 
 function Credits() {
-  const [dark, setDark] = useState(false);
+  const dark = useSelector((state) => state.theme.dark);
   const lan = useSelector((state) => state.lang.esp);
   const dispatch = useDispatch();
 
@@ -15,10 +13,6 @@ function Credits() {
       behavior: "smooth",
     });
   };
-
-  function handleDarkMode() {
-    dispatch(setTheme(!dark));
-  }
 
   return (
     <div>
@@ -34,9 +28,14 @@ function Credits() {
         )}
       </p>
       <div className="button-top top center">
-        <button onClick={handleDarkMode}>
-          <img src={moon} alt="moon" />
+        <button
+          onClick={() => {
+            dispatch(setTheme(!dark));
+          }}
+        >
+          {lan ? (dark ? "Claro" : "Oscuro") : dark ? "Light" : "Dark"}
         </button>
+
         <button onClick={scrollToTop}>Top</button>
 
         <button
