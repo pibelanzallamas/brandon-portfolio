@@ -1,10 +1,13 @@
 import Credits from "./Credits";
 import projects from "../utils/MisProyectos";
+import { useSelector } from "react-redux";
 
 function Videos() {
+  const dark = useSelector((state) => state.theme.dark);
+
   return (
-    <div className="all">
-      <div className="content">
+    <div className={dark ? "all all-dark" : "all all-light"}>
+      <div className={dark ? "content content-dark" : "content content-light"}>
         <h1>Videos</h1>
         {projects.map((project) => (
           <div key={project.id}>

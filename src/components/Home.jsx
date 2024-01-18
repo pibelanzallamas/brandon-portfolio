@@ -3,10 +3,11 @@ import { useSelector } from "react-redux";
 
 function Home() {
   const esp = useSelector((state) => state.lang.esp);
+  const dark = useSelector((state) => state.theme.dark);
 
   return (
-    <div className="all">
-      <div className="content">
+    <div className={dark ? "all all-dark" : "all all-light"}>
+      <div className={dark ? "content content-dark" : "content content-light"}>
         <h1>brandon castillo</h1>
         <h3 className="subtitle top">
           {esp ? <>desarrolador web</> : <> web developer</>}

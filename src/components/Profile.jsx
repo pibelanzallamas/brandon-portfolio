@@ -3,10 +3,11 @@ import { useSelector } from "react-redux";
 
 function Profile() {
   const esp = useSelector((state) => state.lang.esp);
+  const dark = useSelector((state) => state.theme.dark);
 
   return (
-    <div className="all">
-      <div className="content">
+    <div className={dark ? "all all-dark" : "all all-light"}>
+      <div className={dark ? "content content-dark" : "content content-light"}>
         <h1>{esp ? <>Perfil</> : <>Profile</>}</h1>
         <div className="profile-pic top center">
           <img src="/profile-pic/imagenCv.png" alt="profile-pic"></img>

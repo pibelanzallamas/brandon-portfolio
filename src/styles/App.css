@@ -12,14 +12,23 @@
 }
 nav {
   width: auto;
-  background-color: #ff9900;
   overflow-x: auto;
   white-space: nowrap;
   padding: 1rem;
 }
 
+.nav-light {
+  background-color: #ff9900;
+}
+
+.nav-dark {
+  background-color: #0575f5;
+}
+.nav-dark a {
+  color: #ff9900 !important;
+}
+
 .links {
-  color: #0575f5;
   font-family: "2097";
   font-size: 1.2rem;
   cursor: pointer;

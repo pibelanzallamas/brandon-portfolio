@@ -6,9 +6,11 @@ import { useSelector } from "react-redux";
 
 function Contact() {
   const esp = useSelector((state) => state.lang.esp);
+  const dark = useSelector((state) => state.theme.dark);
+
   return (
-    <div className="all">
-      <div className="content">
+    <div className={dark ? "all all-dark" : "all all-light"}>
+      <div className={dark ? "content content-dark" : "content content-light"}>
         <h1>{esp ? <>contacto</> : <>contact</>}</h1>
         <div className="top contact">
           {links.map((link) => (
