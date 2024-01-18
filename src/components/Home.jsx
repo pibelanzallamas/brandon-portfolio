@@ -10,7 +10,7 @@ function Home() {
       <div className={dark ? "content content-dark" : "content content-light"}>
         <h1>brandon castillo</h1>
         <h3 className="subtitle top">
-          {esp ? <>desarrolador web</> : <> web developer</>}
+          {esp ? <>diseñador web</> : <> web designer</>}
         </h3>
         <div className="image top contact">
           <img
