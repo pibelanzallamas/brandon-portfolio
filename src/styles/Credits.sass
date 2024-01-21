@@ -1,18 +1,29 @@
 .star
   font-size: 2rem
 
-.button-top
+.botones
   font-size: 0.75rem
   button
     margin-right: 1rem
     font-family: amalgama
     background-color: transparent
-    color: $blue-crayola
     padding: 0.7rem
-    border: $blue-crayola 1px solid
     border-radius: 1rem
+  button:hover
+    cursor: pointer
+
+.botones-light
+  button
+    color: $blue-crayola
+    border: $blue-crayola 1px solid
   button:hover
     background-color: $blue-crayola
     color: white
-    cursor: pointer
 
+.botones-dark
+  button
+    color: $orange-peel
+    border: 1px solid $blue-crayola
+  button:hover
+    background-color: $blue-crayola
+    

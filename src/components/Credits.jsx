@@ -27,7 +27,11 @@ function Credits() {
           <>All Rights Reserved. Page designed by Brandon Castillo. 2023.</>
         )}
       </p>
-      <div className="button-top top center">
+      <div
+        className={
+          dark ? "botones botones-dark top" : "botones botones-light top"
+        }
+      >
         <button
           onClick={() => {
             dispatch(setTheme(!dark));

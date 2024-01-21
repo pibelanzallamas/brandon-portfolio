@@ -12,8 +12,8 @@ function Profile() {
         <div className="profile-pic top center">
           <img src="/profile-pic/imagenCv.png" alt="profile-pic"></img>
         </div>
-        <p className="subtitle top">bio</p>
-        <p className="top profile-description">
+        <p className={dark ? "subtitle-dark top" : "subtitle-light top"}>bio</p>
+        <p className="profile-description top">
           {esp ? (
             <>
               Nací en Argentina. Mis padres son peruanos. Tengo una pasión por
@@ -28,7 +28,7 @@ function Profile() {
             </>
           )}
         </p>
-        <p className="subtitle top">
+        <p className={dark ? "subtitle-dark top" : "subtitle-light top"}>
           {esp ? <>tecnologías</> : <>technologies</>}
         </p>
         <ul className="lists top">

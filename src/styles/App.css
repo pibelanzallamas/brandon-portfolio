@@ -19,13 +19,12 @@ nav {
 
 .nav-light {
   background-color: #ff9900;
+  color: #0575f5;
 }
 
 .nav-dark {
   background-color: #0575f5;
-}
-.nav-dark a {
-  color: #ff9900 !important;
+  color: #ff9900;
 }
 
 .links {
@@ -39,9 +38,17 @@ nav {
   padding: 0.25rem 0.4rem;
 }
 .links a:hover, .links a:focus {
+  border-radius: 9px;
+}
+
+.links-light a:hover, .links-light a:focus {
   color: white;
   background-color: #0575f5;
-  border-radius: 9px;
+}
+
+.links-dark a:hover, .links-dark a:focus {
+  color: #0575f5;
+  background-color: #ff9900;
 }
 
 @media (min-width: 700px) {
@@ -50,7 +57,7 @@ nav {
     overflow-x: hidden;
   }
   .links {
-    font-size: 1.7rem;
+    font-size: 1.8rem;
     justify-content: space-around;
   }
 }
@@ -58,22 +65,35 @@ nav {
   font-size: 2rem;
 }
 
-.button-top {
+.botones {
   font-size: 0.75rem;
 }
-.button-top button {
+.botones button {
   margin-right: 1rem;
   font-family: amalgama;
   background-color: transparent;
-  color: #0575f5;
   padding: 0.7rem;
-  border: #0575f5 1px solid;
   border-radius: 1rem;
 }
-.button-top button:hover {
+.botones button:hover {
+  cursor: pointer;
+}
+
+.botones-light button {
+  color: #0575f5;
+  border: #0575f5 1px solid;
+}
+.botones-light button:hover {
   background-color: #0575f5;
   color: white;
-  cursor: pointer;
+}
+
+.botones-dark button {
+  color: #ff9900;
+  border: 1px solid #0575f5;
+}
+.botones-dark button:hover {
+  background-color: #0575f5;
 }
 
 .project-description {
@@ -128,12 +148,12 @@ nav {
     border: #ff9900 10px double;
   }
   .profile-description {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     text-align: center;
   }
   .lists {
     list-style-type: none;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 }
 .contact-links {
@@ -156,22 +176,29 @@ nav {
 }
 * a {
   text-decoration: none;
-  color: #0575f5;
 }
 * a:visited {
-  color: #0575f5;
+  color: inherit;
 }
 
 .all {
-  background-image: url("../../public/img-public/fondo.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 100vh;
 }
 
+.all-light {
+  background-image: url("../../public/img-public/fondo.jpg");
+  color: #0575f5;
+}
+
+.all-dark {
+  background-image: url("../assets/fondo-dark.jpg");
+  color: #e84855;
+}
+
 .content {
   font-family: "amalgama";
-  color: #0575f5;
   padding: 1rem;
   display: flex;
   flex-direction: column;
@@ -179,21 +206,22 @@ nav {
   text-align: center;
 }
 
-.contact {
+.subtitle-light {
+  font-size: 1.3rem;
+  color: #e84855;
+}
+
+.subtitle-dark {
+  font-size: 1.3rem;
+  color: #e2adf2;
+}
+
+.flex-grow {
   flex: 1;
 }
 
 .top {
   margin-top: 1rem;
-}
-
-.center {
-  text-align: center;
-}
-
-.subtitle {
-  font-size: 1.3rem;
-  color: #e84855;
 }
 
 .image img {
@@ -214,7 +242,7 @@ iframe {
   h1 {
     font-size: 3rem;
   }
-  .subtitle {
+  .subtitle-light, .subtitle-dark {
     font-size: 2.4rem;
   }
   iframe {

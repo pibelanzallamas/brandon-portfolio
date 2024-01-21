@@ -2,10 +2,13 @@ import { useSelector } from "react-redux";
 
 function ProjectCard({ project }) {
   const esp = useSelector((state) => state.lang.esp);
+  const dark = useSelector((state) => state.theme.dark);
 
   return (
     <div>
-      <h3 className="subtitle top">{project.name}</h3>
+      <h3 className={dark ? "subtitle-dark top" : "subtitle-light top"}>
+        {project.name}
+      </h3>
       <p className="date top">
         {project.month} {project.year}
       </p>

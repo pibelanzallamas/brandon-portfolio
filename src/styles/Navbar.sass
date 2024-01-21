@@ -6,14 +6,13 @@ nav
 
 .nav-light
   background-color: $orange-peel
+  color: $blue-crayola
 
 .nav-dark
   background-color: $blue-crayola
-  a
-    color: $orange-peel !important
+  color: $orange-peel
   
 .links
-  // color: $blue-crayola
   font-family: "2097"
   font-size: 1.2rem
   cursor: pointer
@@ -22,14 +21,23 @@ nav
   a
     padding: 0.25rem 0.4rem
   a:hover, a:focus
+    border-radius: 9px
+
+.links-light
+  a:hover, a:focus
     color: white
     background-color: $blue-crayola
-    border-radius: 9px
+    
+.links-dark
+  a:hover, a:focus
+    color: $blue-crayola
+    background-color: $orange-peel
+    
    
 @media (min-width: 700px)
   nav
-    padding: 1.40em 1rem
+    padding: 1.4em 1rem
     overflow-x: hidden
   .links
-    font-size: 1.7rem
+    font-size: 1.8rem
     justify-content: space-around

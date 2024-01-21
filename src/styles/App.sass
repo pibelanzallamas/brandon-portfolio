@@ -12,9 +12,11 @@
 
 $orange-peel: #ff9900ff
 $blue-crayola: #0575f5ff
+$red-crayola: #e84855ff
 $mauve: #e2adf2ff
 $onyx: #403f4cff
-$red-crayola: #e84855ff
+$lavender-web: #d5cfe1ff
+$lavender-web-2: #e1dee9ff
 
 @import "Navbar"
 @import "Credits"
@@ -28,37 +30,43 @@ $red-crayola: #e84855ff
   box-sizing: border-box
   a
     text-decoration: none
-    color: $blue-crayola
   a:visited
-    color: $blue-crayola
+    color: inherit
 
 .all
-  background-image: url("../../public/img-public/fondo.jpg")
   background-size: cover
   background-repeat: no-repeat
   min-height: 100vh
   
+.all-light
+  background-image: url("../../public/img-public/fondo.jpg")
+  color: $blue-crayola
+
+.all-dark
+  background-image: url("../assets/fondo-dark.jpg")
+  color: $red-crayola
+
 .content
   font-family: "amalgama"
-  color: $blue-crayola
   padding: 1rem
   display: flex
   flex-direction: column
   min-height: 100vh
   text-align: center
+
+.subtitle-light
+  font-size: 1.3rem
+  color: $red-crayola
+
+.subtitle-dark
+  font-size: 1.3rem
+  color: $mauve
  
-.contact
+.flex-grow
   flex: 1
 
 .top
   margin-top: 1rem
-
-.center 
-  text-align: center
-
-.subtitle
-  font-size: 1.3rem
-  color: $red-crayola
 
 .image    
   img
@@ -75,7 +83,7 @@ iframe
     text-align: center
   h1
     font-size: 3rem
-  .subtitle
+  .subtitle-light,.subtitle-dark
     font-size: 2.4rem
   iframe 
     height: 40vh

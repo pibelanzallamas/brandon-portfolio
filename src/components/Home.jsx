@@ -9,10 +9,10 @@ function Home() {
     <div className={dark ? "all all-dark" : "all all-light"}>
       <div className={dark ? "content content-dark" : "content content-light"}>
         <h1>brandon castillo</h1>
-        <h3 className="subtitle top">
+        <h3 className={dark ? "subtitle-dark top" : "subtitle-light top"}>
           {esp ? <>diseñador web</> : <> web designer</>}
         </h3>
-        <div className="image top contact">
+        <div className="image top flex-grow">
           <img
             src="/img-public/cowboy-bebop-fast.gif"
             alt="ed-riding-bike"

@@ -13,7 +13,7 @@ const links = [
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/castill0666",
+    link: "https://twitter.com/Brandon43374569",
   },
   {
     name: "Instagram",
@@ -21,11 +21,11 @@ const links = [
   },
   {
     name: "Twitch",
-    link: "https://www.twitch.tv/castill0666",
+    link: "https://www.twitch.tv/brancastillodev",
   },
   {
     name: "Youtube",
-    link: "https://www.youtube.com/@Brandooon95",
+    link: "https://www.youtube.com/channel/UCIyh4HSBy4OR5R42xPJCrzw",
   },
   {
     name: "Codewars",
