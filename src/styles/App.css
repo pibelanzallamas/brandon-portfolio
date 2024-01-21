@@ -89,11 +89,12 @@ nav {
 }
 
 .botones-dark button {
-  color: #ff9900;
-  border: 1px solid #0575f5;
+  color: #e84855;
+  border: #e84855 1px solid;
 }
 .botones-dark button:hover {
-  background-color: #0575f5;
+  background-color: #e84855;
+  color: #403f4c;
 }
 
 .project-description {
@@ -156,16 +157,24 @@ nav {
     font-size: 1.5rem;
   }
 }
-.contact-links {
+.contact-links-light {
   font-size: 1.2rem;
 }
-.contact-links a:hover {
+.contact-links-light a:hover {
   color: #e84855;
   cursor: pointer;
 }
 
+.contact-links-dark {
+  font-size: 1.2rem;
+}
+.contact-links-dark a:hover {
+  color: #e2adf2;
+  cursor: pointer;
+}
+
 @media (min-width: 700px) {
-  .contact-links {
+  .contact-links-light, .contact-links-dark {
     font-size: 1.6rem;
   }
 }
