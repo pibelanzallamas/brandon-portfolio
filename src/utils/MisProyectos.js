@@ -1,5 +1,21 @@
 const projects = [
   {
+    id: 5,
+    name: "Dreamer Paintings",
+    year: 2023,
+    month: "nov",
+    author: "Brandon Castillo",
+    image: "/projects-img/dp/dreamer-paintings.png",
+    web: "https://dreamer-paintings.vercel.app",
+    youtube: "https://www.youtube.com/embed/QorLsTcNgS0?si=cBHNnpnPMjbMQ9EP",
+    github: "https://github.com/pibelanzallamas/dreamers-paintings",
+    description:
+      "Web site of Dreamer Paintings, including works, schedule, about and more.",
+    descripcion:
+      "Sitio web de Dreamer Paitings, incluye pinturas, agenda, acerca de y más.",
+    tags: ["react", "redux", "nodejs", "sass", "vite"],
+  },
+  {
     id: 4,
     name: "House of Dev",
     year: 2023,
@@ -44,7 +60,7 @@ const projects = [
     description:
       "Little project that includes a mixtape of ps1 videogames, breakcore music and live 90s bands.",
     descripcion:
-      "Pequeño proyecto que incluye una mezcla de videojuegos de la PS1, música breakcore y actuaciones en vivo de bandas de los años 90.",
+      "Pequeño proyecto que incluye una mezcla de videojuegos de la PS1, música breakcore y bandas de los 90 en vivo.",
     tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
   },
   {

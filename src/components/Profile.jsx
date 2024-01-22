@@ -35,8 +35,8 @@ function Profile() {
           <li>NodeJs</li>
           <li>Express</li>
           <li>React</li>
+          <li>Redux</li>
           <li>Postgres</li>
-          <li>Sequelize</li>
           <li>Sass</li>
           <li>JWT</li>
           <li>Figma</li>
