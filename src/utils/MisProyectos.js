@@ -1,20 +1,21 @@
 const projects = [
-  {
-    id: 5,
-    name: "Dreamer Paintings",
-    year: 2023,
-    month: "nov",
-    author: "Brandon Castillo",
-    image: "/projects-img/dp/dreamer-paintings.png",
-    web: "https://dreamer-paintings.vercel.app",
-    youtube: "https://www.youtube.com/embed/QorLsTcNgS0?si=cBHNnpnPMjbMQ9EP",
-    github: "https://github.com/pibelanzallamas/dreamers-paintings",
-    description:
-      "Web site of Dreamer Paintings, including works, schedule, about and more.",
-    descripcion:
-      "Sitio web de Dreamer Paitings, incluye pinturas, agenda, acerca de y más.",
-    tags: ["react", "redux", "nodejs", "sass", "vite"],
-  },
+  // {
+  //   id: 5,
+  //   name: "Dreamer Paintings",
+  //   year: 2023,
+  //   month: "nov",
+  //   author: "Brandon Castillo",
+  //   image: "/projects-img/dp/dreamer-paintings.png",
+  //   web: "https://dreamer-paintings.vercel.app",
+  //   youtube: "https://www.youtube.com/embed/QorLsTcNgS0?si=cBHNnpnPMjbMQ9EP",
+  //   video: "https://www.youtube.com/watch?v=QorLsTcNgS0",
+  //   github: "https://github.com/pibelanzallamas/dreamers-paintings",
+  //   description:
+  //     "Web site of Dreamer Paintings, including works, schedule, about and more.",
+  //   descripcion:
+  //     "Sitio web de Dreamer Paitings, incluye pinturas, agenda, acerca de y más.",
+  //   tags: ["react", "redux", "nodejs", "sass", "vite"],
+  // },
   {
     id: 4,
     name: "House of Dev",
@@ -24,6 +25,7 @@ const projects = [
     image: "/projects-img/hod/house-of-dev-image.png",
     web: "https://house-of-dev-client.vercel.app",
     youtube: "https://www.youtube.com/embed/uYUc50qGQXY?si=7xFUkmvLsrWGAYIu",
+    video: "https://www.youtube.com/watch?v=uYUc50qGQXY",
     github: "https://github.com/pibelanzallamas/house-of-dev-client-deploy",
     description:
       "Web application for searching properties with various filters, sorting options, favorites, scheduling appointments, email confirmation, and admin mode.",
@@ -40,6 +42,7 @@ const projects = [
     image: "/projects-img/mmc/MMC-Home.png",
     web: "https://my-movie-crib-front.vercel.app/1",
     youtube: "https://player.vimeo.com/video/897978371?h=3227292034",
+    video: "https://vimeo.com/897978371?share=copy",
     github: "https://github.com/pibelanzallamas/my-movie-crib-front",
     description:
       "Web application for searching movies, viewing the trending ones, saving favorites, and visiting their websites.",
@@ -56,6 +59,7 @@ const projects = [
     image: "/projects-img/metalhead/metalhead-image.png",
     web: "https://pibelanzallamas.github.io/metalhead",
     youtube: "https://www.youtube.com/embed/MixyinKSZhk?si=Oo-y5EnDjF4wcmSJ",
+    video: "https://www.youtube.com/watch?v=MixyinKSZhk",
     github: "https://github.com/pibelanzallamas/metalhead",
     description:
       "Little project that includes a mixtape of ps1 videogames, breakcore music and live 90s bands.",
@@ -72,6 +76,7 @@ const projects = [
     image: "/projects-img/sacrificial suicide/sacrificial-suicide-image.png",
     web: "https://pibelanzallamas.github.io/sacrificialsuicide",
     youtube: "https://www.youtube.com/embed/gLCG9v28dcs?si=-W0iqWYvIL66N-Nd",
+    video: "https://www.youtube.com/watch?v=gLCG9v28dcs",
     github: "https://github.com/pibelanzallamas/sacrificialsuicide",
     description: "Little project that counts your days in this earth.",
     descripcion: "Pequeño proyecto que cuenta tus días en este planeta.",

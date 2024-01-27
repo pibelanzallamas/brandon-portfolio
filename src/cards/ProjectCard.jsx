@@ -26,7 +26,7 @@ function ProjectCard({ project }) {
             </a>
           </li>
           <li>
-            <a href={project.youtube} target="_blank" rel="noopener noreferrer">
+            <a href={project.video} target="_blank" rel="noopener noreferrer">
               <img
                 src="/sites-logos/youtubelogo.png"
                 alt={"logo-youtube"}
