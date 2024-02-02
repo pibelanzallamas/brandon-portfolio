@@ -13,7 +13,7 @@ const links = [
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/Brandon43374569",
+    link: "https://twitter.com/pibelanzallamas",
   },
   {
     name: "Instagram",
