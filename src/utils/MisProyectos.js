@@ -62,9 +62,9 @@ const projects = [
     video: "https://www.youtube.com/watch?v=MixyinKSZhk",
     github: "https://github.com/pibelanzallamas/metalhead",
     description:
-      "Little project that includes a mixtape of ps1 videogames, breakcore music and live 90s bands.",
+      "Little project that includes a mixtape of ps1 videogames, breakcore music and live nineties bands.",
     descripcion:
-      "Pequeño proyecto que incluye una mezcla de videojuegos de la PS1, música breakcore y bandas de los 90 en vivo.",
+      "Pequeño proyecto que incluye una mezcla de videojuegos de PS1, música breakcore y bandas de los noventa",
     tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
   },
   {
@@ -78,8 +78,8 @@ const projects = [
     youtube: "https://www.youtube.com/embed/gLCG9v28dcs?si=-W0iqWYvIL66N-Nd",
     video: "https://www.youtube.com/watch?v=gLCG9v28dcs",
     github: "https://github.com/pibelanzallamas/sacrificialsuicide",
-    description: "Little project that counts your days in this earth.",
-    descripcion: "Pequeño proyecto que cuenta tus días en este planeta.",
+    description: "Little project that counts your days alive.",
+    descripcion: "Pequeño proyecto que te calcula los días vivo.",
     tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
   },
 ];

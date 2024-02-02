@@ -34,13 +34,14 @@ function Profile() {
         <ul className="lists top">
           <li>NodeJs</li>
           <li>Express</li>
+          <li>Sequelize</li>
+          <li>JWT</li>
           <li>React</li>
           <li>Redux</li>
-          <li>Postgres</li>
           <li>Sass</li>
-          <li>JWT</li>
           <li>Figma</li>
           <li>Visual Studio Code</li>
+          <li>Github</li>
         </ul>
         <Credits />
       </div>

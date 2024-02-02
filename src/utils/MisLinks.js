@@ -20,8 +20,12 @@ const links = [
     link: "https://www.instagram.com/castill0.666",
   },
   {
+    name: "TikTok",
+    link: "https://www.tiktok.com/@castill0.666",
+  },
+  {
     name: "Twitch",
-    link: "https://www.twitch.tv/brancastillodev",
+    link: "https://www.twitch.tv/pibelanzallamas",
   },
   {
     name: "Youtube",
