@@ -12,16 +12,16 @@ const links = [
     link: "http://discord.com/users/995051014883381318",
   },
   {
-    name: "Twitter",
-    link: "https://twitter.com/pibelanzallamas",
-  },
-  {
     name: "Instagram",
     link: "https://www.instagram.com/castill0.666",
   },
   {
     name: "TikTok",
     link: "https://www.tiktok.com/@castill0.666",
+  },
+  {
+    name: "Twitter",
+    link: "https://twitter.com/pibelanzallamas",
   },
   {
     name: "Twitch",

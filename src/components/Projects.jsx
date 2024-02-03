@@ -9,7 +9,7 @@ function Projects() {
 
   return (
     <div className={dark ? "all all-dark" : "all all-light"}>
-      <div className={dark ? "content content-dark" : "content content-light"}>
+      <div className="content">
         <h1>{esp ? <>proyectos</> : <>projects</>}</h1>
         {projects.map((project) => (
           <div key={project.id}>

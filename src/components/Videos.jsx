@@ -7,13 +7,13 @@ function Videos() {
 
   return (
     <div className={dark ? "all all-dark" : "all all-light"}>
-      <div className={dark ? "content content-dark" : "content content-light"}>
+      <div className="content">
         <h1>Videos</h1>
         {projects.map((project) => (
           <div key={project.id}>
-            <p className={dark ? "subtitle-dark top" : "subtitle-light top"}>
+            <h3 className={dark ? "subtitle-dark top" : "subtitle-light top"}>
               {project.name}
-            </p>
+            </h3>
             <iframe
               width="100%"
               height="auto"

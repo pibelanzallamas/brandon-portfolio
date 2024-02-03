@@ -5,7 +5,7 @@ function ContactCard({ link }) {
   const dark = useSelector((state) => state.theme.dark);
 
   return (
-    <div className={dark ? "contact-links-dark" : "contact-links-light center"}>
+    <div className={dark ? "contact-links-dark" : "contact-links-light"}>
       <a href={link.link} target="_blank" rel="noopener noreferrer">
         <h2>{link.name}</h2>
       </a>

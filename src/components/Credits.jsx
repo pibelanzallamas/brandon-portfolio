@@ -16,8 +16,8 @@ function Credits() {
 
   return (
     <div>
-      <p className="star top center">✨</p>
-      <p className="credits top center">
+      <p className="star top">✨</p>
+      <p className="credits top">
         {lan ? (
           <>
             Todos los derechos reservados. Página diseñada por Brandon Castillo.

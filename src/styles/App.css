@@ -137,10 +137,10 @@ nav {
 }
 
 .lists {
-  list-style: none;
   font-size: 1.2rem;
   padding-left: 2rem;
   line-height: 140%;
+  list-style: none;
   margin-bottom: -0.3rem;
 }
 
@@ -150,10 +150,8 @@ nav {
   }
   .profile-description {
     font-size: 1.5rem;
-    text-align: center;
   }
   .lists {
-    list-style-type: none;
     font-size: 1.5rem;
   }
 }
@@ -194,7 +192,7 @@ nav {
 .all {
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 100vh;
+  text-align: center;
 }
 
 .all-light {
@@ -209,11 +207,10 @@ nav {
 
 .content {
   font-family: "amalgama";
+  min-height: 100vh;
   padding: 1rem;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
-  text-align: center;
 }
 
 .subtitle-light {
@@ -247,7 +244,6 @@ iframe {
   .content {
     width: 60%;
     margin: 0 auto;
-    text-align: center;
   }
   h1 {
     font-size: 3rem;
