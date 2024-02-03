@@ -12,7 +12,9 @@ function Profile() {
         <div className="profile-pic top center">
           <img src="/profile-pic/imagenCv.png" alt="profile-pic"></img>
         </div>
-        <p className={dark ? "subtitle-dark top" : "subtitle-light top"}>bio</p>
+        <h3 className={dark ? "subtitle-dark top" : "subtitle-light top"}>
+          bio
+        </h3>
         <p className="profile-description top">
           {esp ? (
             <>

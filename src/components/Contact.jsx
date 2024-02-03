@@ -12,9 +12,9 @@ function Contact() {
     <div className={dark ? "all all-dark" : "all all-light"}>
       <div className="content">
         <h1>{esp ? <>contacto</> : <>contact</>}</h1>
-        <p className={dark ? "subtitle-dark top" : "subtitle-light top"}>
+        <h3 className={dark ? "subtitle-dark top" : "subtitle-light top"}>
           {esp ? <>redes sociales</> : <>social media</>}
-        </p>
+        </h3>
         <div className="top flex-grow">
           {links.map((link) => (
             <ContactCard link={link} />
