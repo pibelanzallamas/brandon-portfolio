@@ -21,7 +21,7 @@ const links = [
   },
   {
     name: "Twitch",
-    link: "https://www.twitch.tv/pibelanzallamas",
+    link: "https://www.twitch.tv/brancastillodev",
   },
   {
     name: "Twitter",
