@@ -1,21 +1,21 @@
 const projects = [
-  // {
-  //   id: 5,
-  //   name: "Dreamer Paintings",
-  //   year: 2023,
-  //   month: "nov",
-  //   author: "Brandon Castillo",
-  //   image: "/projects-img/dp/dreamer-paintings.png",
-  //   web: "https://dreamer-paintings.vercel.app",
-  //   youtube: "https://www.youtube.com/embed/QorLsTcNgS0?si=cBHNnpnPMjbMQ9EP",
-  //   video: "https://www.youtube.com/watch?v=QorLsTcNgS0",
-  //   github: "https://github.com/pibelanzallamas/dreamers-paintings",
-  //   description:
-  //     "Web site of Dreamer Paintings, including works, schedule, about and more.",
-  //   descripcion:
-  //     "Sitio web de Dreamer Paitings, incluye pinturas, agenda, acerca de y más.",
-  //   tags: ["react", "redux", "nodejs", "sass", "vite"],
-  // },
+  {
+    id: 5,
+    name: "Dreamer Paintings",
+    year: 2023,
+    month: "nov",
+    author: "Brandon Castillo",
+    image: "/projects-img/dp/dreamer-paintings.png",
+    web: "https://dreamer-paintings.vercel.app",
+    youtube: "https://www.youtube.com/embed/QorLsTcNgS0?si=cBHNnpnPMjbMQ9EP",
+    video: "https://www.youtube.com/watch?v=QorLsTcNgS0",
+    github: "https://github.com/pibelanzallamas/dreamers-paintings",
+    description:
+      "Web site that shows Fernando Baez's paintings, an artist from Buenos Aires, Argentina.",
+    descripcion:
+      "Sitio web que muestra las obras de Fernando Baez, un artista de la ciudad de Buenos Aires, Argentina.",
+    tags: ["react", "redux", "nodejs", "sass", "vite"],
+  },
   {
     id: 4,
     name: "House of Dev",
