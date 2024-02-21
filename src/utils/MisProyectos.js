@@ -5,7 +5,7 @@ const projects = [
     year: 2023,
     month: "nov",
     author: "Brandon Castillo",
-    image: "/projects-img/dp/dreamer-paintings.png",
+    image: "/projects-img/dp/dreamer-paintings-2.png",
     web: "https://dreamer-paintings.vercel.app",
     youtube: "https://www.youtube.com/embed/QorLsTcNgS0?si=cBHNnpnPMjbMQ9EP",
     video: "https://www.youtube.com/watch?v=QorLsTcNgS0",
