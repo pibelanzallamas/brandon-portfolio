@@ -13,7 +13,10 @@ function ProjectCard({ project }) {
         {project.month} {project.year}
       </p>
       <div className="image top">
-        <img src={project.image} alt={project.name + " imagen"}></img>
+        <img
+          src={project.darkimage && dark ? project.darkimage : project.image}
+          alt={project.name + " imagen"}
+        ></img>
       </div>
       <p className="project-description top">
         {esp ? project.descripcion : project.description}
