@@ -18,15 +18,13 @@ function Profile() {
         <p className="profile-description top">
           {esp ? (
             <>
-              Nací en Argentina. Soy un full stack developer. Tengo una pasión
-              por el diseño y la innovación. Aprecio el valor de productos bien
-              elaborados.
+              Nací en Argentina. Tengo una pasión por el diseño y la innovación.
+              Aprecio el valor de productos bien elaborados.
             </>
           ) : (
             <>
-              I was born in Argentina. Im a full stack developer. I have a
-              passion for design and innovation. I appreciate the value of
-              well-crafted products.
+              I was born in Argentina. I have a passion for design and
+              innovation. I appreciate the value of well-crafted products.
             </>
           )}
         </p>

@@ -10,7 +10,7 @@ function Home() {
       <div className="content">
         <h1>brandon castillo</h1>
         <h3 className={dark ? "subtitle-dark top" : "subtitle-light top"}>
-          {esp ? <>diseñador web</> : <> web designer</>}
+          {esp ? <>full stack dev</> : <>full stack dev</>}
         </h3>
         <div className="image top flex-grow">
           <img
