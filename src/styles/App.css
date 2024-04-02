@@ -188,6 +188,10 @@ nav {
   color: inherit;
 }
 
+p {
+  letter-spacing: 1px;
+}
+
 .all {
   background-size: cover;
   background-repeat: no-repeat;
