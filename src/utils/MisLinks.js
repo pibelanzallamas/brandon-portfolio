@@ -25,7 +25,7 @@ const links = [
   },
   {
     name: "Twitter",
-    link: "https://twitter.com/pibelanzallamas",
+    link: "https://twitter.com/brancastillodev",
   },
   {
     name: "Youtube",
