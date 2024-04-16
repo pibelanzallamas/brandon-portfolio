@@ -199,8 +199,7 @@ nav {
 * a:visited {
   color: inherit;
 }
-
-p {
+* p {
   letter-spacing: 1px;
 }
 
@@ -216,7 +215,7 @@ p {
 }
 
 .all-dark {
-  background-image: url("../assets/fondo-dark.jpg");
+  background-image: url("../../public/img-public/fondo-dark.jpg");
   color: #e84855;
 }
 

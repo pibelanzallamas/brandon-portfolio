@@ -39,6 +39,10 @@ const links = [
     name: "LeetCode",
     link: "https://leetcode.com/pibelanzallamas",
   },
+  {
+    name: "Calendly",
+    link: "https://calendly.com/brandoncastillo-09/",
+  },
 ];
 
 export default links;
