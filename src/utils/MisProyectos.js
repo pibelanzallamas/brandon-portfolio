@@ -15,9 +15,9 @@ const projects = [
     darkvideo: "https://www.youtube.com/watch?v=QorLsTcNgS0",
     github: "https://github.com/pibelanzallamas/dreamers-paintings",
     description:
-      "Web site that shows Fernando Baez's paintings, an artist from Buenos Aires, Argentina.",
+      "Explore an informative website featuring paintings by a talented friend from the city of Buenos Aires, Argentina.",
     descripcion:
-      "Sitio web que muestra las obras de Fernando Baez, un artista de la ciudad de Buenos Aires, Argentina.",
+      "Sitio web explorador e informativo de las obras de un talentoso amigo, de la ciudad de Buenos Aires, Argentina.",
     tags: ["react", "redux", "nodejs", "sass", "vite"],
   },
   {
