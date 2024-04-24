@@ -21,10 +21,10 @@ function Credits() {
         {lan ? (
           <>
             Todos los derechos reservados. Página diseñada por Brandon Castillo.
-            2023
+            2024
           </>
         ) : (
-          <>All Rights Reserved. Page designed by Brandon Castillo. 2023.</>
+          <>All Rights Reserved. Page designed by Brandon Castillo. 2024.</>
         )}
       </p>
       <div

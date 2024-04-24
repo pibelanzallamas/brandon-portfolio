@@ -15,9 +15,9 @@ const projects = [
     darkvideo: "https://www.youtube.com/watch?v=QorLsTcNgS0",
     github: "https://github.com/pibelanzallamas/dreamers-paintings",
     description:
-      "Explore an informative website featuring paintings by a talented friend from the city of Buenos Aires, Argentina.",
+      "Exploratory and informative website showcasing the paintings of a talented friend from the city of Buenos Aires.",
     descripcion:
-      "Sitio web explorador e informativo de las obras de un talentoso amigo, de la ciudad de Buenos Aires, Argentina.",
+      "Sitio web explorador e informativo de las pinturas de un talentoso amigo, de la ciudad de Buenos Aires.",
     tags: ["react", "redux", "nodejs", "sass", "vite"],
   },
   {
