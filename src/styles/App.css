@@ -219,6 +219,10 @@ nav {
   color: #e84855;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
 .content {
   font-family: "amalgama";
   min-height: 100vh;
