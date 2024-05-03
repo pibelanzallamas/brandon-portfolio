@@ -10,7 +10,7 @@ function Videos() {
       <div className="content">
         <h1>Videos</h1>
         {projects.map((project) => (
-          <div key={project.id}>
+          <>
             <h3 className={dark ? "subtitle-dark top" : "subtitle-light top"}>
               {project.name}
             </h3>
@@ -24,7 +24,7 @@ function Videos() {
               allowfullscreen
               className="top"
             ></iframe>
-          </div>
+          </>
         ))}
         <Credits />
       </div>
