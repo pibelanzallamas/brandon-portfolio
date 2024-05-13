@@ -1,5 +1,23 @@
 const projects = [
   {
+    id: 6,
+    name: "Carbon Copy",
+    year: 2024,
+    month: "May",
+    author: "Brandon Castillo",
+    image: "/projects-img/cc/carbon-copy-home.png",
+    darkimage: "/projects-img/cc/carbon-copy-home.png",
+    web: "http://carbon-copy-omega.vercel.app",
+    youtube: "https://www.youtube.com/embed/UcbWm7Cd8Aw?si=ID007IVDWyYolxHZ",
+    darkyoutube: "https://youtu.be/UcbWm7Cd8Aw?si=MCSH9h065YN6lHnU",
+    video: "https://www.youtube.com/watch?v=UcbWm7Cd8Aw",
+    darkvideo: "https://youtu.be/UcbWm7Cd8Aw?si=MCSH9h065YN6lHnU",
+    github: "https://github.com/pibelanzallamas/carbon-copy",
+    description: "Application to edit and export code to PNG images.",
+    descripcion: "Aplicación para editar y exportar código a imágenes PNG.",
+    tags: ["react", "redux", "nodejs", "sass", "vite"],
+  },
+  {
     id: 5,
     name: "Dreamer Paintings",
     year: 2023,

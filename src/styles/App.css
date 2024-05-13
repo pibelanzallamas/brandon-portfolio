@@ -257,8 +257,8 @@ nav {
 
 iframe {
   display: block;
-  height: 30vh;
   border: #ff9900 4px solid;
+  height: 30vh;
 }
 
 @media (min-width: 700px) {
