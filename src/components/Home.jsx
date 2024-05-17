@@ -12,7 +12,7 @@ function Home() {
         <h3 className={dark ? "subtitle-dark top" : "subtitle-light top"}>
           {esp ? <>full stack dev</> : <>full stack dev</>}
         </h3>
-        <div className="image top flex-grow">
+        <div className="image top">
           <img
             src="/img-public/cowboy-bebop-fast.gif"
             alt="ed-riding-bike"
