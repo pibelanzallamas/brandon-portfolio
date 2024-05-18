@@ -1,5 +1,19 @@
 const projects = [
   {
+    id: 7,
+    name: "Abuelitos",
+    year: 2024,
+    month: "May",
+    author: "Brandon Castillo",
+    image: "/projects-img/yourelder/abuelitos-video.png",
+    web: "https://yourelder.vercel.app/",
+    youtube: "https://www.youtube.com/embed/C8Xrna8P8zE",
+    video: "https://www.youtube.com/watch?v=C8Xrna8P8zE",
+    github: "http://github.com/pibelanzallamas/yourelder",
+    description: "Youtube song searcher for elders.",
+    descripcion: "Buscador de Youtube más simplificado.",
+  },
+  {
     id: 6,
     name: "Carbon Copy",
     year: 2024,
