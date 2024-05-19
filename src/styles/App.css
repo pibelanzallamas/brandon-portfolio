@@ -119,6 +119,10 @@ nav {
   height: 4rem;
 }
 
+.project-image img {
+  aspect-ratio: 16/9;
+}
+
 @media (min-width: 700px) {
   .date {
     font-size: 1.4rem;
