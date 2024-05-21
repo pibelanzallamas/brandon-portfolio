@@ -10,9 +10,9 @@ function Home() {
       <div className="content">
         <h1>brandon castillo</h1>
         <h3 className={dark ? "subtitle-dark top" : "subtitle-light top"}>
-          {esp ? <>full stack dev</> : <>full stack dev</>}
+          <u>{esp ? <>full stack dev</> : <>full stack dev</>}</u>
         </h3>
-        <div className="image top">
+        <div className="image top" style={{ marginTop: "2rem" }}>
           <img
             src="/img-public/cowboy-bebop-fast.gif"
             alt="ed-riding-bike"
