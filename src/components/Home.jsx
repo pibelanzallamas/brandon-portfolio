@@ -10,7 +10,7 @@ function Home() {
       <div className="content">
         <h1>brandon castillo</h1>
         <h3 className={dark ? "subtitle-dark top" : "subtitle-light top"}>
-          <u>{esp ? <>full stack dev</> : <>full stack dev</>}</u>
+          <u>{esp ? <>desarrollador web</> : <>web developer</>}</u>
         </h3>
         <div className="image top" style={{ marginTop: "2rem" }}>
           <img

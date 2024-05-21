@@ -23,9 +23,7 @@ const projects = [
     darkimage: "/projects-img/cc/carbon-copy-home.png",
     web: "http://carbon-copy-omega.vercel.app",
     youtube: "https://www.youtube.com/embed/UcbWm7Cd8Aw?si=ID007IVDWyYolxHZ",
-    darkyoutube: "https://youtu.be/UcbWm7Cd8Aw?si=MCSH9h065YN6lHnU",
     video: "https://www.youtube.com/watch?v=UcbWm7Cd8Aw",
-    darkvideo: "https://youtu.be/UcbWm7Cd8Aw?si=MCSH9h065YN6lHnU",
     github: "https://github.com/pibelanzallamas/carbon-copy",
     description: "Application to edit and export code to PNG images.",
     descripcion: "Aplicación para editar y exportar código a imágenes PNG.",
@@ -41,10 +39,7 @@ const projects = [
     darkimage: "/projects-img/dp/dreamer-paintings-dark.png",
     web: "https://dreamer-paintings.vercel.app",
     youtube: "https://www.youtube.com/embed/QorLsTcNgS0?si=cBHNnpnPMjbMQ9EP",
-    darkyoutube:
-      "https://www.youtube.com/embed/QorLsTcNgS0?si=cBHNnpnPMjbMQ9EP",
     video: "https://www.youtube.com/watch?v=QorLsTcNgS0",
-    darkvideo: "https://www.youtube.com/watch?v=QorLsTcNgS0",
     github: "https://github.com/pibelanzallamas/dreamers-paintings",
     description:
       "Exploratory and informative website showcasing the paintings of a talented friend from the city of Buenos Aires.",
