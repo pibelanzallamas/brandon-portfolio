@@ -12,6 +12,7 @@ const projects = [
     github: "http://github.com/pibelanzallamas/yourelder",
     description: "Youtube song searcher for elders.",
     descripcion: "Buscador de Youtube más simplificado.",
+    tags: ["react", "html", "youtube"],
   },
   {
     id: 6,
@@ -27,7 +28,19 @@ const projects = [
     github: "https://github.com/pibelanzallamas/carbon-copy",
     description: "Application to edit and export code to PNG images.",
     descripcion: "Aplicación para editar y exportar código a imágenes PNG.",
-    tags: ["react", "redux", "nodejs", "sass", "vite"],
+    tags: [
+      "react",
+      "redux",
+      "nodejs",
+      "sass",
+
+      "dotenv",
+      "jwt",
+      "javascript",
+      "ace-react",
+      "sequelize",
+      "postgres",
+    ],
   },
   {
     id: 5,
@@ -45,7 +58,7 @@ const projects = [
       "Exploratory and informative website showcasing the paintings of a talented friend from the city of Buenos Aires.",
     descripcion:
       "Sitio web explorador e informativo de las pinturas de un talentoso amigo, de la ciudad de Buenos Aires.",
-    tags: ["react", "redux", "nodejs", "sass", "vite"],
+    tags: ["react", "redux", "sass", "vite", "javascript", "html", "css"],
   },
   {
     id: 4,
@@ -62,7 +75,18 @@ const projects = [
       "Web application for searching properties with various filters, sorting options, favorites, scheduling appointments, email confirmation, and admin mode.",
     descripcion:
       "Aplicación web para buscar propiedades con diversos filtros, opciones de ordenamiento, favoritos, programación de citas, confirmación por correo electrónico y modo administrador.",
-    tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
+    tags: [
+      "html",
+      "css",
+      "javascript",
+      "nodejs",
+      "express",
+      "postgres",
+      "sequelize",
+      "jwt",
+      "mui",
+      "redux",
+    ],
   },
   {
     id: 3,
@@ -79,7 +103,17 @@ const projects = [
       "Web application for searching movies, viewing the trending ones, saving favorites, and visiting their websites.",
     descripcion:
       "Aplicación web para buscar películas, ver las más populares, guardar favoritas y visitar sus sitios web.",
-    tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
+    tags: [
+      "html",
+      "css",
+      "javascript",
+      "nodejs",
+      "express",
+      "postgres",
+      "sequelize",
+      "bulma",
+      "jwt",
+    ],
   },
   // {
   //   id: 2,

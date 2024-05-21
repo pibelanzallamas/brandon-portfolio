@@ -25,7 +25,7 @@ function ProjectCard({ project }) {
         <ul>
           <li>
             <a href={project.web} target="_blank" rel="noopener noreferrer">
-              <img src="/sites-logos/weblogo.png" alt={"logo-web"}></img>
+              <img src="/sites-logos/chrome.svg" alt={"logo-web"}></img>
             </a>
           </li>
           <li>
@@ -38,7 +38,11 @@ function ProjectCard({ project }) {
           </li>
           <li>
             <a href={project.github} target="_blank" rel="noopener noreferrer">
-              <img src="/sites-logos/githublogo.png" alt={"logo-github"}></img>
+              {dark ? (
+                <img src="/sites-logos/github.png" alt={"logo-github"}></img>
+              ) : (
+                <img src="/sites-logos/github.png" alt={"logo-github"}></img>
+              )}
             </a>
           </li>
         </ul>
