@@ -41,7 +41,10 @@ function ProjectCard({ project }) {
               {dark ? (
                 <img src="/sites-logos/github.png" alt={"logo-github"}></img>
               ) : (
-                <img src="/sites-logos/github.png" alt={"logo-github"}></img>
+                <img
+                  src="/sites-logos/github.256x251.png"
+                  alt={"logo-github"}
+                ></img>
               )}
             </a>
           </li>
