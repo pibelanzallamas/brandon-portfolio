@@ -43,12 +43,6 @@ const links = [
     name: "Calendly",
     link: "https://calendly.com/brandoncastillo-09/",
   },
-  {
-    name: "Cv",
-    link: "https://drive.google.com/file/d/11LuLfrdupsAoOYkgWqo3uhIpnj9CV7jM/view?usp=share_link",
-    link2:
-      "https://drive.google.com/file/d/1FIXWL1JmaLhNA2l_XrHTfTRGgOg0GRPQ/view?usp=share_link",
-  },
 ];
 
 export default links;

@@ -4,6 +4,11 @@ import { useSelector } from "react-redux";
 function Profile() {
   const esp = useSelector((state) => state.lang.esp);
   const dark = useSelector((state) => state.theme.dark);
+  const cv = {
+    link: "https://drive.google.com/file/d/11LuLfrdupsAoOYkgWqo3uhIpnj9CV7jM/view?usp=share_link",
+    link2:
+      "https://drive.google.com/file/d/1FIXWL1JmaLhNA2l_XrHTfTRGgOg0GRPQ/view?usp=share_link",
+  };
 
   return (
     <div className={dark ? "all all-dark" : "all all-light"}>
@@ -43,6 +48,20 @@ function Profile() {
           <li>Visual Studio Code</li>
           <li>Github</li>
         </ul>
+        <p className={dark ? "subtitle-dark top" : "subtitle-light top"}>cv</p>
+        <div
+          className={
+            dark ? "contact-links-dark top" : "contact-links-light top"
+          }
+        >
+          <a
+            href={esp ? cv.link : cv.link2}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <p>click here</p>
+          </a>
+        </div>
         <Credits />
       </div>
     </div>
