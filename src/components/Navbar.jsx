@@ -1,9 +1,25 @@
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
-import { useSelector } from "react-redux";
+import { useDispatch, useSelector } from "react-redux";
+import { setTheme } from "../state/theme";
 
 function Navbar() {
   const dark = useSelector((state) => state.theme.dark);
   const esp = useSelector((state) => state.lang.esp);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
+    const handleChange = () => {
+      dispatch(setTheme(mediaQuery.matches));
+    };
+
+    dispatch(setTheme(mediaQuery.matches));
+
+    mediaQuery.addEventListener("change", handleChange);
+
+    return () => mediaQuery.removeEventListener("change", handleChange);
+  }, [dispatch]);
 
   return (
     <nav className={dark ? "nav-dark" : "nav-light"}>
