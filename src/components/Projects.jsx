@@ -25,12 +25,27 @@ function Projects() {
     <div className={dark ? "all all-dark" : "all all-light"}>
       <div className="content">
         <h1>{esp ? <>proyectos</> : <>projects</>}</h1>
-        <input
-          placeholder="Ingrese una tecnología"
-          value={input}
-          onChange={handleSearch}
-          className="searchBar top"
-        ></input>
+/*        <form>
+          <label>
+            {esp ? "Selecione una tecnología" : "Select a technology"}
+            <input
+              // placeholder={esp ? "Ingrese una tecnología" : "Enter a technology"}
+              value={input}
+              onChange={handleSearch}
+              className="searchBar top"
+              list="frameworks"
+            ></input>
+          </label>
+          <datalist id="frameworks">
+            <option value="React"></option>
+            <option value="Sass"></option>
+            <option value="Node"></option>
+            <option value="Express"></option>
+            <option value="Postgres"></option>
+          </datalist>
+        </form>
+
+*/
         {!input ? (
           projects.map((project) => (
             <div key={project.id}>
