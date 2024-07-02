@@ -25,7 +25,7 @@ function Projects() {
     <div className={dark ? "all all-dark" : "all all-light"}>
       <div className="content">
         <h1>{esp ? <>proyectos</> : <>projects</>}</h1>
-/*        <form>
+        <form>
           <label>
             {esp ? "Selecione una tecnología" : "Select a technology"}
             <input
@@ -45,7 +45,6 @@ function Projects() {
           </datalist>
         </form>
 
-*/
         {!input ? (
           projects.map((project) => (
             <div key={project.id}>
