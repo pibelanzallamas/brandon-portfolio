@@ -25,11 +25,13 @@ function Projects() {
     <div className={dark ? "all all-dark" : "all all-light"}>
       <div className="content">
         <h1>{esp ? <>proyectos</> : <>projects</>}</h1>
-        <form>
+        {/* <form>
           <label>
             {esp ? "Selecione una tecnología" : "Select a technology"}
             <input
-              // placeholder={esp ? "Ingrese una tecnología" : "Enter a technology"}
+              placeholder={
+                esp ? "Ingrese una tecnología" : "Enter a technology"
+              }
               value={input}
               onChange={handleSearch}
               className="searchBar top"
@@ -43,7 +45,7 @@ function Projects() {
             <option value="Express"></option>
             <option value="Postgres"></option>
           </datalist>
-        </form>
+        </form> */}
 
         {!input ? (
           projects.map((project) => (
