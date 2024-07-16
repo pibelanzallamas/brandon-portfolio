@@ -24,7 +24,7 @@ function Credits() {
           </>
         ) : (
           <>
-            <p>Creado por Brandon Castillo ⚔️🏰</p>
+            <p>Created by Brandon Castillo ⚔️🏰</p>
           </>
         )}
       </p>
