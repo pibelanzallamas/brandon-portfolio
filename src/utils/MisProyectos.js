@@ -1,6 +1,6 @@
 const projects = [
   {
-    id: 7,
+    id: 8,
     name: "Yu-Gi-Oh! Randomizer!",
     year: 2024,
     month: "Jul",
@@ -14,7 +14,21 @@ const projects = [
     descripcion: "Obtene un carta Yu-Gi-Oh!",
     tags: ["react", "vite", "sass", "axios", "javascript"],
   },
-
+  {
+    id: 8,
+    name: "Yu-Gi-Oh! Randomizer!",
+    year: 2024,
+    month: "Jul",
+    author: "Brandon Castillo",
+    image: "/projects-img/yu-gi-oh/ygo-home.png",
+    web: "https://givemeayugiohcard.vercel.app/",
+    youtube: "https://www.youtube.com/embed/YhxYqo5ZVUI",
+    video: "https://www.youtube.com/watch?v=YhxYqo5ZVUI",
+    github: "http://github.com/pibelanzallamas/givemeayugiohcard",
+    description: "Get a Yu-Gi-Oh! card.",
+    descripcion: "Obtene un carta Yu-Gi-Oh!",
+    tags: ["react", "vite", "sass", "axios", "javascript"],
+  },
   {
     id: 7,
     name: "Abuelitos",
