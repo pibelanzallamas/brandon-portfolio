@@ -81,7 +81,7 @@ const projects = [
     year: 2023,
     month: "sep",
     author: "Brandon Castillo",
-    image: "/projects-img/hod/github-readme-house-of-dev.png",
+    image: "/projects-img/hod/hod-home-image.png",
     web: "https://house-of-dev-client.vercel.app",
     youtube: "https://www.youtube.com/embed/uYUc50qGQXY?si=7xFUkmvLsrWGAYIu",
     video: "https://www.youtube.com/watch?v=uYUc50qGQXY",
