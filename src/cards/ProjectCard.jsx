@@ -6,21 +6,30 @@ function ProjectCard({ project }) {
 
   return (
     <div>
+      {/* titulo */}
       <h3 className={dark ? "subtitle-dark top" : "subtitle-light top"}>
         {project.name}
       </h3>
+
+      {/* fecha */}
       <p className="date top">
         {project.month} {project.year}
       </p>
+
+      {/* imagen */}
       <figure className="image project-image top">
         <img
           src={project.darkimage && dark ? project.darkimage : project.image}
           alt={project.name + " imagen"}
         ></img>
       </figure>
+
+      {/* descripción */}
       <p className="project-description top">
         {esp ? project.descripcion : project.description}
       </p>
+
+      {/* links */}
       <div className="project-logos top">
         <ul>
           <li>
