@@ -20,11 +20,12 @@ function Credits() {
       <p className="credits top">
         {lan ? (
           <>
-            Todos los derechos reservados. Página diseñada por Brandon Castillo.
-            2024
+            <p>Creado por Brandon Castillo ⚔️🏰</p>
           </>
         ) : (
-          <>All Rights Reserved. Page designed by Brandon Castillo. 2024.</>
+          <>
+            <p>Created by Brandon Castillo ⚔️🏰</p>
+          </>
         )}
       </p>
       <div
