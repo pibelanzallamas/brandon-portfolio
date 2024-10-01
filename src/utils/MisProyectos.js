@@ -5,7 +5,7 @@ const projects = [
     year: 2024,
     month: "May",
     author: "Brandon Castillo",
-    image: "/projects-img/yourelder/abuelitos-video.png",
+    image: "/projects-img/yourelder/abuelitos-home.png",
     web: "https://yourelder.vercel.app/",
     youtube: "https://www.youtube.com/embed/C8Xrna8P8zE",
     video: "https://www.youtube.com/watch?v=C8Xrna8P8zE",

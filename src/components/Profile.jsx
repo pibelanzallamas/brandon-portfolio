@@ -48,7 +48,8 @@ function Profile() {
           <li>Visual Studio Code</li>
           <li>Github</li>
         </ul>
-        <p className={dark ? "subtitle-dark top" : "subtitle-light top"}>cv</p>
+        {/* <p className={dark ? "subtitle-dark top" : "subtitle-light top"}>cv</p> */}
+        <br />
         <div
           className={
             dark ? "contact-links-dark top" : "contact-links-light top"
@@ -59,7 +60,7 @@ function Profile() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <p>click here</p>
+            <p style={{ fontSize: "2rem" }}>CV</p>
           </a>
         </div>
         <Credits />
