@@ -8,6 +8,7 @@ function Videos() {
   return (
     <div className={dark ? "all all-dark" : "all all-light"}>
       <div className="content">
+        <br />
         <h1>Videos</h1>
         {projects.map((project) => (
           <>

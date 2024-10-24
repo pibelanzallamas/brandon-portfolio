@@ -13,6 +13,7 @@ function Profile() {
   return (
     <div className={dark ? "all all-dark" : "all all-light"}>
       <div className="content">
+        <br />
         <h1>{esp ? <>Perfil</> : <>Profile</>}</h1>
         <div className="profile-pic top center">
           <img src="/profile-pic/imagenCv.png" alt="profile-pic"></img>

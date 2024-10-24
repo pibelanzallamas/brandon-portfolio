@@ -24,6 +24,7 @@ function Projects() {
   return (
     <div className={dark ? "all all-dark" : "all all-light"}>
       <div className="content">
+        <br />
         <h1>{esp ? <>proyectos</> : <>projects</>}</h1>
         {/* <form>
           <label>

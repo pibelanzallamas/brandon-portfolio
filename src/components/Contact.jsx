@@ -10,6 +10,7 @@ function Contact() {
 
   return (
     <div className={dark ? "all all-dark" : "all all-light"}>
+      <br />
       <div className="content">
         <h1>{esp ? <>contacto</> : <>contact</>}</h1>
         <h3 className={dark ? "subtitle-dark top" : "subtitle-light top"}>

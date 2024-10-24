@@ -1,5 +1,23 @@
 const projects = [
   {
+    id: 9,
+    name: "Calles Construction",
+    year: 2024,
+    month: "Sep",
+    author: "Brandon Castillo",
+    image: "/projects-img/calles-construction/cc-home.png",
+    web: "https://calles-construction.vercel.app/",
+    youtube: "https://www.youtube.com/embed/tPLa2s6PF-E",
+    video: "https://www.youtube.com/watch?v=tPLa2s6PF-E",
+    github: "http://github.com/pibelanzallamas/calles-construction",
+    description:
+      "Web site to showcase Calle's Construction different works, from drywall, to electricity, allows to upload jobs with details and images.",
+    descripcion:
+      "Sitio web explorador e informativo de los trabajos realizados por la empresa de construccion Calle's Construction ubicada en New Jersey, permite agregar trabajos con detalle e imagenes.",
+    tags: ["react", "vite", "sass", "axios", "javascript"],
+  },
+
+  {
     id: 8,
     name: "Yu-Gi-Oh! Randomizer!",
     year: 2024,
@@ -130,38 +148,38 @@ const projects = [
       "jwt",
     ],
   },
-  // {
-  //   id: 2,
-  //   name: "Metalhead",
-  //   year: 2023,
-  //   month: "may",
-  //   author: "Brandon Castillo",
-  //   image: "/projects-img/metalhead/metalhead-image.png",
-  //   web: "https://pibelanzallamas.github.io/metalhead",
-  //   youtube: "https://www.youtube.com/embed/MixyinKSZhk?si=Oo-y5EnDjF4wcmSJ",
-  //   video: "https://www.youtube.com/watch?v=MixyinKSZhk",
-  //   github: "https://github.com/pibelanzallamas/metalhead",
-  //   description:
-  //     "Little project that includes a mixtape of ps1 videogames, breakcore music and live nineties bands.",
-  //   descripcion:
-  //     "Pequeño proyecto que incluye una mezcla de videojuegos de PS1, música breakcore y bandas de los noventa",
-  //   tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
-  // },
-  // {
-  //   id: 1,
-  //   name: "Sacrificial Suicide",
-  //   year: 2023,
-  //   month: "feb",
-  //   author: "Brandon Castillo",
-  //   image: "/projects-img/sacrificial suicide/sacrificial-suicide-image.png",
-  //   web: "https://pibelanzallamas.github.io/sacrificialsuicide",
-  //   youtube: "https://www.youtube.com/embed/5aZPzEy0ANc?si=A7DxxHmdLj-j5wnN",
-  //   video: "https://www.youtube.com/watch?v=5aZPzEy0ANc",
-  //   github: "https://github.com/pibelanzallamas/sacrificialsuicide",
-  //   description: "Little project that counts your days alive.",
-  //   descripcion: "Pequeño proyecto que te calcula los días vivo.",
-  //   tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
-  // },
+  {
+    id: 2,
+    name: "Metalhead",
+    year: 2023,
+    month: "may",
+    author: "Brandon Castillo",
+    image: "/projects-img/metalhead/metalhead-image.png",
+    web: "https://pibelanzallamas.github.io/metalhead",
+    youtube: "https://www.youtube.com/embed/MixyinKSZhk?si=Oo-y5EnDjF4wcmSJ",
+    video: "https://www.youtube.com/watch?v=MixyinKSZhk",
+    github: "https://github.com/pibelanzallamas/metalhead",
+    description:
+      "Little project that includes a mixtape of ps1 videogames, breakcore music and live nineties bands.",
+    descripcion:
+      "Pequeño proyecto que incluye una mezcla de videojuegos de PS1, música breakcore y bandas de los noventa",
+    tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
+  },
+  {
+    id: 1,
+    name: "Sacrificial Suicide",
+    year: 2023,
+    month: "feb",
+    author: "Brandon Castillo",
+    image: "/projects-img/sacrificial-suicide/sacrificial-suicide-image.png",
+    web: "https://pibelanzallamas.github.io/sacrificialsuicide",
+    youtube: "https://www.youtube.com/embed/5aZPzEy0ANc?si=A7DxxHmdLj-j5wnN",
+    video: "https://www.youtube.com/watch?v=5aZPzEy0ANc",
+    github: "https://github.com/pibelanzallamas/sacrificialsuicide",
+    description: "Little project that counts your days alive.",
+    descripcion: "Pequeño proyecto que te calcula los días vivo.",
+    tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
+  },
 ];
 
 export default projects;
