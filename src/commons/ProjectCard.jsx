@@ -17,7 +17,6 @@ function ProjectCard({ project }) {
       </p>
 
       {/* imagen */}
-      {console.log(project.image)}
       <figure className="image project-image top">
         <img src={project.image} alt={project.name + " imagen"}></img>
       </figure>
@@ -32,13 +31,16 @@ function ProjectCard({ project }) {
         <ul>
           <li>
             <a href={project.web} target="_blank" rel="noopener noreferrer">
-              <img src="/sites-logos/chrome.svg" alt={"logo-web"}></img>
+              <img
+                src="src/assets/social-media/chrome.svg"
+                alt={"logo-web"}
+              ></img>
             </a>
           </li>
           <li>
             <a href={project.video} target="_blank" rel="noopener noreferrer">
               <img
-                src="/sites-logos/youtubelogo.png"
+                src="/src/assets/social-media/yt.png"
                 alt={"logo-youtube"}
               ></img>
             </a>
@@ -46,10 +48,13 @@ function ProjectCard({ project }) {
           <li>
             <a href={project.github} target="_blank" rel="noopener noreferrer">
               {dark ? (
-                <img src="/sites-logos/github.png" alt={"logo-github"}></img>
+                <img
+                  src="/src/assets/social-media/gh-dark.png"
+                  alt={"logo-github"}
+                ></img>
               ) : (
                 <img
-                  src="/sites-logos/github.256x251.png"
+                  src="/src/assets/social-media/gh-light.png"
                   alt={"logo-github"}
                 ></img>
               )}
