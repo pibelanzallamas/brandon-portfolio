@@ -1,7 +1,7 @@
 import React from "react";
 import Credits from "./Credits";
-import links from "../utils/MisLinks";
-import ContactCard from "../cards/ContactCard";
+import links from "../utils/redes-sociales";
+import ContactCard from "../commons/ContactCard";
 import { useSelector } from "react-redux";
 
 function Contact() {

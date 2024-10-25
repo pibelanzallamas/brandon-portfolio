@@ -1,17 +1,15 @@
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./Navbar";
-import Home from "./Home";
-import Profile from "./Profile";
-import Projects from "./Projects";
-import Videos from "./Videos";
-import Contact from "./Contact";
-import "../styles/App.css";
-import { Analytics } from "@vercel/analytics/react";
+import Navbar from "./components/Navbar";
+import Home from "./components/Home";
+import Profile from "./components/Profile";
+import Projects from "./components/Projects";
+import Videos from "./components/Videos";
+import Contact from "./components/Contact";
+import "./styles/app.css";
 
 function App() {
   return (
     <div>
-      <Analytics />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

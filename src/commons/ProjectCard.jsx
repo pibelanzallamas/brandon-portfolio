@@ -17,11 +17,9 @@ function ProjectCard({ project }) {
       </p>
 
       {/* imagen */}
+      {console.log(project.image)}
       <figure className="image project-image top">
-        <img
-          src={project.darkimage && dark ? project.darkimage : project.image}
-          alt={project.name + " imagen"}
-        ></img>
+        <img src={project.image} alt={project.name + " imagen"}></img>
       </figure>
 
       {/* descripción */}

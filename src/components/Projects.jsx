@@ -1,5 +1,5 @@
-import projects from "../utils/MisProyectos";
-import ProjectCard from "../cards/ProjectCard";
+import projects from "../utils/proyectos";
+import ProjectCard from "../commons/ProjectCard";
 import Credits from "./Credits";
 import { useSelector } from "react-redux";
 import { useEffect, useState } from "react";

@@ -1,5 +1,6 @@
 import Credits from "./Credits";
 import { useSelector } from "react-redux";
+import profile from "../assets/profile.png";
 
 function Profile() {
   const esp = useSelector((state) => state.lang.esp);
@@ -16,7 +17,7 @@ function Profile() {
         <br />
         <h1>{esp ? <>Perfil</> : <>Profile</>}</h1>
         <div className="profile-pic top center">
-          <img src="/profile-pic/imagenCv.png" alt="profile-pic"></img>
+          <img src={profile} alt="profile-pic"></img>
         </div>
         <h3 className={dark ? "subtitle-dark top" : "subtitle-light top"}>
           bio

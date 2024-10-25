@@ -1,5 +1,6 @@
 import Credits from "./Credits";
 import { useSelector } from "react-redux";
+import home from "../assets/home.gif";
 
 function Home() {
   const esp = useSelector((state) => state.lang.esp);
@@ -13,10 +14,7 @@ function Home() {
           <u>{esp ? <>desarrollador web</> : <>web developer</>}</u>
         </h3>
         <div className="image top" style={{ marginTop: "2rem" }}>
-          <img
-            src="/img-public/cowboy-bebop-fast.gif"
-            alt="ed-riding-bike"
-          ></img>
+          <img src={home} alt="ed-riding-bike"></img>
         </div>
         <Credits />
       </div>

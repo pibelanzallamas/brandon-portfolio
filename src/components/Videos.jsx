@@ -1,5 +1,5 @@
 import Credits from "./Credits";
-import projects from "../utils/MisProyectos";
+import projects from "../utils/proyectos";
 import { useSelector } from "react-redux";
 
 function Videos() {
