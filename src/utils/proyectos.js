@@ -1,5 +1,3 @@
-import calle from "../assets/calle.png";
-
 const projects = [
   {
     id: 10,
@@ -7,7 +5,8 @@ const projects = [
     year: 2024,
     month: "Sep",
     author: "Brandon Castillo",
-    image: { calle },
+    image:
+      "https://cvws.icloud-content.com/B/AYuj8IWgFEohS9YAM3qlM4Uszb2rAWfBcKQhg_IKIJw8JiKVNd_sBsUB/cc-home.png?o=AsPYvWDkygDhkaIMjPwzfMClRZkgF4cq_Si4bQpc5vi3&v=1&x=3&a=CAoggXc0azlYYzBHykDHRGPjlcU08qxWUtEVJLBaIaMN13wSbRCXk9LKrDIYl_CtzKwyIgEAUgQszb2rWgTsBsUBaiY41ZV8gx1-uSSABIOZBfI-7tiQBXrSFxRxwlxlpp8g-KpCDla1-XImBV8X_DGgy_Y15jA_HH5KX-RwxUH9ZydeZId5wor8em3WynSk0yA&e=1729958213&fl=&r=ed3b435d-dab4-43ce-b57f-be9fd7bf353c-1&k=FkdpAJnxjMSayZ2ClVzrNA&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=156&s=jxdPfZ2cPqLTtAXYsWDrHgHWAAQ&cd=i",
     web: "https://calles-construction.vercel.app/",
     youtube: "https://www.youtube.com/embed/tPLa2s6PF-E",
     video: "https://www.youtube.com/watch?v=tPLa2s6PF-E",
@@ -170,7 +169,8 @@ const projects = [
     year: 2023,
     month: "may",
     author: "Brandon Castillo",
-    image: "/src/assets/metal.png",
+    image:
+      "https://cvws.icloud-content.com/B/AQ7eZoWO1d2qQET-APtC3qI0r1sSAfCPG59MCQa0eFXXKx6g8nVdvmwy/metalhead.png?o=ArhHJgugGvbNzUggOzgErvLpcMzknrYyS9dSyrGTCz53&v=1&x=3&a=CAog5XMGSXYN8zjMGfC4dBZFTDqZRJAxocJRD3T_8rgFH4oSbRCI-fzLrDIYiNbYzawyIgEAUgQ0r1sSWgRdvmwyaibCw5p4kpDOgAVZ3qkSrD8UCfwh3dZ4fIeCbp2BcG68Liii02-XMHImfMdOz8JNAWbR-sG9-yvzpQoHBKsrnzsHhfIDNxLfSGNhV6HMJwY&e=1729961011&fl=&r=24328f5a-099a-4c62-9a1c-9dd2b6f1d6b9-1&k=Iwxm9IeiLQm60Fbv_KCy3g&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=156&s=0HBY-uI-ip3srfk0rv1tTNyF7cI&cd=i",
     web: "https://pibelanzallamas.github.io/metalhead",
     youtube: "https://www.youtube.com/embed/MixyinKSZhk?si=Oo-y5EnDjF4wcmSJ",
     video: "https://www.youtube.com/watch?v=MixyinKSZhk",
@@ -187,7 +187,7 @@ const projects = [
     year: 2023,
     month: "feb",
     author: "Brandon Castillo",
-    image: "/src/assets/sacrificial.png",
+    image: "",
     web: "https://pibelanzallamas.github.io/sacrificialsuicide",
     youtube: "https://www.youtube.com/embed/5aZPzEy0ANc?si=A7DxxHmdLj-j5wnN",
     video: "https://www.youtube.com/watch?v=5aZPzEy0ANc",
