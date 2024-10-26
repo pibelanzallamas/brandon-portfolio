@@ -1,3 +1,5 @@
+import calle from "../assets/calle.png";
+
 const projects = [
   {
     id: 10,
@@ -5,7 +7,7 @@ const projects = [
     year: 2024,
     month: "Sep",
     author: "Brandon Castillo",
-    image: "/src//assets/calles.png",
+    image: { calle },
     web: "https://calles-construction.vercel.app/",
     youtube: "https://www.youtube.com/embed/tPLa2s6PF-E",
     video: "https://www.youtube.com/watch?v=tPLa2s6PF-E",
