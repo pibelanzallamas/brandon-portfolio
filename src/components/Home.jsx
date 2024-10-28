@@ -14,7 +14,7 @@ function Home() {
           <u>{esp ? <>desarrollador web</> : <>web developer</>}</u>
         </h3>
         <div className="image top" style={{ marginTop: "2rem" }}>
-          <img src={home} alt="ed-riding-bike"></img>
+          <img src={home} loading="lazy" alt="ed-riding-bike"></img>
         </div>
         <div className="flex-grow"></div>
         <Credits />

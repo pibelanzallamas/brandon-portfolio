@@ -18,7 +18,11 @@ function ProjectCard({ project }) {
 
       {/* imagen */}
       <figure className="image project-image top">
-        <img src={project.image} alt={project.name + " imagen"}></img>
+        <img
+          src={project.image}
+          loading="lazy"
+          alt={project.name + " imagen"}
+        ></img>
       </figure>
 
       {/* descripción */}

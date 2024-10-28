@@ -105,6 +105,7 @@ nav {
 
 .project-image {
   width: 100%;
+  aspect-ratio: 1278/741;
 }
 
 .project-description {
@@ -258,6 +259,11 @@ nav {
   height: 100%;
   width: 100%;
   border: #ff9900 4px solid;
+}
+
+.home-image {
+  width: 100%;
+  aspect-ratio: 498/336;
 }
 
 iframe {

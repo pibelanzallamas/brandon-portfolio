@@ -24,6 +24,7 @@ function Videos() {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowfullscreen
               className="top"
+              loading="lazy"
             ></iframe>
           </>
         ))}
