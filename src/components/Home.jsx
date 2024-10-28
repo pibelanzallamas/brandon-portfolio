@@ -16,6 +16,7 @@ function Home() {
         <div className="image top" style={{ marginTop: "2rem" }}>
           <img src={home} alt="ed-riding-bike"></img>
         </div>
+        <div className="flex-grow"></div>
         <Credits />
       </div>
     </div>

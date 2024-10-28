@@ -43,8 +43,8 @@ const projects = [
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/v1730124633/mood_ac8ky0.png",
     web: "https://calles-construction.vercel.app/",
-    youtube: "https://www.youtube.com/embed/tPLa2s6PF-E",
-    video: "https://www.youtube.com/watch?v=tPLa2s6PF-E",
+    youtube: "https://www.youtube.com/embed/UXWaFguMzNQ",
+    video: "https://www.youtube.com/watch?v=UXWaFguMzNQ",
     github: "http://github.com/pibelanzallamas/calles-construction",
     description:
       "Web site to showcase Calle's Construction different works, from drywall, to electricity, allows to upload jobs with details and images.",
