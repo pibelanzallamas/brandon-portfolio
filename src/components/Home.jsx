@@ -13,7 +13,7 @@ function Home() {
         <h3 className={dark ? "subtitle-dark top" : "subtitle-light top"}>
           <u>{esp ? <>desarrollador web</> : <>web developer</>}</u>
         </h3>
-        <div className="image top" style={{ marginTop: "2rem" }}>
+        <div className="image home-image top" style={{ marginTop: "2rem" }}>
           <img src={home} loading="lazy" alt="ed-riding-bike"></img>
         </div>
         <div className="flex-grow"></div>
