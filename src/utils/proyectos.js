@@ -71,7 +71,8 @@ const projects = [
     year: 2024,
     month: "May",
     author: "Brandon Castillo",
-    image: "/src/assets/carbon.png",
+    image:
+      "https://res.cloudinary.com/daynclfo8/image/upload/c_thumb,w_200,g_face/v1730124610/carbon_wk0osj.png",
     web: "http://carbon-copy-omega.vercel.app",
     youtube: "https://www.youtube.com/embed/UcbWm7Cd8Aw?si=ID007IVDWyYolxHZ",
     video: "https://www.youtube.com/watch?v=UcbWm7Cd8Aw",
@@ -98,7 +99,7 @@ const projects = [
     month: "nov",
     author: "Brandon Castillo",
     image:
-      "https://cvws.icloud-content.com/B/ATQ8pxVhW1nn-Mi7OTM-xO893FUnAXhlULlsFHhtfOoDX3kUW3ON4c6W/dreamer.png?o=AtS4NAFweSsY-RkF59qK-KU5AFMeSl_otvL_VqC31uJr&v=1&x=3&a=CAogrOBMACzestzXukFbtp_NHGhTajofy0lATiO1MJvk1EISbRDM8azNrDIYzM6Iz6wyIgEAUgQ93FUnWgSN4c6WaiY9o7OPhD34_SM1jnkn4D-WxDzX0mkZN8Rr3OoNzuPeQlnguwpx_HIm8m2p4y0L-3evUjjnJfVrPYxKVpnOcYCsBUwXSq6TjwDAS_-mrhc&e=1729963894&fl=&r=0d6d5924-9eaa-417c-bad2-d7c02a842954-1&k=ayb4V-XOOVWSBLiYTEEsSg&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=156&s=lL9jDkzmLTR-1KsnERwILlNKN6g&cd=i",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1730124626/dreamer_uz4hqg.png",
     darkimage: "/projects-img/dp/dreamer-paintings-dark.png",
     web: "https://dreamer-paintings.vercel.app",
     youtube: "https://www.youtube.com/embed/QorLsTcNgS0?si=cBHNnpnPMjbMQ9EP",
@@ -116,7 +117,8 @@ const projects = [
     year: 2023,
     month: "sep",
     author: "Brandon Castillo",
-    image: "/src/assets/hod.png",
+    image:
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1730124604/hod_vkfoxj.png",
     web: "https://house-of-dev-client.vercel.app",
     youtube: "https://www.youtube.com/embed/uYUc50qGQXY?si=7xFUkmvLsrWGAYIu",
     video: "https://www.youtube.com/watch?v=uYUc50qGQXY",
