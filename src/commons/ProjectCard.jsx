@@ -32,7 +32,7 @@ function ProjectCard({ project }) {
           <li>
             <a href={project.web} target="_blank" rel="noopener noreferrer">
               <img
-                src="src/assets/social-media/chrome.svg"
+                src="https://res.cloudinary.com/daynclfo8/image/upload/v1730126321/web_a7eixn.png"
                 alt={"logo-web"}
               ></img>
             </a>
@@ -40,7 +40,7 @@ function ProjectCard({ project }) {
           <li>
             <a href={project.video} target="_blank" rel="noopener noreferrer">
               <img
-                src="/src/assets/social-media/yt.png"
+                src="https://res.cloudinary.com/daynclfo8/image/upload/v1730126279/yt_wqsngf.png"
                 alt={"logo-youtube"}
               ></img>
             </a>
@@ -49,12 +49,12 @@ function ProjectCard({ project }) {
             <a href={project.github} target="_blank" rel="noopener noreferrer">
               {dark ? (
                 <img
-                  src="/src/assets/social-media/gh-dark.png"
+                  src="https://res.cloudinary.com/daynclfo8/image/upload/v1730126353/gh-dark_zahq0e.png"
                   alt={"logo-github"}
                 ></img>
               ) : (
                 <img
-                  src="/src/assets/social-media/gh-light.png"
+                  src="https://res.cloudinary.com/daynclfo8/image/upload/v1730126357/gh-light_seldpl.png"
                   alt={"logo-github"}
                 ></img>
               )}
