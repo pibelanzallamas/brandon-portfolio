@@ -24,6 +24,7 @@ function Navbar() {
 
   return (
     <nav className={dark ? "nav-dark" : "nav-light"}>
+      //guardar estado de link seleccionado
       <div className={dark ? "links links-dark" : "links links-light"}>
         <Link to="/">{esp ? "hogar" : "home"}</Link>
         <Link to="/projects">{esp ? "proyectos" : "projects"}</Link>

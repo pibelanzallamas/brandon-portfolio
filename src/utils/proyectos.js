@@ -43,7 +43,7 @@ const projects = [
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/v1730124633/mood_ac8ky0.png",
     web: "https://calles-construction.vercel.app/",
-    youtube: "https://www.youtube.com/embed/UXWaFguMzNQ",
+    youtube: "https://www.youtube.com/embed/uBFMMUuiVNg?si=eEaU3xc94zIVHRlR",
     video: "https://www.youtube.com/watch?v=UXWaFguMzNQ",
     github: "http://github.com/pibelanzallamas/calles-construction",
     description:
@@ -61,7 +61,7 @@ const projects = [
   //   image:
   //     "https://cvws.icloud-content.com/B/AWxob9Lfa8v-Uup0faDDCMucuBUuAQst074-_O3TD9IaBmSmQ8i9G5C0/abuelitos.png?o=Aooe9aM07Z08nQ2cP7Zuq59VY0cuPaHynKi2Ahec54iS&v=1&x=3&a=CAogxt_0ipMgWFklZYRBxaFXiVzZ14nFAk3LuRMBC1iPKDESbRDa0KHPrDIY2q390KwyIgEAUgScuBUuWgS9G5C0aiaW6WqE1GiJtUvTtSi0mHAdGGxEj_PtJuizdtOwDAK4G_lHkG-CeHImtM0Xa1MbvKpJpFVhaUC2gHt2fu-UNGI0G--Wbfe61ExeMOA7Eak&e=1729967904&fl=&r=49ed4576-03b0-4896-8f58-312fdf7bb4fd-1&k=rqS40HrjlrG38qvuPlmroA&ckc=com.apple.clouddocs&ckz=com.apple.CloudDocs&p=156&s=k8BsCuRprK_18zRXE6KxeFOXXtk&cd=i",
   //   web: "https://yourelder.vercel.app/",
-  //   youtube: "https://www.youtube.com/embed/C8Xrna8P8zE",
+  //   youtube: "https://www.youtube.com/embed/Ch5kE_baIUA?si=j8ZKJAfV1SqcWlQV",
   //   video: "https://www.youtube.com/watch?v=C8Xrna8P8zE",
   //   github: "http://github.com/pibelanzallamas/yourelder",
   //   description: "Youtube song searcher for elders.",
@@ -77,8 +77,8 @@ const projects = [
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/v1730124610/carbon_wk0osj.png",
     web: "http://carbon-copy-omega.vercel.app",
-    youtube: "https://www.youtube.com/embed/UcbWm7Cd8Aw?si=ID007IVDWyYolxHZ",
-    video: "https://www.youtube.com/watch?v=UcbWm7Cd8Aw",
+    youtube: "https://www.youtube.com/embed/Nm8IPGoRfsI?si=h4T4HCtKldUgbeUb",
+    video: "https://www.youtube.com/watch?v=Nm8IPGoRfsI",
     github: "https://github.com/pibelanzallamas/carbon-copy",
     description: "Application to edit and export code to PNG images.",
     descripcion: "Aplicación para editar y exportar código a imágenes PNG.",
@@ -105,8 +105,8 @@ const projects = [
       "https://res.cloudinary.com/daynclfo8/image/upload/v1730124626/dreamer_uz4hqg.png",
     darkimage: "/projects-img/dp/dreamer-paintings-dark.png",
     web: "https://dreamer-paintings.vercel.app",
-    youtube: "https://www.youtube.com/embed/QorLsTcNgS0?si=cBHNnpnPMjbMQ9EP",
-    video: "https://www.youtube.com/watch?v=QorLsTcNgS0",
+    youtube: "https://www.youtube.com/embed/vVAOLCLHERQ?si=VWodVsSxDQwnyytl",
+    video: "https://www.youtube.com/watch?v=vVAOLCLHERQ",
     github: "https://github.com/pibelanzallamas/dreamers-paintings",
     description:
       "Exploratory and informative website showcasing the paintings of a talented friend from the city of Buenos Aires.",
@@ -123,8 +123,8 @@ const projects = [
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/v1730124604/hod_vkfoxj.png",
     web: "https://house-of-dev-client.vercel.app",
-    youtube: "https://www.youtube.com/embed/uYUc50qGQXY?si=7xFUkmvLsrWGAYIu",
-    video: "https://www.youtube.com/watch?v=uYUc50qGQXY",
+    youtube: "https://www.youtube.com/embed/ihdiqy8aBIU?si=wYhTO8X4uZLANW6c",
+    video: "https://www.youtube.com/watch?v=ihdiqy8aBIU",
     github: "https://github.com/pibelanzallamas/house-of-dev-client-deploy",
     description:
       "Web application for searching properties with various filters, sorting options, favorites, scheduling appointments, email confirmation, and admin mode.",
