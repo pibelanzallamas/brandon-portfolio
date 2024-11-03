@@ -17,7 +17,6 @@ const projects = [
       "Sitio web explorador e informativo de los trabajos realizados por la empresa de construccion Calle's Construction ubicada en New Jersey, permite agregar trabajos con detalle e imagenes.",
     tags: ["react", "vite", "sass", "axios", "javascript"],
   },
-
   {
     id: 9,
     name: "Yu-Gi-Oh! Randomizer!",
@@ -46,10 +45,8 @@ const projects = [
     youtube: "https://www.youtube.com/embed/uBFMMUuiVNg?si=eEaU3xc94zIVHRlR",
     video: "https://www.youtube.com/watch?v=UXWaFguMzNQ",
     github: "http://github.com/pibelanzallamas/calles-construction",
-    description:
-      "Web site to showcase Calle's Construction different works, from drywall, to electricity, allows to upload jobs with details and images.",
-    descripcion:
-      "Sitio web explorador e informativo de los trabajos realizados por la empresa de construccion Calle's Construction ubicada en New Jersey, permite agregar trabajos con detalle e imagenes.",
+    description: "Website for recommending music based on your mood.",
+    descripcion: "Sitio web que te recomienda musica segun tu estado de animo.",
     tags: ["react", "vite", "sass", "axios", "javascript"],
   },
   // {
