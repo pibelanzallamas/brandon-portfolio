@@ -50,7 +50,6 @@ function Profile() {
           <li>Visual Studio Code</li>
           <li>Github</li>
         </ul>
-        {/* <p className={dark ? "subtitle-dark top" : "subtitle-light top"}>cv</p> */}
         <br />
         <div
           className={
