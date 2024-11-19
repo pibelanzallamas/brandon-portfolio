@@ -6,9 +6,9 @@ function Profile() {
   const esp = useSelector((state) => state.lang.esp);
   const dark = useSelector((state) => state.theme.dark);
   const cv = {
-    link: "https://drive.google.com/file/d/11LuLfrdupsAoOYkgWqo3uhIpnj9CV7jM/view?usp=share_link",
+    link: "https://drive.google.com/file/d/1POEDGfliX7eE_ussDONCLZFs0ww8snse/view?usp=sharing",
     link2:
-      "https://drive.google.com/file/d/1FIXWL1JmaLhNA2l_XrHTfTRGgOg0GRPQ/view?usp=share_link",
+      "https://drive.google.com/file/d/1aWjYJvjbn3KkS_K5ZzTUhsnGN88RpvuE/view?usp=sharing",
   };
 
   return (
