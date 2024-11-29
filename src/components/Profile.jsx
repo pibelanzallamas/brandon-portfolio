@@ -26,7 +26,7 @@ function Profile() {
           {esp ? (
             <>
               Nací en Argentina. Tengo una pasión por el diseño y la innovación.
-              Aprecio el valor de productos bien elaborados.
+              Aprecio el valor de los productos bien elaborados.
             </>
           ) : (
             <>
