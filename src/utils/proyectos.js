@@ -174,7 +174,8 @@ const projects = [
     year: 2023,
     month: "may",
     author: "Brandon Castillo",
-    image: "",
+    image:
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732841668/metal.png",
     web: "https://pibelanzallamas.github.io/metalhead",
     youtube: "https://www.youtube.com/embed/MixyinKSZhk?si=Oo-y5EnDjF4wcmSJ",
     video: "https://www.youtube.com/watch?v=MixyinKSZhk",
@@ -191,7 +192,8 @@ const projects = [
     year: 2023,
     month: "feb",
     author: "Brandon Castillo",
-    image: "",
+    image:
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1732841819/sacri.png",
     web: "https://pibelanzallamas.github.io/sacrificial-suicide/",
     youtube: "https://www.youtube.com/embed/5aZPzEy0ANc?si=A7DxxHmdLj-j5wnN",
     video: "https://www.youtube.com/watch?v=5aZPzEy0ANc",
