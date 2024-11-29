@@ -8,7 +8,6 @@ function Navbar() {
   const esp = useSelector((state) => state.lang.esp);
   const dispatch = useDispatch();
 
-  //setea el theme dependiendo del la config del sistema
   useEffect(() => {
     const mediaQuery = window.matchMedia("(prefers-color-scheme: dark)");
     const handleChange = () => {
