@@ -6,9 +6,9 @@ function Profile() {
   const esp = useSelector((state) => state.lang.esp);
   const dark = useSelector((state) => state.theme.dark);
   const cv = {
-    link: "https://drive.google.com/file/d/1POEDGfliX7eE_ussDONCLZFs0ww8snse/view?usp=sharing",
+    link: "https://drive.google.com/uc?export=download&id=1V0fpWw8Tfl7rTIm1z3Z4H5GJLqhgVn5P",
     link2:
-      "https://drive.google.com/file/d/1aWjYJvjbn3KkS_K5ZzTUhsnGN88RpvuE/view?usp=sharing",
+      "https://drive.google.com/uc?export=download&id=1Q8W8JXVOk6rEgmJ6hYolGjCNefLSAGJc",
   };
 
   return (
@@ -58,10 +58,12 @@ function Profile() {
         >
           <a
             href={esp ? cv.link : cv.link2}
-            target="_blank"
-            rel="noopener noreferrer"
+            // target="_blank"
+            // rel="noopener noreferrer"
           >
-            <p style={{ fontSize: "2rem" }}>CV</p>
+            <p style={{ fontSize: "1.4rem" }}>
+              {esp ? <>Descargar CV</> : <>Download CV</>}
+            </p>
           </a>
         </div>
         <Credits />
