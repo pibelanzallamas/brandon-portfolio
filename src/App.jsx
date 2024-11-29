@@ -23,13 +23,3 @@ function App() {
 }
 
 export default App;
-
-// el prorama es que necesito money y
-// como lo quiero hacer
-// programando
-// puedes programar lo que sea
-// puedes crear valor
-// buenos vecinos ---
-// es tu cv
-// camino de vida
-// carrera de vida
