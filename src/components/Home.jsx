@@ -16,7 +16,7 @@ function Home() {
         <div className="image home-image top" style={{ marginTop: "2rem" }}>
           <img src={home} loading="lazy" alt="ed-riding-bike"></img>
         </div>
-        <div className="flex-grow"></div>
+        {/* <div className="flex-grow"></div> */}
         <Credits />
       </div>
     </div>
