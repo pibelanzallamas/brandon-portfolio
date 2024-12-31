@@ -51,17 +51,17 @@ function Profile() {
           <li>Github</li>
         </ul>
         <br />
-        <div
+        {/* <div
           className={
             dark ? "contact-links-dark top" : "contact-links-light top"
           }
         >
-          {/* <a href={esp ? cv.link : cv.link2}>
+          <a href={esp ? cv.link : cv.link2}>
             <p style={{ fontSize: "1.4rem" }}>
               {esp ? <>Descargar CV</> : <>Download CV</>}
             </p>
-          </a> */}
-        </div>
+          </a>
+        </div> */}
         <Credits />
       </div>
     </div>

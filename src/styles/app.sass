@@ -42,10 +42,16 @@ $lavender-web-2: #e1dee9ff
   p
     letter-spacing: 1px 
 
+.full-app
+  display: flex
+  flex-direction: column
+  min-height: 100vh
+
 .all
   background-size: cover
   background-repeat: no-repeat
   text-align: center
+  flex: 1
   
 .all-light
   background-image: linear-gradient(to bottom, #71C1FB, #F9B9F2)
@@ -57,7 +63,7 @@ $lavender-web-2: #e1dee9ff
 
 .content
   font-family: "amalgama"
-  min-height: 100vh
+  // min-height: 100vh
   padding: 1rem
   display: flex
   flex-direction: column

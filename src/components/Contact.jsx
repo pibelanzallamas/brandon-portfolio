@@ -21,7 +21,7 @@ function Contact() {
             <ContactCard link={link} />
           ))}
         </section>
-        {/* <div className="flex-grow"></div> */}
+
         <Credits />
       </div>
     </div>

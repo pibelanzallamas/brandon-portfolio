@@ -9,6 +9,7 @@ function Home() {
   return (
     <div className={dark ? "all all-dark" : "all all-light"}>
       <div className="content">
+        <br />
         <h1>brandon castillo</h1>
         <h2 className={dark ? "subtitle-dark top" : "subtitle-light top"}>
           <u>{esp ? <>desarrollador web</> : <>web developer</>}</u>
