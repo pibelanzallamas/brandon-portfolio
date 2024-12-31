@@ -19,8 +19,8 @@ function Credits() {
       <p className="star top">✨</p>
       <p className="credits top">
         {lan
-          ? "Creado por Brandon Castillo 💻"
-          : "Created by Brandon Castillo 💻"}
+          ? "Creado por Brandon Castillo ⚔️🏰"
+          : "Created by Brandon Castillo ⚔️🏰"}
       </p>
       <div
         className={
