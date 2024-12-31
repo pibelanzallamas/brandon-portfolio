@@ -21,7 +21,6 @@ function Contact() {
             <ContactCard link={link} />
           ))}
         </section>
-
         <Credits />
       </div>
     </div>
