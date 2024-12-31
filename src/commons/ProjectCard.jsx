@@ -36,7 +36,7 @@ function ProjectCard({ project }) {
           <li>
             <a href={project.web} target="_blank" rel="noopener noreferrer">
               <img
-                src="https://res.cloudinary.com/daynclfo8/image/upload/v1730126328/chrome_piydtk.svg"
+                src="https://www.svgrepo.com/show/132584/world-wide-web.svg"
                 alt={"logo-web"}
               ></img>
             </a>
