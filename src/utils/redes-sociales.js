@@ -1,7 +1,7 @@
 const links = [
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/brandon-castillo-dev",
+    link: "https://www.linkedin.com/in/bran-castillo-dev",
   },
   {
     name: "Codewars",

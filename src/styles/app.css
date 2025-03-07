@@ -237,15 +237,10 @@ nav {
 
 .content {
   font-family: "amalgama";
-  min-height: 100vh;
   padding: 1rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.social-links {
-  flex: 1;
 }
 
 .subtitle-light {
