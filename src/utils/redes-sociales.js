@@ -8,8 +8,8 @@ const links = [
     link: "https://www.codewars.com/users/pibelanzallamas",
   },
   {
-    name: "LeetCode",
-    link: "https://leetcode.com/pibelanzallamas",
+    name: "Github",
+    link: "https://github.com/pibelanzallamas",
   },
 ];
 

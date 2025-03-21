@@ -6,9 +6,9 @@ function Profile() {
   const esp = useSelector((state) => state.lang.esp);
   const dark = useSelector((state) => state.theme.dark);
   const cv = {
-    link: "https://drive.google.com/uc?export=download&id=1V0fpWw8Tfl7rTIm1z3Z4H5GJLqhgVn5P",
+    link: "https://drive.google.com/file/d/1oCK1fn9D4Rs6cUda6Pd6_CWivQc7raMp/view?usp=sharing",
     link2:
-      "https://drive.google.com/uc?export=download&id=1Q8W8JXVOk6rEgmJ6hYolGjCNefLSAGJc",
+      "https://drive.google.com/file/d/1qVugpyvGeV47p5JdhU1RvcIpeixqZ_p-/view?usp=sharing",
   };
 
   return (
@@ -51,7 +51,7 @@ function Profile() {
           <li>Github</li>
         </ul>
         <br />
-        {/* <div
+        <div
           className={
             dark ? "contact-links-dark top" : "contact-links-light top"
           }
@@ -61,7 +61,7 @@ function Profile() {
               {esp ? <>Descargar CV</> : <>Download CV</>}
             </p>
           </a>
-        </div> */}
+        </div>
         <Credits />
       </div>
     </div>
