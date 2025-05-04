@@ -15,7 +15,7 @@ function Credits() {
   };
 
   return (
-    <div>
+    <footer>
       <p className="star top">✨</p>
       <p className="credits top">
         {lan
@@ -45,7 +45,7 @@ function Credits() {
           {lan ? "Eng" : "Esp"}
         </button>
       </div>
-    </div>
+    </footer>
   );
 }
 
