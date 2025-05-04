@@ -16,7 +16,7 @@ function Credits() {
 
   return (
     <footer>
-      <p className="star top">✨</p>
+      <p className="star">✨</p>
       <p className="credits top">
         {lan
           ? "Creado por Brandon Castillo ⚔️🏰"
