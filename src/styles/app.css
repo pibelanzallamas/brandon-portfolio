@@ -17,7 +17,6 @@
   font-style: normal;
 }
 nav {
-  width: auto;
   overflow-x: auto;
   white-space: nowrap;
   padding: 1rem;
@@ -67,46 +66,21 @@ nav {
     justify-content: space-around;
   }
 }
-footer {
-  padding: 1rem;
-}
-
-.star {
-  font-size: 2rem;
-}
-
-.botones {
-  font-size: 0.75rem;
-}
-.botones button {
-  margin-right: 1rem;
-  font-family: amalgama;
-  background-color: transparent;
-  padding: 0.7rem;
-  border-radius: 1rem;
-}
-.botones button:hover {
-  cursor: pointer;
-}
-
-.botones-light button {
-  color: #0575f5;
-  border: #0575f5 1px solid;
-}
-.botones-light button:hover {
-  background-color: #0575f5;
-  color: white;
-}
-
-.botones-dark button {
+.subtitle-light {
+  font-size: 1.3rem;
   color: #e84855;
-  border: #e84855 1px solid;
-}
-.botones-dark button:hover {
-  background-color: #e84855;
-  color: #403f4c;
 }
 
+.subtitle-dark {
+  font-size: 1.3rem;
+  color: #e2adf2;
+}
+
+@media (min-width: 700px) {
+  .subtitle-light, .subtitle-dark {
+    font-size: 2.4rem;
+  }
+}
 .project-image {
   width: 100%;
   aspect-ratio: 1278/741;
@@ -200,6 +174,47 @@ footer {
     font-size: 1.8rem;
   }
 }
+footer {
+  text-align: center;
+  padding: 1rem;
+}
+
+.star {
+  font-size: 2rem;
+}
+
+.botones {
+  font-size: 0.75rem;
+}
+.botones button {
+  margin-right: 1rem;
+  font-family: amalgama;
+  background-color: transparent;
+  padding: 0.7rem;
+  border-radius: 1rem;
+}
+.botones button:hover {
+  cursor: pointer;
+}
+
+.botones-light button {
+  color: #0575f5;
+  border: #0575f5 1px solid;
+}
+.botones-light button:hover {
+  background-color: #0575f5;
+  color: white;
+}
+
+.botones-dark button {
+  color: #e84855;
+  border: #e84855 1px solid;
+}
+.botones-dark button:hover {
+  background-color: #e84855;
+  color: #403f4c;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -219,14 +234,14 @@ footer {
 .full-app {
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
+  text-align: right;
   font-family: "amalgama";
-  text-align: center;
+  min-height: 100vh;
 }
 
 main {
-  padding: 1rem;
   display: flex;
+  padding: 1rem;
   flex-direction: column;
   flex: 1;
 }
@@ -239,16 +254,6 @@ main {
 .dark-mode {
   background-image: linear-gradient(to bottom, #5158BB, #043565);
   color: #e84855;
-}
-
-.subtitle-light {
-  font-size: 1.3rem;
-  color: #e84855;
-}
-
-.subtitle-dark {
-  font-size: 1.3rem;
-  color: #e2adf2;
 }
 
 .flex-grow {
@@ -272,15 +277,12 @@ iframe {
 }
 
 @media (min-width: 700px) {
-  .content {
-    width: 60%;
-    margin: 0 auto;
+  main {
+    align-items: center;
+    text-align: center;
   }
   h1 {
     font-size: 3rem;
-  }
-  .subtitle-light, .subtitle-dark {
-    font-size: 2.4rem;
   }
   iframe {
     height: 40vh;

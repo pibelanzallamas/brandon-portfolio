@@ -6,15 +6,14 @@ import Projects from "./components/Projects";
 import Videos from "./components/Videos";
 import Contact from "./components/Contact";
 import "./styles/app.css";
-import { useDispatch, useSelector } from "react-redux";
+import { useSelector } from "react-redux";
 import Credits from "./components/Credits";
 
 function App() {
   const dark = useSelector((state) => state.theme.dark);
-  const esp = useSelector((state) => state.lang.esp);
 
   return (
-    <div className={dark ? "dark-mode full-app" : "light-mode full-app"}>
+    <div className={dark ? "full-app dark-mode" : "full-app light-mode"}>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
