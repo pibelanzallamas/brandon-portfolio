@@ -1,6 +1,5 @@
 import projects from "../utils/proyectos";
 import ProjectCard from "../commons/ProjectCard";
-import Credits from "./Credits";
 import { useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 
@@ -22,11 +21,9 @@ function Projects() {
   }, [input]);
 
   return (
-    <div className={dark ? "all all-dark" : "all all-light"}>
-      <div className="content">
-        <br />
-        <h1>{esp ? <>proyectos</> : <>projects</>}</h1>
-        {/* <form>
+    <main className="project-page">
+      <h1>{esp ? <>proyectos</> : <>projects</>}</h1>
+      {/* <form>
           <label>
             {esp ? "Selecione una tecnología" : "Select a technology"}
             <input
@@ -48,24 +45,22 @@ function Projects() {
           </datalist>
         </form> */}
 
-        {!input ? (
-          projects.map((project) => (
+      {!input ? (
+        projects.map((project) => (
+          <div key={project.id}>
+            <ProjectCard {...{ project }} />
+          </div>
+        ))
+      ) : (
+        <>
+          {resultados.map((project) => (
             <div key={project.id}>
               <ProjectCard {...{ project }} />
             </div>
-          ))
-        ) : (
-          <>
-            {resultados.map((project) => (
-              <div key={project.id}>
-                <ProjectCard {...{ project }} />
-              </div>
-            ))}
-          </>
-        )}
-        <Credits />
-      </div>
-    </div>
+          ))}
+        </>
+      )}
+    </main>
   );
 }
 

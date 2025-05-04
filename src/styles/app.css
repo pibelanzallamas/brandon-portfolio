@@ -140,8 +140,13 @@ nav {
 }
 
 @media (min-width: 700px) {
+  .project-page {
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+  }
   .profile-pic {
-    width: min(300px, 100%);
+    width: 400px;
   }
   .profile-pic img {
     border: #ff9900 10px double;
@@ -241,9 +246,9 @@ footer {
 
 main {
   display: flex;
-  padding: 1rem;
   flex-direction: column;
   flex: 1;
+  padding: 1rem;
 }
 
 .light-mode {
@@ -254,10 +259,6 @@ main {
 .dark-mode {
   background-image: linear-gradient(to bottom, #5158BB, #043565);
   color: #e84855;
-}
-
-.flex-grow {
-  flex: 1;
 }
 
 .top {
@@ -279,7 +280,7 @@ iframe {
 @media (min-width: 700px) {
   main {
     align-items: center;
-    text-align: center;
+    text-align: cefutnter;
   }
   h1 {
     font-size: 3rem;

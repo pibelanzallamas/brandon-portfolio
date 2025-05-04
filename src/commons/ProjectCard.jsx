@@ -8,7 +8,7 @@ function ProjectCard({ project }) {
     <div>
       {/* titulo */}
       <h3 className={dark ? "subtitle-dark top" : "subtitle-light top"}>
-        {project.name}
+        <u>{project.name}</u>
       </h3>
 
       {/* fecha */}
