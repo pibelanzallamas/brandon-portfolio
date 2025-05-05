@@ -11,11 +11,9 @@ function Contact() {
     <main>
       <h1>{esp ? <>contacto</> : <>contact</>}</h1>
       <h2>{esp ? <>redes sociales</> : <>social media</>}</h2>
-      <section className="top">
-        {links.map((link) => (
-          <ContactCard link={link} />
-        ))}
-      </section>
+      {links.map((link) => (
+        <ContactCard link={link} />
+      ))}
     </main>
   );
 }
