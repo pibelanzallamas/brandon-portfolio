@@ -6,7 +6,6 @@ import { useEffect, useState } from "react";
 function Projects() {
   const esp = useSelector((state) => state.lang.esp);
   const dark = useSelector((state) => state.theme.dark);
-
   const [resultados, setResultados] = useState([]);
   const [input, setInput] = useState("");
 
@@ -46,17 +45,11 @@ function Projects() {
         </form> */}
 
       {!input ? (
-        projects.map((project) => (
-          <div key={project.id}>
-            <ProjectCard {...{ project }} />
-          </div>
-        ))
+        projects.map((project) => <ProjectCard {...{ project }} />)
       ) : (
         <>
           {resultados.map((project) => (
-            <div key={project.id}>
-              <ProjectCard {...{ project }} />
-            </div>
+            <ProjectCard {...{ project }} />
           ))}
         </>
       )}

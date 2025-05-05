@@ -7,7 +7,7 @@ function ProjectCard({ project }) {
   return (
     <div>
       {/* titulo */}
-      <h3 className={dark ? "subtitle-dark top" : "subtitle-light top"}>
+      <h3 className={dark ? "subtitle-dark" : "subtitle-light"}>
         <u>{project.name}</u>
       </h3>
 
@@ -66,6 +66,7 @@ function ProjectCard({ project }) {
           </li>
         </ul>
       </div>
+      {/* <br /> */}
     </div>
   );
 }

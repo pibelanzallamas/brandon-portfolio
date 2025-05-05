@@ -66,21 +66,12 @@ nav {
     justify-content: space-around;
   }
 }
-.subtitle-light {
-  font-size: 1.3rem;
-  color: #e84855;
+.project-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
 }
 
-.subtitle-dark {
-  font-size: 1.3rem;
-  color: #e2adf2;
-}
-
-@media (min-width: 700px) {
-  .subtitle-light, .subtitle-dark {
-    font-size: 2.4rem;
-  }
-}
 .project-image {
   width: 100%;
   aspect-ratio: 1278/741;
@@ -239,7 +230,6 @@ footer {
 .full-app {
   display: flex;
   flex-direction: column;
-  text-align: left;
   font-family: "amalgama";
   min-height: 100vh;
 }
@@ -277,10 +267,23 @@ iframe {
   height: 30vh;
 }
 
+.subtitle-light {
+  font-size: 1.3rem;
+  color: #e84855;
+}
+
+.subtitle-dark {
+  font-size: 1.3rem;
+  color: #e2adf2;
+}
+
 @media (min-width: 700px) {
   main {
     align-items: center;
     text-align: cefutnter;
+  }
+  .subtitle-light, .subtitle-dark {
+    font-size: 2.4rem;
   }
   h1 {
     font-size: 3rem;
