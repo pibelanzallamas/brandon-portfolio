@@ -49,7 +49,7 @@ function Profile() {
         </ul>
       </section>
       <h2>
-        <a href={esp ? cv.link : cv.link2} target="_blank">
+        <a href={esp ? cv.link : cv.link2} target="_blank" rel="noopener noreferrer>
           {esp ? <>Descargar CV</> : <>Download CV</>}
         </a>
       </h2>

@@ -5,12 +5,11 @@ import { useSelector } from "react-redux";
 
 function Contact() {
   const esp = useSelector((state) => state.lang.esp);
-  const dark = useSelector((state) => state.theme.dark);
 
   return (
     <main>
       <h1>{esp ? <>contacto</> : <>contact</>}</h1>
-      <h2>{esp ? <>redes sociales</> : <>social media</>}</h2>
+      <br />
       {links.map((link) => (
         <ContactCard link={link} />
       ))}
