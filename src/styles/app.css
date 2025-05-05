@@ -107,6 +107,12 @@ nav {
     font-size: 1.3rem;
   }
 }
+.one-video-card {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
 .profile-pic {
   width: min(200px, 100%);
   aspect-ratio: 1/1;
@@ -172,7 +178,6 @@ nav {
 }
 footer {
   text-align: center;
-  padding-bottom: 1rem;
 }
 
 .star {
@@ -181,6 +186,7 @@ footer {
 
 .botones {
   font-size: 0.75rem;
+  padding-bottom: 1rem;
 }
 .botones button {
   margin-right: 1rem;
@@ -245,10 +251,18 @@ main {
   background-image: linear-gradient(to bottom, #71C1FB, #F9B9F2);
   color: #0575f5;
 }
+.light-mode h2 {
+  font-size: 1.3rem;
+  color: #e84855;
+}
 
 .dark-mode {
   background-image: linear-gradient(to bottom, #5158BB, #043565);
   color: #e84855;
+}
+.dark-mode h2 {
+  font-size: 1.3rem;
+  color: #e2adf2;
 }
 
 .top {
@@ -267,26 +281,16 @@ iframe {
   height: 30vh;
 }
 
-.subtitle-light {
-  font-size: 1.3rem;
-  color: #e84855;
-}
-
-.subtitle-dark {
-  font-size: 1.3rem;
-  color: #e2adf2;
-}
-
 @media (min-width: 700px) {
   main {
     align-items: center;
-    text-align: cefutnter;
-  }
-  .subtitle-light, .subtitle-dark {
-    font-size: 2.4rem;
+    text-align: center;
   }
   h1 {
     font-size: 3rem;
+  }
+  .light-mode h2, .dark-mode h2 {
+    font-size: 1.7rem;
   }
   iframe {
     height: 40vh;

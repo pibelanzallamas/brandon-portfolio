@@ -17,7 +17,7 @@ function Profile() {
       <div className="profile-pic top center">
         <img src={profile} loading="lazy" alt="profile-pic"></img>
       </div>
-      <h3 className={dark ? "subtitle-dark top" : "subtitle-light top"}>bio</h3>
+      <h2>bio</h2>
       <p className="profile-description top">
         {esp ? (
           <>

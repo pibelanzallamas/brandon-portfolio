@@ -8,7 +8,7 @@ function Home() {
   return (
     <main>
       <h1>brandon castillo</h1>
-      <h2 className={dark ? "subtitle-dark top" : "subtitle-light top"}>
+      <h2>
         <u>{esp ? <>desarrollador web</> : <>web developer</>}</u>
       </h2>
       <div

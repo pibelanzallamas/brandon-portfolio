@@ -6,31 +6,24 @@ function Videos() {
   const dark = useSelector((state) => state.theme.dark);
 
   return (
-    <div className={dark ? "all all-dark" : "all all-light"}>
-      <div className="content">
-        <br />
-        <h1>Videos</h1>
-        {projects.map((project) => (
-          <>
-            <h3 className={dark ? "subtitle-dark top" : "subtitle-light top"}>
-              {project.name}
-            </h3>
-            <iframe
-              width="100%"
-              height="auto"
-              src={project.youtube}
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
-              className="top"
-              loading="lazy"
-            ></iframe>
-          </>
-        ))}
-        <Credits />
-      </div>
-    </div>
+    <main className="project-page">
+      <h1>Videos</h1>
+      {projects.map((project) => (
+        <div className="one-video-card">
+          <h2>{project.name}</h2>
+          <iframe
+            width="100%"
+            height="auto"
+            src={project.youtube}
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            allowfullscreen
+            loading="lazy"
+          ></iframe>
+        </div>
+      ))}
+    </main>
   );
 }
 

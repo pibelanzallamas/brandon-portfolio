@@ -10,9 +10,7 @@ function Contact() {
   return (
     <main>
       <h1>{esp ? <>contacto</> : <>contact</>}</h1>
-      <h3 className={dark ? "subtitle-dark top" : "subtitle-light top"}>
-        {esp ? <>redes sociales</> : <>social media</>}
-      </h3>
+      <h2>{esp ? <>redes sociales</> : <>social media</>}</h2>
       <section className="top">
         {links.map((link) => (
           <ContactCard link={link} />
