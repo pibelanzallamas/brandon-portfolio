@@ -1,16 +1,14 @@
 import { useSelector } from "react-redux";
 import profile from "../assets/profile.png";
-import cv_esp from "../assets/b_c.pdf"
-import cv_eng from "../assets/b_c_r.pdf"
-
+import cv_esp from "../assets/b_c.pdf";
+import cv_eng from "../assets/b_c_r.pdf";
 
 function Profile() {
   const esp = useSelector((state) => state.lang.esp);
   const dark = useSelector((state) => state.theme.dark);
   const cv = {
     link: cv_esp,
-    link2:
-      cv_eng
+    link2: cv_eng,
   };
 
   return (
@@ -51,7 +49,11 @@ function Profile() {
         </ul>
       </section>
       <h2>
-        <a href={esp ? cv.link : cv.link2} target="_blank" rel="noopener noreferrer>
+        <a
+          href={esp ? cv.link : cv.link2}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           {esp ? <>Descargar CV</> : <>Download CV</>}
         </a>
       </h2>
