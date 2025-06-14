@@ -6,7 +6,7 @@ const projects = [
     month: "Sep",
     author: "Brandon Castillo",
     image:
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732610191/calles.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732610191/calles.png",
     web: "https://calles-construction.vercel.app/",
     youtube: "https://www.youtube.com/embed/mOV8O6jPwC4",
     video: "https://www.youtube.com/watch?v=mOV8O6jPwC4",
@@ -24,7 +24,7 @@ const projects = [
     month: "Jul",
     author: "Brandon Castillo",
     image:
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732663508/yugi.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732663508/yugi.png",
     web: "https://givemeayugiohcard.vercel.app/",
     youtube: "https://www.youtube.com/embed/NEzQ7VnWCLI",
     video: "https://www.youtube.com/watch?v=NEzQ7VnWCLI",
@@ -40,7 +40,7 @@ const projects = [
     month: "Jul",
     author: "Brandon Castillo",
     image:
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732664586/mood.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732664586/mood.png",
     web: "https://calles-construction.vercel.app/",
     youtube: "https://www.youtube.com/embed/LliCjVK8ZBQ",
     video: "https://www.youtube.com/watch?v=LliCjVK8ZBQ",
@@ -56,7 +56,7 @@ const projects = [
     month: "May",
     author: "Brandon Castillo",
     image:
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732665477/elder.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732665477/elder.png",
     web: "https://yourelder.vercel.app/",
     youtube: "https://www.youtube.com/embed/VXR-ek3Ez50?si=j8ZKJAfV1SqcWlQV",
     video: "https://www.youtube.com/watch?v=VXR-ek3Ez50",
@@ -72,7 +72,7 @@ const projects = [
     month: "May",
     author: "Brandon Castillo",
     image:
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732568128/carbon.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732568128/carbon.png",
     web: "http://carbon-copy-omega.vercel.app",
     youtube: "https://www.youtube.com/embed/bb8RomFHFdg?si=h4T4HCtKldUgbeUb",
     video: "https://www.youtube.com/watch?v=bb8RomFHFdg",
@@ -99,7 +99,7 @@ const projects = [
     month: "nov",
     author: "Brandon Castillo",
     image:
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732626769/dreamer.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732626769/dreamer.png",
     darkimage: "/projects-img/dp/dreamer-paintings-dark.png",
     web: "https://dreamer-paintings.vercel.app",
     youtube: "https://www.youtube.com/embed/onv0uQ7Y_1I?si=VWodVsSxDQwnyytl",
@@ -118,7 +118,7 @@ const projects = [
     month: "sep",
     author: "Brandon Castillo",
     image:
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732568386/house.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732568386/house.png",
     web: "https://house-of-dev-client.vercel.app",
     youtube: "https://www.youtube.com/embed/LiaV7xHjJmk?si=wYhTO8X4uZLANW6c",
     video: "https://www.youtube.com/watch?v=LiaV7xHjJmk",
@@ -147,7 +147,7 @@ const projects = [
     month: "jul",
     author: "Brandon Castillo",
     image:
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732567910/crib.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732567910/crib.png",
     web: "https://my-movie-crib-front.vercel.app/1",
     youtube: "https://www.youtube.com/embed/j-qgyoaeJN4?si=wYhTO8X4uZLANW6c",
     video: "https://www.youtube.com/watch?v=j-qgyoaeJN4",
@@ -175,7 +175,7 @@ const projects = [
     month: "may",
     author: "Brandon Castillo",
     image:
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732841668/metal.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732841668/metal.png",
     web: "https://pibelanzallamas.github.io/metalhead",
     youtube: "https://www.youtube.com/embed/pN2r5AhwKrU?si=Oo-y5EnDjF4wcmSJ",
     video: "https://www.youtube.com/watch?v=pN2r5AhwKrU",
@@ -193,7 +193,7 @@ const projects = [
     month: "feb",
     author: "Brandon Castillo",
     image:
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1732841819/sacri.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732841819/sacri.png",
     web: "https://pibelanzallamas.github.io/sacrificial-suicide/",
     youtube: "https://www.youtube.com/embed/g7rukS6FLNQ?si=A7DxxHmdLj-j5wnN",
     video: "https://www.youtube.com/watch?v=g7rukS6FLNQ",
