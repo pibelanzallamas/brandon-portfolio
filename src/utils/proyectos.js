@@ -177,8 +177,8 @@ const projects = [
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732841668/metal.png",
     web: "https://pibelanzallamas.github.io/metalhead",
-    youtube: "https://www.youtube.com/embed/MixyinKSZhk?si=Oo-y5EnDjF4wcmSJ",
-    video: "https://www.youtube.com/watch?v=MixyinKSZhk",
+    youtube: "https://www.youtube.com/embed/pN2r5AhwKrU?si=Oo-y5EnDjF4wcmSJ",
+    video: "https://www.youtube.com/watch?v=pN2r5AhwKrU",
     github: "https://github.com/pibelanzallamas/metalhead",
     description:
       "Little project that includes a mixtape of ps1 videogames, breakcore music and live nineties bands.",
@@ -195,8 +195,8 @@ const projects = [
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/v1732841819/sacri.png",
     web: "https://pibelanzallamas.github.io/sacrificial-suicide/",
-    youtube: "https://www.youtube.com/embed/5aZPzEy0ANc?si=A7DxxHmdLj-j5wnN",
-    video: "https://www.youtube.com/watch?v=5aZPzEy0ANc",
+    youtube: "https://www.youtube.com/embed/g7rukS6FLNQ?si=A7DxxHmdLj-j5wnN",
+    video: "https://www.youtube.com/watch?v=g7rukS6FLNQ",
     github: "https://github.com/pibelanzallamas/sacrificialsuicide",
     description: "Little project that counts your days alive.",
     descripcion: "Pequeño proyecto que te calcula los días vivo.",
