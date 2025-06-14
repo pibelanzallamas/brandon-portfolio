@@ -66,6 +66,16 @@ nav {
     justify-content: space-around;
   }
 }
+.cv {
+  margin-top: 1rem;
+  font-size: 0.25rem;
+}
+
+@media (min-width: 700px) {
+  .cv {
+    font-size: 1rem;
+  }
+}
 .project-page {
   display: flex;
   flex-direction: column;
@@ -118,6 +128,7 @@ nav {
   aspect-ratio: 1/1;
   margin: 0 auto;
   margin-top: -0.6rem;
+  margin-bottom: 0.6rem;
 }
 .profile-pic img {
   width: 100%;
@@ -151,7 +162,8 @@ section {
     margin: 0 auto;
   }
   .profile-pic {
-    width: 400px;
+    width: min(300px, 100%);
+    margin-bottom: 1rem;
   }
   .profile-pic img {
     border: #ff9900 10px double;
@@ -302,6 +314,7 @@ iframe {
   }
   iframe {
     height: 40vh;
+    width: 500px;
     max-width: 85%;
   }
 }
