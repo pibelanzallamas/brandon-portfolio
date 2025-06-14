@@ -1,4 +1,3 @@
-import Credits from "./Credits";
 import projects from "../utils/proyectos";
 import { useSelector } from "react-redux";
 
@@ -12,8 +11,8 @@ function Videos() {
         <div className="one-video-card">
           <h2>{project.name}</h2>
           <iframe
-            width="100%"
-            height="auto"
+            // width="100%"
+            // height="auto"
             src={project.youtube}
             title="YouTube video player"
             frameborder="0"

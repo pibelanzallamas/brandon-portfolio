@@ -120,9 +120,16 @@ nav {
 .one-video-card {
   display: flex;
   flex-direction: column;
+  aling-items: center;
   gap: 0.7rem;
 }
 
+@media (min-width: 700px) {
+  .one-video-card {
+    width: 500px;
+    max-width: 85%;
+  }
+}
 .profile-pic {
   width: min(200px, 100%);
   aspect-ratio: 1/1;
@@ -311,11 +318,6 @@ iframe {
   }
   .light-mode h2, .dark-mode h2 {
     font-size: 1.7rem;
-  }
-  iframe {
-    height: 40vh;
-    width: 500px;
-    max-width: 85%;
   }
 }
 
