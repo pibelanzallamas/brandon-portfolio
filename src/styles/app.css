@@ -324,6 +324,9 @@ iframe {
   .light-mode h2, .dark-mode h2 {
     font-size: 1.7rem;
   }
+  iframe {
+    height: 40vh;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
