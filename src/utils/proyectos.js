@@ -8,7 +8,7 @@ const projects = [
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732610191/calles.png",
     web: "https://calles-construction.vercel.app/",
-    youtube: "https://www.youtube.com/embed/mOV8O6jPwC4",
+    youtube: "mOV8O6jPwC4",
     video: "https://www.youtube.com/watch?v=mOV8O6jPwC4",
     github: "http://github.com/pibelanzallamas/calles-construction",
     description:
@@ -26,7 +26,7 @@ const projects = [
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732663508/yugi.png",
     web: "https://givemeayugiohcard.vercel.app/",
-    youtube: "https://www.youtube.com/embed/NEzQ7VnWCLI",
+    youtube: "NEzQ7VnWCLI",
     video: "https://www.youtube.com/watch?v=NEzQ7VnWCLI",
     github: "http://github.com/pibelanzallamas/givemeayugiohcard",
     description: "Get a Yu-Gi-Oh! card.",
@@ -42,7 +42,7 @@ const projects = [
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732664586/mood.png",
     web: "https://mood-checker.vercel.app/",
-    youtube: "https://www.youtube.com/embed/AoEKSxLDWao",
+    youtube: "AoEKSxLDWao",
     video: "https://www.youtube.com/watch?v=AoEKSxLDWao",
     github: "http://github.com/pibelanzallamas/calles-construction",
     description: "Website for recommending music based on your mood.",
@@ -58,7 +58,7 @@ const projects = [
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749922540/2025-06-14_14-35_yit3uy.png",
     web: "https://youfast.vercel.app/",
-    youtube: "https://www.youtube.com/embed/lVOHTdXnGaI?si=j8ZKJAfV1SqcWlQV",
+    youtube: "lVOHTdXnGaI",
     video: "https://www.youtube.com/watch?v=lVOHTdXnGaI",
     github: "http://github.com/pibelanzallamas/yourelder",
     description: "Youtube song searcher for elders.",
@@ -73,7 +73,7 @@ const projects = [
     author: "Brandon Castillo",
     image:  "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732569610/carbon2.png",
     web: "http://carbon-copy-omega.vercel.app",
-    youtube: "https://www.youtube.com/embed/bb8RomFHFdg?si=h4T4HCtKldUgbeUb",
+    youtube: "bb8RomFHFdg",
     video: "https://www.youtube.com/watch?v=bb8RomFHFdg",
     github: "https://github.com/pibelanzallamas/carbon-copy",
     description: "Application to edit and export code to PNG images.",
@@ -101,7 +101,7 @@ const projects = [
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1740082053/Captura_de_Pantalla_2025-02-20_a_la_s_17.06.43_vg9yro.png",
     darkimage: "/projects-img/dp/dreamer-paintings-dark.png",
     web: "https://dreamer-paintings.vercel.app",
-    youtube: "https://www.youtube.com/embed/onv0uQ7Y_1I?si=VWodVsSxDQwnyytl",
+    youtube: "onv0uQ7Y_1I",
     video: "https://www.youtube.com/watch?v=onv0uQ7Y_1I",
     github: "https://github.com/pibelanzallamas/dreamers-paintings",
     description:
@@ -119,7 +119,7 @@ const projects = [
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732568386/house.png",
     web: "https://house-of-dev-client.vercel.app",
-    youtube: "https://www.youtube.com/embed/LiaV7xHjJmk?si=wYhTO8X4uZLANW6c",
+    youtube: "LiaV7xHjJmk",
     video: "https://www.youtube.com/watch?v=LiaV7xHjJmk",
     github: "https://github.com/pibelanzallamas/house-of-dev-client-deploy",
     description:
@@ -148,7 +148,7 @@ const projects = [
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732567910/crib.png",
     web: "https://my-movie-crib-front.vercel.app/1",
-    youtube: "https://www.youtube.com/embed/j-qgyoaeJN4?si=wYhTO8X4uZLANW6c",
+    youtube: "j-qgyoaeJN4",
     video: "https://www.youtube.com/watch?v=j-qgyoaeJN4",
     github: "https://github.com/pibelanzallamas/my-movie-crib-front",
     description:
@@ -176,7 +176,7 @@ const projects = [
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732841668/metal.png",
     web: "https://pibelanzallamas.github.io/metalhead",
-    youtube: "https://www.youtube.com/embed/pN2r5AhwKrU?si=Oo-y5EnDjF4wcmSJ",
+    youtube: "pN2r5AhwKrU",
     video: "https://www.youtube.com/watch?v=pN2r5AhwKrU",
     github: "https://github.com/pibelanzallamas/metalhead",
     description:
@@ -194,7 +194,7 @@ const projects = [
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732841819/sacri.png",
     web: "https://pibelanzallamas.github.io/sacrificial-suicide/",
-    youtube: "https://www.youtube.com/embed/g7rukS6FLNQ?si=A7DxxHmdLj-j5wnN",
+    youtube: "g7rukS6FLNQ",
     video: "https://www.youtube.com/watch?v=g7rukS6FLNQ",
     github: "https://github.com/pibelanzallamas/sacrificialsuicide",
     description: "Little project that counts your days alive.",
