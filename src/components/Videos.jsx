@@ -7,7 +7,9 @@ function Videos() {
       {projects.map((project) => (
         <div className="one-video-card">
           <h2>{project.name}</h2>
-          <lite-youtube videoid={project.youtube} ></lite-youtube>
+          <div className="youtube-lite">
+          <lite-youtube videoid={project.youtube}></lite-youtube>
+          </div>
         </div>
       ))}
     </main>

@@ -307,10 +307,8 @@ main {
   border: #ff9900 4px solid;
 }
 
-iframe {
-  display: block;
+.youtube-lite {
   border: #ff9900 4px solid;
-  height: 30vh;
 }
 
 @media (min-width: 700px) {
