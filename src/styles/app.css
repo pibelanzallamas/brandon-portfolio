@@ -72,6 +72,10 @@ nav {
 }
 
 @media (min-width: 700px) {
+  .home-image {
+    aspect-ratio: 498/336;
+    height: 22rem;
+  }
   .cv {
     font-size: 1rem;
   }
@@ -321,9 +325,6 @@ main {
   }
   .light-mode h2, .dark-mode h2 {
     font-size: 1.7rem;
-  }
-  iframe {
-    height: 40vh;
   }
 }
 

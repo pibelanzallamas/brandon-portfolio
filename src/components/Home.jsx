@@ -1,5 +1,4 @@
 import { useSelector } from "react-redux";
-import home from "../assets/home.gif";
 import cv_esp from "../assets/cv/cv_esp.pdf";
 import cv_eng from "../assets/cv/cv_eng.pdf";
 
@@ -19,9 +18,9 @@ function Home() {
       </h2>
       <figure
         className="image home-image"
-        style={{ marginTop: "2rem", aspectRatio: "498 / 336" }}
+        style={{ marginTop: "2rem" }}
       >
-        <img src={home} loading="lazy" alt="ed-riding-bike"></img>
+        <img src={"https://res.cloudinary.com/daynclfo8/image/upload/v1750214239/home-DVjisMa3_vjhyzx.gif"} loading="lazy" alt="ed-riding-bike"></img>
       </figure>
       <div className={dark ? "contact-links-dark cv" : "contact-links-light cv"}>
         <a

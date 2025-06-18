@@ -1,5 +1,4 @@
 import { useSelector } from "react-redux";
-import profile from "../assets/profile.png";
 
 function Profile() {
   const esp = useSelector((state) => state.lang.esp);
@@ -9,7 +8,7 @@ function Profile() {
       <h1>{esp ? <>Perfil</> : <>Profile</>}</h1>
       <section>
         <div className="profile-pic center">
-          <img src={profile} loading="lazy" alt="profile-pic"></img>
+          <img src={"https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1750214101/pp-sin-fondo_t4p1qz.png"} loading="lazy" alt="profile-pic"></img>
         </div>
         <h2>bio</h2>
         <p className="profile-description">
