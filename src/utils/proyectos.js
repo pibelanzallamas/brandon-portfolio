@@ -40,11 +40,11 @@ const projects = [
     month: "Jul",
     author: "Brandon Castillo",
     image:
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732664586/mood.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749922322/2025-06-14_14-31_hxnue7.png",
     web: "https://mood-checker.vercel.app/",
     youtube: "AoEKSxLDWao",
     video: "https://www.youtube.com/watch?v=AoEKSxLDWao",
-    github: "http://github.com/pibelanzallamas/calles-construction",
+    github: "http://github.com/pibelanzallamas/mood-checker",
     description: "Website for recommending music based on your mood.",
     descripcion: "Sitio web que te recomienda musica segun tu estado de animo.",
     tags: ["react", "vite", "sass", "axios", "javascript"],
