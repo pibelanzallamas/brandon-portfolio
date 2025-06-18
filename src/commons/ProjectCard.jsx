@@ -1,4 +1,5 @@
 import { useSelector } from "react-redux";
+import webl from "../assets/social-media/web-light.png"
 
 function ProjectCard({ project }) {
   const esp = useSelector((state) => state.lang.esp);
@@ -36,7 +37,7 @@ function ProjectCard({ project }) {
           <li>
             <a href={project.web} target="_blank" rel="noopener noreferrer">
               <img
-                src="https://www.svgrepo.com/show/132584/world-wide-web.svg"
+                src={webl}
                 alt={"logo-web"}
               ></img>
             </a>
