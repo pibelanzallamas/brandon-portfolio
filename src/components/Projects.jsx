@@ -1,4 +1,4 @@
-import projects from "../utils/proyectos";
+import projects from "../utils/projects";
 import ProjectCard from "../commons/ProjectCard";
 import { useSelector } from "react-redux";
 import { useEffect, useState } from "react";

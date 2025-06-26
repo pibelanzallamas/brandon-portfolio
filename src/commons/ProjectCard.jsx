@@ -1,5 +1,5 @@
 import { useSelector } from "react-redux";
-import webl from "../assets/social-media/web-light.png"
+import webl from "../assets/social-media/white-web.png"
 
 function ProjectCard({ project }) {
   const esp = useSelector((state) => state.lang.esp);
