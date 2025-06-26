@@ -58,9 +58,9 @@ const projects = [
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749922540/2025-06-14_14-35_yit3uy.png",
     web: "https://youfast.vercel.app/",
-    youtube: "lVOHTdXnGaI",
-    video: "https://www.youtube.com/watch?v=lVOHTdXnGaI",
-    github: "http://github.com/pibelanzallamas/yourelder",
+    youtube: "BS2Nkpwd1Hw",
+    video: "https://www.youtube.com/watch?v=BS2Nkpwd1Hw",
+    github: "http://github.com/pibelanzallamas/youfast",
     description: "Youtube song searcher for elders.",
     descripcion: "Buscador de Youtube más simplificado.",
     tags: ["react", "html", "youtube"],
