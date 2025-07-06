@@ -140,7 +140,7 @@ nav {
   }
 }
 .profile-pic {
-  width: min(200px, 100%);
+  width: min(150px, 100%);
   aspect-ratio: 1/1;
   margin: 0 auto;
   margin-top: -0.6rem;
@@ -178,7 +178,7 @@ section {
     margin: 0 auto;
   }
   .profile-pic {
-    width: min(300px, 100%);
+    width: min(220px, 100%);
     margin-bottom: 1rem;
   }
   .profile-pic img {

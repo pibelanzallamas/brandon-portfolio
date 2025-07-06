@@ -1,4 +1,4 @@
-import projects from "../utils/proyectos";
+import projects from "../utils/projects";
 
 function Videos() {
   return (

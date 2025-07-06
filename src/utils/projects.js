@@ -1,5 +1,23 @@
 const projects = [
   {
+    id: 11,
+    name: "Brandon Castillo",
+    year: 2025,
+    month: "Feb",
+    author: "Brandon Castillo",
+    image:
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732610191/calles.png",
+    web: "https://brandon-castillo.vercel.app/",
+    youtube: "mOV8O6jPwC4",
+    video: "https://www.youtube.com/watch?v=mOV8O6jPwC4",
+    github: "http://github.com/pibelanzallamas/brandon-castillo",
+    description:
+      "My own personal website, where I talk about myself, my experience, and update my latest videos.",
+    descripcion:
+      "Mi sitio personal, donde hablo acerca de mi, mi experiencia y subo mis últimos videos.",
+    tags: ["react", "vite", "sass", "axios", "javascript"],
+  },
+  {
     id: 10,
     name: "Calles Construction",
     year: 2024,
