@@ -1,10 +1,10 @@
-/* Error: Undefined variable.
+/* Error: There is no module with the namespace "colors".
  *   ,
- * 7 |   background-color: $orange-peel
- *   |                     ^^^^^^^^^^^^
+ * 7 |   background-color: colors.$orange-peel
+ *   |                     ^^^^^^^^^^^^^^^^^^^
  *   '
- *   Navbar.sass 7:21  @forward
- *   app.sass 1:1      root stylesheet */
+ *   _navbar.sass 7:21  @forward
+ *   app.sass 2:1       root stylesheet */
 
 body::before {
   font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
@@ -14,5 +14,5 @@ body::before {
   padding: 1em;
   margin-bottom: 1em;
   border-bottom: 2px solid black;
-  content: "Error: Undefined variable.\a   \2577 \a 7 \2502    background-color: $orange-peel\a   \2502                      ^^^^^^^^^^^^\a   \2575 \a   Navbar.sass 7:21  @forward\a   app.sass 1:1      root stylesheet";
+  content: 'Error: There is no module with the namespace "colors".\a   \2577 \a 7 \2502    background-color: colors.$orange-peel\a   \2502                      ^^^^^^^^^^^^^^^^^^^\a   \2575 \a   _navbar.sass 7:21  @forward\a   app.sass 2:1       root stylesheet';
 }
