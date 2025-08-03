@@ -1,3 +1,5 @@
+@use "colors"
+  
 nav
   overflow-x: auto
   white-space: nowrap
@@ -5,11 +7,11 @@ nav
 
 .nav-light
   background-color: colors.$orange-peel
-  color: $blue-crayola
+  color: colors.$blue-crayola
 
 .nav-dark
-  background-color: $blue-crayola
-  color: $orange-peel
+  background-color: colors.$blue-crayola
+  color: colors.$orange-peel
   
 .links
   font-family: "2097"
@@ -25,12 +27,12 @@ nav
 .links-light
   a:hover, a:focus
     color: white
-    background-color: $blue-crayola
+    background-color: colors.$blue-crayola
     
 .links-dark
   a:hover, a:focus
-    color: $blue-crayola
-    background-color: $orange-peel
+    color: colors.$blue-crayola
+    background-color: colors.$orange-peel
     
 @media (min-width: 700px)
   nav

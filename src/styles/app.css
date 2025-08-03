@@ -1,18 +1,331 @@
-/* Error: There is no module with the namespace "colors".
- *   ,
- * 7 |   background-color: colors.$orange-peel
- *   |                     ^^^^^^^^^^^^^^^^^^^
- *   '
- *   _navbar.sass 7:21  @forward
- *   app.sass 2:1       root stylesheet */
-
-body::before {
-  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
-      "Droid Sans Mono", monospace, monospace;
-  white-space: pre;
-  display: block;
-  padding: 1em;
-  margin-bottom: 1em;
-  border-bottom: 2px solid black;
-  content: 'Error: There is no module with the namespace "colors".\a   \2577 \a 7 \2502    background-color: colors.$orange-peel\a   \2502                      ^^^^^^^^^^^^^^^^^^^\a   \2575 \a   _navbar.sass 7:21  @forward\a   app.sass 2:1       root stylesheet';
+nav {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 1rem;
 }
+
+.nav-light {
+  background-color: #ff9900;
+  color: #0575f5;
+}
+
+.nav-dark {
+  background-color: #0575f5;
+  color: #ff9900;
+}
+
+.links {
+  font-family: "2097";
+  font-size: 1.2rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+}
+.links a {
+  padding: 0.25rem 0.4rem;
+}
+.links a:hover, .links a:focus {
+  border-radius: 9px;
+}
+
+.links-light a:hover, .links-light a:focus {
+  color: white;
+  background-color: #0575f5;
+}
+
+.links-dark a:hover, .links-dark a:focus {
+  color: #0575f5;
+  background-color: #ff9900;
+}
+
+@media (min-width: 700px) {
+  nav {
+    padding: 1.4em 1rem;
+    overflow-x: hidden;
+  }
+  .links {
+    font-size: 1.8rem;
+    justify-content: space-around;
+  }
+}
+.cv {
+  margin-top: 1rem;
+  font-size: 0.25rem;
+}
+
+@media (min-width: 700px) {
+  .home-image {
+    aspect-ratio: 498/336;
+    height: 20rem;
+  }
+  .cv {
+    font-size: 1rem;
+  }
+}
+.project-page {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.project-image {
+  width: 100%;
+  aspect-ratio: 1278/741;
+}
+
+.project-description {
+  line-height: 150%;
+  font-size: 1.1rem;
+}
+
+.project-logos ul {
+  display: flex;
+  justify-content: space-around;
+}
+.project-logos li {
+  display: inline-block;
+}
+.project-logos img {
+  height: 4rem;
+}
+
+@media (min-width: 700px) {
+  .date {
+    font-size: 1.4rem;
+  }
+  .project-description {
+    font-size: 1.4rem;
+    width: 55vw;
+  }
+  .project-image {
+    margin: 0 auto;
+    width: 53vw;
+  }
+  .project-logos img {
+    height: 5rem;
+  }
+  .searchBar {
+    font-size: 1.3rem;
+  }
+}
+.one-video-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+@media (min-width: 700px) {
+  .one-video-card {
+    width: 500px;
+    max-width: 85%;
+  }
+}
+.profile-pic {
+  width: min(150px, 100%);
+  aspect-ratio: 1/1;
+  margin: 0 auto;
+  margin-top: -0.6rem;
+  margin-bottom: 0.6rem;
+}
+.profile-pic img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: #ff9900 5px double;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.profile-description {
+  font-size: 1.2rem;
+  line-height: 120%;
+}
+
+.lists {
+  font-size: 1.2rem;
+  line-height: 140%;
+  list-style: none;
+  margin-bottom: -0.3rem;
+}
+
+@media (min-width: 700px) {
+  .project-page {
+    width: 1000px;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .profile-pic {
+    width: min(220px, 100%);
+    margin-bottom: 1rem;
+  }
+  .profile-pic img {
+    border: #ff9900 10px double;
+  }
+  .profile-description {
+    font-size: 1.5rem;
+  }
+  .lists {
+    font-size: 1.5rem;
+  }
+}
+.contact-links-light {
+  font-size: 1.4rem;
+}
+.contact-links-light a:hover {
+  color: #e84855;
+  cursor: pointer;
+}
+
+.contact-links-dark {
+  font-size: 1.4rem;
+}
+.contact-links-dark a:hover {
+  color: #e2adf2;
+  cursor: pointer;
+}
+
+@media (min-width: 700px) {
+  .contact-links-light, .contact-links-dark {
+    font-size: 1.8rem;
+  }
+}
+footer {
+  text-align: center;
+}
+
+.star {
+  font-size: 2rem;
+}
+
+.botones {
+  font-size: 0.75rem;
+  padding-bottom: 1rem;
+}
+.botones button {
+  margin-right: 1rem;
+  font-family: amalgama;
+  background-color: transparent;
+  padding: 0.7rem;
+  border-radius: 1rem;
+}
+.botones button:hover {
+  cursor: pointer;
+}
+
+.botones-light button {
+  color: #0575f5;
+  border: #0575f5 1px solid;
+}
+.botones-light button:hover {
+  background-color: #0575f5;
+  color: white;
+}
+
+.botones-dark button {
+  color: #e84855;
+  border: #e84855 1px solid;
+}
+.botones-dark button:hover {
+  background-color: #e84855;
+  color: #403f4c;
+}
+
+@font-face {
+  font-family: "2097";
+  src: url("../assets/fonts/2097.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "amalgama";
+  src: url("../assets/fonts/Amalgama.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "future";
+  src: url("../assets/fonts/FUTURE.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+* a {
+  color: inherit;
+  text-decoration: none;
+}
+* a:visited {
+  color: inherit;
+}
+* p {
+  letter-spacing: 1px;
+}
+
+.full-app {
+  display: flex;
+  flex-direction: column;
+  font-family: "amalgama";
+  min-height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 1rem;
+}
+
+.light-mode {
+  background-image: linear-gradient(to bottom, #71C1FB, #F9B9F2);
+  color: #0575f5;
+}
+.light-mode h2 {
+  font-size: 1.3rem;
+  color: #e84855;
+}
+
+.dark-mode {
+  background-image: linear-gradient(to bottom, #5158BB, #043565);
+  color: #e84855;
+}
+.dark-mode h2 {
+  font-size: 1.3rem;
+  color: #e2adf2;
+}
+
+.top {
+  margin-top: 1rem;
+}
+
+.image img {
+  height: 100%;
+  width: 100%;
+  border: #ff9900 4px solid;
+}
+
+.youtube-lite {
+  border: #ff9900 4px solid;
+}
+
+@media (min-width: 700px) {
+  main {
+    align-items: center;
+    text-align: center;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  .light-mode h2, .dark-mode h2 {
+    font-size: 1.7rem;
+  }
+}
+
+/*# sourceMappingURL=app.css.map */
