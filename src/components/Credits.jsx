@@ -17,14 +17,14 @@ function Credits() {
   return (
     <footer>
       <p className="star">✨</p>
-      <p className="credits top">
+      <p className="credits">
         {lan
-          ? "Hecho por Brandon Castillo 🔥"
-          : "Made by Brandon Castillo 🔥"}
+          ? "Hecho con ❤️ por Brandon Castillo 🔥"
+          : "Made with ❤️ by Brandon Castillo 🔥"}
       </p>
       <div
         className={
-          dark ? "botones botones-dark top" : "botones botones-light top"
+          dark ? "botones botones-dark credits" : "botones botones-light credits"
         }
       >
         <button

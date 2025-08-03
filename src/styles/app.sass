@@ -41,27 +41,27 @@
   display: flex
   flex-direction: column
   font-family: "amalgama"
-  min-height: 100vh
-
-main
-  display: flex
-  flex-direction: column
-  flex: 1
-  padding: 1rem
+  min-height: 90vh
 
 .light-mode
-  background-image: linear-gradient(to bottom, #71C1FB, #F9B9F2)
+  background-color: #71C1FB
   color: colors.$blue-crayola
   h2
     font-size: 1.3rem
     color: colors.$red-crayola
 
 .dark-mode
-  background-image: linear-gradient(to bottom, #5158BB, #043565)
+  background-color: #5158BB
   color: colors.$red-crayola
   h2
     font-size: 1.3rem
     color: colors.$mauve
+
+main
+  display: flex
+  flex-direction: column
+  padding: 1rem
+  gap: 0.5rem
 
 .top
   margin-top: 1rem

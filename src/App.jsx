@@ -22,6 +22,7 @@ function App() {
         <Route path="/videos" element={<Videos />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+      <div style={{flex:"1"}}></div>
       <Credits />
     </div>
   );

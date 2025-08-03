@@ -18,17 +18,18 @@ function Home() {
       </h2>
       <figure
         className="image home-image"
-        style={{ marginTop: "2rem" }}
+        style={{ marginTop: "1rem" }}
       >
         <img src={"https://res.cloudinary.com/daynclfo8/image/upload/v1750214239/home-DVjisMa3_vjhyzx.gif"} loading="lazy" alt="ed-riding-bike"></img>
       </figure>
-      <div className={dark ? "contact-links-dark cv" : "contact-links-light cv"}>
+      <div className={dark ? "contact-links-dark" : "contact-links-light"}>
         <a
           href={esp ? cv.link : cv.link2}
           target="_blank"
           rel="noopener noreferrer"
+          className="cv"
         >
-          {esp ? <>Descargar CV</> : <>Download CV</>}
+          {esp ? <>Descargar CV 📋</> : <>Download CV 📋</>}
         </a>
       </div>
     </main>

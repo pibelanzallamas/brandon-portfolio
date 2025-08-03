@@ -49,8 +49,7 @@ nav {
   }
 }
 .cv {
-  margin-top: 1rem;
-  font-size: 0.25rem;
+  text-align: center;
 }
 
 @media (min-width: 700px) {
@@ -196,15 +195,23 @@ section {
 }
 footer {
   text-align: center;
+  padding: 0 1rem 1rem 1rem;
+  border: 1px solid red;
 }
 
 .star {
   font-size: 2rem;
+  padding: 0;
+  border: 1px solid blue;
+}
+
+.credits {
+  border: 1px solid blue;
+  margin-top: 0.5rem;
 }
 
 .botones {
   font-size: 0.75rem;
-  padding-bottom: 1rem;
 }
 .botones button {
   margin-right: 1rem;
@@ -273,18 +280,11 @@ footer {
   display: flex;
   flex-direction: column;
   font-family: "amalgama";
-  min-height: 100vh;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  padding: 1rem;
+  min-height: 90vh;
 }
 
 .light-mode {
-  background-image: linear-gradient(to bottom, #71C1FB, #F9B9F2);
+  background-color: #71C1FB;
   color: #0575f5;
 }
 .light-mode h2 {
@@ -293,12 +293,19 @@ main {
 }
 
 .dark-mode {
-  background-image: linear-gradient(to bottom, #5158BB, #043565);
+  background-color: #5158BB;
   color: #e84855;
 }
 .dark-mode h2 {
   font-size: 1.3rem;
   color: #e2adf2;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 0.5rem;
 }
 
 .top {
