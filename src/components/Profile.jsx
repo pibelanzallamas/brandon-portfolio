@@ -6,21 +6,22 @@ function Profile() {
   return (
     <main className="project-page">
       <h1>{esp ? <>Perfil</> : <>Profile</>}</h1>
+      <div className="profile-pic center">
+        <img src={"https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1750214101/pp-sin-fondo_t4p1qz.png"} loading="lazy" alt="profile-pic"></img>
+      </div>
       <section>
-        <div className="profile-pic center">
-          <img src={"https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1750214101/pp-sin-fondo_t4p1qz.png"} loading="lazy" alt="profile-pic"></img>
-        </div>
         <h2>bio</h2>
         <p className="profile-description">
           {esp ? (
             <>
               Nací en Argentina. Tengo una pasión por el diseño y la innovación.
-              Aprecio el valor de los productos bien elaborados.
+              {/* Aprecio el valor de los productos bien elaborados. */}
+              Aprecio el valor de los buenos productos.
             </>
           ) : (
             <>
-              I was born in Argentina. I have a passion for design and
-              innovation. I appreciate the value of well-crafted products.
+              I was born in Argentina. I have a passion for design and innovation. 
+              I appreciate the value of well-crafted products.
             </>
           )}
         </p>

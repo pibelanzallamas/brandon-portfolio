@@ -6,10 +6,10 @@ const projects = [
     month: "Feb",
     author: "Brandon Castillo",
     image:
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732610191/calles.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1754251248/2025-08-03_17-00_hns8sk.png",
     web: "https://brandon-castillo.vercel.app/",
-    youtube: "mOV8O6jPwC4",
-    video: "https://www.youtube.com/watch?v=mOV8O6jPwC4",
+    youtube: "wb4fpWTEs9M",
+    video: "https://www.youtube.com/watch?v=wb4fpWTEs9M",
     github: "http://github.com/pibelanzallamas/brandon-castillo",
     description:
       "My own personal website, where I talk about myself, my experience, and update my latest videos.",

@@ -19,8 +19,8 @@ function Credits() {
       <p className="star">✨</p>
       <p className="credits">
         {lan
-          ? "Hecho con ❤️ por Brandon Castillo 🔥"
-          : "Made with ❤️ by Brandon Castillo 🔥"}
+          ? "Hecho con ❤️ por Brandon Castillo 🏰"
+          : "Made with ❤️ by Brandon Castillo 🏰"}
       </p>
       <div
         className={
