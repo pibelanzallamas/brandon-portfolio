@@ -21,7 +21,7 @@ function Footer() {
       {/* BOTONES */}
       <div
         className={
-          dark ? "botones botones-dark" : "botones botones-light"
+          dark ? "botones-footer botones-footer-dark" : "botones-footer botones-footer-light"
         }
       >
         {/* THEME */}
