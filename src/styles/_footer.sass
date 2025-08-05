@@ -3,20 +3,22 @@
 footer
   text-align: center  
   padding: 0 1rem 1rem 1rem
+  display: flex
+  flex-direction: column
+  gap: 0.5rem
 
 .star
   font-size: 2rem
 
 .credits
-  margin-top: 0.5rem
+  padding: 0 1rem
 
 .botones
-  font-size: 0.75rem
   button
     margin-right: 1rem
     font-family: amalgama
     background-color: transparent
-    padding: 0.7rem
+    padding: 0.4rem 0.6rem
     border-radius: 1rem
   button:hover
     cursor: pointer
@@ -31,8 +33,9 @@ footer
 
 .botones-dark
   button
+    padding: 0.3rem 0.4rem 0.1rem 0.4rem
     color: colors.$red-crayola
-    border: colors.$red-crayola 1px solid
+    border: colors.$lavender-web-3 1px solid
   button:hover
     background-color: colors.$red-crayola
     color: colors.$onyx

@@ -64,7 +64,6 @@ nav {
 .project-page {
   display: flex;
   flex-direction: column;
-  gap: 1rem;
 }
 
 .project-image {
@@ -196,6 +195,9 @@ section {
 footer {
   text-align: center;
   padding: 0 1rem 1rem 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
 .star {
@@ -203,17 +205,14 @@ footer {
 }
 
 .credits {
-  margin-top: 0.5rem;
+  padding: 0 1rem;
 }
 
-.botones {
-  font-size: 0.75rem;
-}
 .botones button {
   margin-right: 1rem;
   font-family: amalgama;
   background-color: transparent;
-  padding: 0.7rem;
+  padding: 0.4rem 0.6rem;
   border-radius: 1rem;
 }
 .botones button:hover {
@@ -230,8 +229,9 @@ footer {
 }
 
 .botones-dark button {
+  padding: 0.3rem 0.4rem 0.1rem 0.4rem;
   color: #e84855;
-  border: #e84855 1px solid;
+  border: #414042 1px solid;
 }
 .botones-dark button:hover {
   background-color: #e84855;

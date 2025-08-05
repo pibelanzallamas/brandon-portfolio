@@ -29,7 +29,7 @@ function Home() {
           rel="noopener noreferrer"
           className="cv"
         >
-          {esp ? <>Descargar CV 📋</> : <>Download CV 📋</>}
+          {esp ? <>Descargar CV 📄</> : <>Download CV 📄</>}
         </a>
       </div>
     </main>

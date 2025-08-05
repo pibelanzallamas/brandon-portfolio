@@ -2,7 +2,7 @@ import { useSelector, useDispatch } from "react-redux";
 import { setTheme } from "../state/theme";
 import { setLang } from "../state/lang";
 
-function Credits() {
+function Footer() {
   const dark = useSelector((state) => state.theme.dark);
   const lan = useSelector((state) => state.lang.esp);
   const dispatch = useDispatch();
@@ -16,17 +16,15 @@ function Credits() {
 
   return (
     <footer>
+      {/* BRILLO */}
       <p className="star">✨</p>
-      <p>
-        {lan
-          ? "Hecho con ❤️ por Brandon Castillo 🏰"
-          : "Made with ❤️ by Brandon Castillo 🏰"}
-      </p>
+      {/* BOTONES */}
       <div
         className={
-          dark ? "botones botones-dark credits" : "botones botones-light credits"
+          dark ? "botones botones-dark" : "botones botones-light"
         }
       >
+        {/* THEME */}
         <button
           onClick={() => {
             dispatch(setTheme(!dark));
@@ -34,9 +32,9 @@ function Credits() {
         >
           {lan ? (dark ? "Claro" : "Oscuro") : dark ? "Light" : "Dark"}
         </button>
-
+        {/* TOP */}
         <button onClick={scrollToTop}>Top</button>
-
+        {/* ESP/ENG */}
         <button
           onClick={() => {
             dispatch(setLang(!lan));
@@ -45,8 +43,14 @@ function Credits() {
           {lan ? "Eng" : "Esp"}
         </button>
       </div>
+      {/* CREDITS */}
+      <p className="credits">
+        {lan
+          ? "Hecho con ❤️ por Brandon 🏰"
+          : "Made with ❤️ by Brandon 🏰"}
+      </p>
     </footer>
   );
 }
 
-export default Credits;
+export default Footer;

@@ -6,7 +6,7 @@ function Profile() {
   return (
     <main className="project-page">
       <h1>{esp ? <>Perfil</> : <>Profile</>}</h1>
-      <div className="profile-pic center">
+      <div className="profile-pic center top">
         <img src={"https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1750214101/pp-sin-fondo_t4p1qz.png"} loading="lazy" alt="profile-pic"></img>
       </div>
       <section>

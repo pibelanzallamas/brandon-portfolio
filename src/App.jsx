@@ -7,7 +7,7 @@ import Videos from "./components/Videos";
 import Contact from "./components/Contact";
 import "./styles/app.css";
 import { useSelector } from "react-redux";
-import Credits from "./components/Credits";
+import Footer from "./components/Footer";
 
 function App() {
   const dark = useSelector((state) => state.theme.dark);
@@ -23,7 +23,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <div style={{flex:"1"}}></div>
-      <Credits />
+      <Footer />
     </div>
   );
 }
