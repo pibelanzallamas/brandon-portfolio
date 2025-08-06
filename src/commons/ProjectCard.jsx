@@ -6,33 +6,24 @@ function ProjectCard({ project }) {
   const dark = useSelector((state) => state.theme.dark);
 
   return (
-    <div>
-      {/* titulo */}
+    <div className="one-project-card">
       <h2>
         <u>{project.name}</u>
       </h2>
-
-      {/* fecha */}
-      <p className="date top">
+      <p className="date">
         {project.month} {project.year}
       </p>
-
-      {/* imagen */}
-      <figure className="image project-image top">
+      <figure className="image project-image">
         <img
           src={project.image}
           loading="lazy"
           alt={project.name + " imagen"}
         ></img>
       </figure>
-
-      {/* descripción */}
-      <p className="project-description top">
+      <p className="project-description">
         {esp ? project.descripcion : project.description}
       </p>
-
-      {/* links */}
-      <div className="project-logos top">
+      <div className="project-logos">
         <ul>
           <li>
             <a href={project.web} target="_blank" rel="noopener noreferrer">

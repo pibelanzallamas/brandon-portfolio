@@ -1,7 +1,7 @@
 const projects = [
   {
     id: 11,
-    name: "Brandon Castillo",
+    name: "Brandon Castillo Web",
     year: 2025,
     month: "Feb",
     author: "Brandon Castillo",
@@ -53,16 +53,16 @@ const projects = [
   },
   {
     id: 8,
-    name: "Mood Checker",
+    name: "Your Mood",
     year: 2024,
     month: "Jul",
     author: "Brandon Castillo",
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749922322/2025-06-14_14-31_hxnue7.png",
-    web: "https://mood-checker.vercel.app/",
+    web: "https://your-mood.vercel.app/",
     youtube: "AoEKSxLDWao",
     video: "https://www.youtube.com/watch?v=AoEKSxLDWao",
-    github: "http://github.com/pibelanzallamas/mood-checker",
+    github: "http://github.com/pibelanzallamas/your-mood",
     description: "Website for recommending music based on your mood.",
     descripcion: "Sitio web que te recomienda musica segun tu estado de animo.",
     tags: ["react", "vite", "sass", "axios", "javascript"],
@@ -76,8 +76,8 @@ const projects = [
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749922540/2025-06-14_14-35_yit3uy.png",
     web: "https://youfast.vercel.app/",
-    youtube: "BS2Nkpwd1Hw",
-    video: "https://www.youtube.com/watch?v=BS2Nkpwd1Hw",
+    youtube: "lVOHTdXnGaI",
+    video: "https://www.youtube.com/watch?v=lVOHTdXnGaI",
     github: "http://github.com/pibelanzallamas/youfast",
     description: "Youtube song searcher for elders.",
     descripcion: "Buscador de Youtube más simplificado.",

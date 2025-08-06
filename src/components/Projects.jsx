@@ -20,39 +20,11 @@ function Projects() {
   }, [input]);
 
   return (
-    <main className="project-page">
+    <main className="videos-page">
       <h1>{esp ? <>proyectos</> : <>projects</>}</h1>
-      {/* <form>
-          <label>
-            {esp ? "Selecione una tecnología" : "Select a technology"}
-            <input
-              placeholder={
-                esp ? "Ingrese una tecnología" : "Enter a technology"
-              }
-              value={input}
-              onChange={handleSearch}
-              className="searchBar top"
-              list="frameworks"
-            ></input>
-          </label>
-          <datalist id="frameworks">
-            <option value="React"></option>
-            <option value="Sass"></option>
-            <option value="Node"></option>
-            <option value="Express"></option>
-            <option value="Postgres"></option>
-          </datalist>
-        </form> */}
-
-      {!input ? (
-        projects.map((project) => <ProjectCard {...{ project }} />)
-      ) : (
-        <>
-          {resultados.map((project) => (
-            <ProjectCard {...{ project }} />
-          ))}
-        </>
-      )}
+        {resultados.map((project) => (
+          <ProjectCard {...{ project }} />
+        ))}
     </main>
   );
 }
