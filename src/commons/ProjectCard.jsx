@@ -50,7 +50,7 @@ function ProjectCard({ project }) {
                 ></img>
               ) : (
                 <img
-                  src="https://res.cloudinary.com/daynclfo8/image/upload/v1730126353/gh-dark_zahq0e.png"
+                  src="https://res.cloudinary.com/daynclfo8/image/upload/v1730126357/gh-light_seldpl.png"
                   alt={"logo-github"}
                 ></img>
               )}
