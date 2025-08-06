@@ -62,7 +62,7 @@ nav {
     height: 20rem;
   }
   .cv {
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
 }
 .one-project-card {
@@ -102,7 +102,7 @@ nav {
   }
   .project-image {
     margin: 0 auto;
-    width: 53vw;
+    width: 43vw;
   }
   .project-logos img {
     height: 5rem;
