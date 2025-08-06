@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
-import cv_esp from "../assets/cv/Brandon_Castillo.pdf";
-import cv_eng from "../assets/cv/Brandon_Castillo_Resume.pdf";
+import cv_esp from "../assets/cv/Brandon Castillo.pdf";
+import cv_eng from "../assets/cv/Brandon Castillo Resume.pdf";
 
 function Home() {
   const esp = useSelector((state) => state.lang.esp);
