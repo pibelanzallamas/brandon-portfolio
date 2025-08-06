@@ -1,6 +1,6 @@
 import { useSelector } from "react-redux";
-import cv_esp from "../assets/cv/cv_esp.pdf";
-import cv_eng from "../assets/cv/cv_eng.pdf";
+import cv_esp from "../assets/cv/Brandon_Castillo.pdf";
+import cv_eng from "../assets/cv/Brandon_Castillo_Resume.pdf";
 
 function Home() {
   const esp = useSelector((state) => state.lang.esp);
@@ -12,9 +12,9 @@ function Home() {
 
   return (
     <main>
-      <h1>brandon castillo</h1>
+      <h1><a className="name" href="https://linkedin.com/in/brandon-castillo-dev" target="_blank">brandon castillo</a></h1>
       <h2>
-        <u>{esp ? <>Desarrollador Full Stack</> : <>Full Stack Developer</>}</u>
+        <a className="name"  href="https://api.constata.eu/certificate/research+riding+veal+bonfire+dedicator" target="_blank">{esp ? <>Desarrollador Full Stack</> : <>Full Stack Developer</>}</a>
       </h2>
       <figure
         className="image home-image"

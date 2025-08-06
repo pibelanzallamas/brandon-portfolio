@@ -48,6 +48,10 @@ nav {
     justify-content: space-around;
   }
 }
+.name:hover {
+  text-decoration: underline;
+}
+
 .cv {
   text-align: center;
 }
@@ -158,7 +162,7 @@ section {
     margin: 0 auto;
   }
   .profile-pic {
-    width: min(220px, 100%);
+    width: min(240px, 100%);
     margin-bottom: 1rem;
   }
   .profile-pic img {
@@ -281,7 +285,7 @@ footer {
   display: flex;
   flex-direction: column;
   font-family: "amalgama";
-  min-height: 90vh;
+  min-height: 100vh;
 }
 
 .light-mode {
