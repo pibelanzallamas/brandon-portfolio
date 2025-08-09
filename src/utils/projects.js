@@ -165,7 +165,7 @@ const projects = [
     author: "Brandon Castillo",
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732567910/crib.png",
-    web: "https://my-movie-crib-front.vercel.app/1",
+    web: "https://my-movie-crib.vercel.app/1",
     youtube: "j-qgyoaeJN4",
     video: "https://www.youtube.com/watch?v=j-qgyoaeJN4",
     github: "https://github.com/pibelanzallamas/my-movie-crib-front",
