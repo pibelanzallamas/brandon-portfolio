@@ -11,7 +11,7 @@ function Videos() {
           <iframe 
             width="560" 
             height="280" 
-            src={`https://www.youtube-nocookie.com/embed/${project.youtube}?autoplay=0&rel=0`}
+            src={`https://www.youtube-nocookie.com/embed/${project.youtube}?autoplay=1&mute=1&rel=0`}
             frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen
