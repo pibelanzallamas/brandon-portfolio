@@ -1,5 +1,4 @@
 import projects from "../utils/projects";
-import '@justinribeiro/lite-youtube';
 
 function Videos() {
   return (
