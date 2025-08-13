@@ -14,7 +14,7 @@ function Videos() {
             src={`https://www.youtube-nocookie.com/embed/${project.youtube}?autoplay=1&mute=1&rel=0`}
             frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowfullscreen
+            allowFullScreen
             loading="lazy">
           </iframe>
         </div>
