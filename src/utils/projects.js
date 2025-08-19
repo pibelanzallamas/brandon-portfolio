@@ -119,8 +119,8 @@ const projects = [
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1740082053/Captura_de_Pantalla_2025-02-20_a_la_s_17.06.43_vg9yro.png",
     darkimage: "/projects-img/dp/dreamer-paintings-dark.png",
     web: "https://dreamer-paintings.vercel.app",
-    youtube: "onv0uQ7Y_1I",
-    video: "https://www.youtube.com/watch?v=onv0uQ7Y_1I",
+    youtube: "ihcTIHnBINU",
+    video: "https://www.youtube.com/watch?v=ihcTIHnBINU",
     github: "https://github.com/pibelanzallamas/dreamers-paintings",
     description:
       "Exploratory and informative website showcasing the paintings of a talented friend from the city of Buenos Aires.",
