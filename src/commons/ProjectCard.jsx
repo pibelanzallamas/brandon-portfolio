@@ -13,7 +13,7 @@ function ProjectCard({ project }) {
       <p className="date">
         {project.month} {project.year}
       </p>
-       <div className="youtube-lite">
+       {/* <div className="youtube-lite"> */}
           <iframe 
             width="560" 
             height="280" 
@@ -23,7 +23,7 @@ function ProjectCard({ project }) {
             allowFullScreen
             loading="lazy">
           </iframe>
-      </div>
+      {/* </div> */}
       {/* <figure className="image project-image">
         <img
           src={project.image}
