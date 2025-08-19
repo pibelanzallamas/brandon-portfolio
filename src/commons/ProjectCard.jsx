@@ -15,8 +15,8 @@ function ProjectCard({ project }) {
       </p>
        <div className="youtube-lite">
           <iframe 
-            width="1278" 
-            height="741" 
+            width="560" 
+            height="280" 
             src={`https://www.youtube-nocookie.com/embed/${project.youtube}?autoplay=1&mute=1&rel=0&loop=1&playlist=${project.youtube}`}
             frameborder="0" 
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
