@@ -83,7 +83,7 @@ nav {
 
 .project-logos ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 .project-logos li {
   display: inline-block;
@@ -120,7 +120,9 @@ nav {
   flex-direction: column;
   gap: 0.5rem;
 }
-.one-video-card iframe {
+
+iframe {
+  border: #ff9900 4px solid;
   width: 100%;
   height: 210px;
   display: block;
@@ -134,9 +136,10 @@ nav {
     width: 500px;
     max-width: 85%;
   }
-  .one-video-card iframe {
-    width: 100%;
-    height: 280px;
+  iframe {
+    margin: 0 auto;
+    width: 90%;
+    height: 380px;
   }
 }
 .profile-page {
@@ -281,6 +284,18 @@ footer {
 @font-face {
   font-family: "future";
   src: url("../assets/fonts/FUTURE.otf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "planetk";
+  src: url("../assets/fonts/planetk.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "popstar";
+  src: url("../assets/fonts/popstar.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }

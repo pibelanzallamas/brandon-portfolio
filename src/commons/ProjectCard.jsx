@@ -13,19 +13,15 @@ function ProjectCard({ project }) {
       <p className="date">
         {project.month} {project.year}
       </p>
-       {/* <div className="youtube-lite"> */}
-       <div style={{margin: "0 auto"}}>
-          <iframe 
-            width="560" 
-            height="280" 
-            src={`https://www.youtube-nocookie.com/embed/${project.youtube}?autoplay=1&mute=1&rel=0&loop=1&playlist=${project.youtube}`}
-            frameborder="0" 
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-            allowFullScreen
-            loading="lazy">
-          </iframe>
-          </div>
-      {/* </div> */}
+      <iframe 
+        // width="560" 
+        // height="280" 
+        src={`https://www.youtube-nocookie.com/embed/${project.youtube}?autoplay=1&mute=1&rel=0&loop=1&playlist=${project.youtube}`}
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowFullScreen
+        loading="lazy">
+      </iframe>
       {/* <figure className="image project-image">
         <img
           src={project.image}
