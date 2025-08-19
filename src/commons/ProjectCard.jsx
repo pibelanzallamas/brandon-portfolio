@@ -30,6 +30,7 @@ function ProjectCard({ project }) {
               <img
                 src={webl}
                 alt={"logo-web"}
+                title={esp?"Ir a sitio web!":"Go to website!"}
               ></img>
             </a>
           </li>
@@ -38,22 +39,17 @@ function ProjectCard({ project }) {
               <img
                 src="https://res.cloudinary.com/daynclfo8/image/upload/v1730126279/yt_wqsngf.png"
                 alt={"logo-youtube"}
+                title={esp?"Ir al video!":"Go to video!"}
               ></img>
             </a>
           </li>
           <li>
             <a href={project.github} target="_blank" rel="noopener noreferrer">
-              {dark ? (
-                <img
-                  src="https://res.cloudinary.com/daynclfo8/image/upload/v1730126357/gh-light_seldpl.png"
-                  alt={"logo-github"}
-                ></img>
-              ) : (
-                <img
-                  src="https://res.cloudinary.com/daynclfo8/image/upload/v1730126357/gh-light_seldpl.png"
-                  alt={"logo-github"}
-                ></img>
-              )}
+              <img
+                src="https://res.cloudinary.com/daynclfo8/image/upload/v1730126357/gh-light_seldpl.png"
+                alt={"logo-github"}
+                title="GitHub!"
+              ></img>
             </a>
           </li>
         </ul>
