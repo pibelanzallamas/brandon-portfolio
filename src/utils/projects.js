@@ -12,9 +12,9 @@ const projects = [
     video: "https://www.youtube.com/watch?v=wb4fpWTEs9M",
     github: "http://github.com/pibelanzallamas/brandon-castillo",
     description:
-      "My own personal website, where I talk about myself, my experience, and update my latest videos.",
+      "My personal website, where I talk about my experience, education and little about myself.",
     descripcion:
-      "Mi sitio personal, donde hablo acerca de mi, mi experiencia y subo mis últimos videos.",
+      "Mi sitio personal, donde hablo acerca de mi experiencia, educación y un poco sobre mi.",
     tags: ["react", "vite", "sass", "axios", "javascript"],
   },
   {
@@ -30,9 +30,9 @@ const projects = [
     video: "https://www.youtube.com/watch?v=mOV8O6jPwC4",
     github: "http://github.com/pibelanzallamas/calles-construction",
     description:
-      "Web site to showcase Calle's Construction different works, from drywall, to electricity, allows to upload jobs with details and images.",
+      "Website built for the construction company Calle's Construction, located in New York City.",
     descripcion:
-      "Sitio web explorador e informativo de los trabajos realizados por la empresa de construccion Calle's Construction ubicada en New Jersey, permite agregar trabajos con detalle e imagenes.",
+      "Sitio web realizado para la empresa de construccion Call'es Construction ubicada en la ciudad de New York.",
     tags: ["react", "vite", "sass", "axios", "javascript"],
   },
   {
@@ -47,8 +47,8 @@ const projects = [
     youtube: "NEzQ7VnWCLI",
     video: "https://www.youtube.com/watch?v=NEzQ7VnWCLI",
     github: "http://github.com/pibelanzallamas/givemeayugiohcard",
-    description: "Get a Yu-Gi-Oh! card.",
-    descripcion: "Obtene un carta Yu-Gi-Oh!",
+    description: "Get a random Yu-Gi-Oh! card.",
+    descripcion: "Obtené una carta Yu-Gi-Oh! aleatoria.",
     tags: ["react", "vite", "sass", "axios", "javascript"],
   },
   {
@@ -64,7 +64,7 @@ const projects = [
     video: "https://www.youtube.com/watch?v=AoEKSxLDWao",
     github: "http://github.com/pibelanzallamas/your-mood",
     description: "Website for recommending music based on your mood.",
-    descripcion: "Sitio web que te recomienda musica segun tu estado de animo.",
+    descripcion: "Sitio web que recomienda música según tu estado de animo.",
     tags: ["react", "vite", "sass", "axios", "javascript"],
   },
   {
