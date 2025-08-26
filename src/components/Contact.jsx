@@ -1,4 +1,3 @@
-import React from "react";
 import links from "../utils/redes-sociales";
 import ContactCard from "../commons/ContactCard";
 import { useSelector } from "react-redux";
