@@ -8,7 +8,9 @@ function ProjectCard({ project }) {
   return (
     <div className="one-project-card">
       <h2>
-        <u>{project.name}</u>
+        <a href={project.web} target="_blank" rel="noopener noreferrer">
+          <u>{project.name}</u>
+        </a>
       </h2>
       <p className="date">
         {project.month} {project.year}
@@ -34,24 +36,6 @@ function ProjectCard({ project }) {
       </p>
       <div className="project-logos">
         <ul>
-          <li>
-            <a href={project.web} target="_blank" rel="noopener noreferrer">
-              <img
-                src={webl}
-                alt={"logo-web"}
-                title={esp?"Ir a sitio web!":"Go to website!"}
-              ></img>
-            </a>
-          </li>
-          <li>
-            <a href={project.video} target="_blank" rel="noopener noreferrer">
-              <img
-                src="https://res.cloudinary.com/daynclfo8/image/upload/v1730126279/yt_wqsngf.png"
-                alt={"logo-youtube"}
-                title={esp?"Ir al video!":"Go to video!"}
-              ></img>
-            </a>
-          </li>
           <li>
             <a href={project.github} target="_blank" rel="noopener noreferrer">
               <img
