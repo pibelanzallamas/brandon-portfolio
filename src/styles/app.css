@@ -92,6 +92,10 @@ nav {
   height: 4rem;
 }
 
+.repo-emoji {
+  font-size: 3rem;
+}
+
 @media (min-width: 700px) {
   .date {
     font-size: 1.4rem;

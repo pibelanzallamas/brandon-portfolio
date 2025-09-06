@@ -9,7 +9,7 @@ function ProjectCard({ project }) {
     <div className="one-project-card">
       <h2>
         <a href={project.web} target="_blank" rel="noopener noreferrer">
-          <u>{project.name}</u>
+          🔗 <u>{project.name}</u> 🌎
         </a>
       </h2>
       <p className="date">
@@ -34,18 +34,12 @@ function ProjectCard({ project }) {
       <p className="project-description">
         {esp ? project.descripcion : project.description}
       </p>
-      <div className="project-logos">
-        <ul>
-          <li>
-            <a href={project.github} target="_blank" rel="noopener noreferrer">
-              <img
-                src="https://res.cloudinary.com/daynclfo8/image/upload/v1730126357/gh-light_seldpl.png"
-                alt={"logo-github"}
-                title="GitHub!"
-              ></img>
+      <div className="project-logos repo-emoji">
+       
+            <a href={project.github} target="_blank" rel="noopener noreferrer"> 
+              📁
             </a>
-          </li>
-        </ul>
+       
       </div>
       {/* <br /> */}
     </div>
