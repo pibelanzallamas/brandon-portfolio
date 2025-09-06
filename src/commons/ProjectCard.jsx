@@ -35,11 +35,9 @@ function ProjectCard({ project }) {
         {esp ? project.descripcion : project.description}
       </p>
       <div className="project-logos repo-emoji">
-       
-            <a href={project.github} target="_blank" rel="noopener noreferrer"> 
-              📁
-            </a>
-       
+        <a href={project.github} target="_blank" rel="noopener noreferrer" title="GitHub!">
+          📁
+        </a>
       </div>
       {/* <br /> */}
     </div>
