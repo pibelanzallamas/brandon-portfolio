@@ -1,5 +1,9 @@
 const links = [
   {
+    name: "Gmail",
+    link: "mailto:brancastillo.developer@gmail.com"
+  },
+  {
     name: "Github",
     link: "https://github.com/pibelanzallamas",
   },
@@ -18,10 +22,6 @@ const links = [
   {
     name: "Discord",
     link: "https://discordapp.com/users/1363126156378771456"
-  },
-  {
-    name: "Gmail",
-    link: "mailto:brancastillo.developer@gmail.com"
   },
   {
     name: "Letterbox",
