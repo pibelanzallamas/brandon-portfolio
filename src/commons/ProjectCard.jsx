@@ -24,17 +24,10 @@ function ProjectCard({ project }) {
         allowFullScreen
         loading="lazy">
       </iframe>
-      {/* <figure className="image project-image">
-        <img
-          src={project.image}
-          loading="lazy"
-          alt={project.name + " imagen"}
-        ></img>
-      </figure> */}
-      <p className="project-description">
+      <p style={{textAlign:"center"}} className="project-description">
         {esp ? project.descripcion : project.description} 
       </p>
-      <div className="repo-emoji">
+      <div className="repo-emoji" style={{textAlign:"center"}}>
         <a href={project.github} target="_blank" rel="noopener noreferrer" title="GitHub!">
           📁
         </a>

@@ -22,7 +22,7 @@ function Home() {
       >
         <img src={"https://res.cloudinary.com/daynclfo8/image/upload/v1750214239/home-DVjisMa3_vjhyzx.gif"} loading="lazy" alt="ed-riding-bike"></img>
       </figure>
-      <div className={dark ? "contact-links-dark" : "contact-links-light"}>
+      <div style={{textAlign: "center"}} className={dark ? "contact-links-dark" : "contact-links-light"}>
         <a
           href={esp ? cv.link : cv.link2}
           target="_blank"
