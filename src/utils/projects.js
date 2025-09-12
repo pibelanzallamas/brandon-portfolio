@@ -12,9 +12,9 @@ const projects = [
     video: "https://www.youtube.com/watch?v=wb4fpWTEs9M",
     github: "http://github.com/pibelanzallamas/brandon-castillo",
     description:
-      "My personal website, where I talk about my experience, education and little about myself.",
+      "My personal website, where I talk little about myself about my experience and education.",
     descripcion:
-      "Mi sitio personal, donde hablo acerca de mi experiencia, educación y un poco sobre mi.",
+      "Mi sitio personal donde hablo un poco sobre mi, acerca de mi experiencia y educación.",
     tags: ["react", "vite", "sass", "axios", "javascript"],
   },
   {
@@ -94,8 +94,8 @@ const projects = [
     youtube: "bb8RomFHFdg",
     video: "https://www.youtube.com/watch?v=bb8RomFHFdg",
     github: "https://github.com/pibelanzallamas/carbon-copy",
-    description: "Application to edit and export code to PNG images.",
-    descripcion: "Aplicación para editar y exportar código a imágenes PNG.",
+    description: "Web application to edit and export code to PNG images.",
+    descripcion: "Aplicación web para editar y exportar código a imágenes PNG.",
     tags: [
       "react",
       "redux",
@@ -123,9 +123,9 @@ const projects = [
     video: "https://www.youtube.com/watch?v=ihcTIHnBINU",
     github: "https://github.com/pibelanzallamas/dreamers-paintings",
     description:
-      "Exploratory and informative website showcasing the paintings of a talented friend from the city of Buenos Aires.",
+      "Web site made for Dreamer Paintings, abstract paintings artist from Buenos Aires.",
     descripcion:
-      "Sitio web explorador e informativo de las pinturas de un talentoso amigo, de la ciudad de Buenos Aires.",
+      "Sitio web para Dreamer Paintings, pinturas abstractas de la Ciudad de Buenos Aires.",
     tags: ["react", "redux", "sass", "vite", "javascript", "html", "css"],
   },
   {
@@ -200,7 +200,7 @@ const projects = [
     description:
       "Little project that includes a mixtape of ps1 videogames, breakcore music and live nineties bands.",
     descripcion:
-      "Pequeño proyecto que incluye una mezcla de videojuegos de PS1, música breakcore y bandas de los noventa",
+      "Pequeño proyecto que incluye una mezcla de videojuegos de psx, música breakcore y presentaciones de bandas en vivo del sigo pasado.",
     tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
   },
   {
@@ -216,7 +216,7 @@ const projects = [
     video: "https://www.youtube.com/watch?v=g7rukS6FLNQ",
     github: "https://github.com/pibelanzallamas/sacrificialsuicide",
     description: "Little project that counts your days alive.",
-    descripcion: "Pequeño proyecto que te calcula los días vivo.",
+    descripcion: "Pequeño proyecto que te cuentas los días en la tierra.",
     tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
   },
 ];
