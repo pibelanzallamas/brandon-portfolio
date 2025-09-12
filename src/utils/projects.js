@@ -30,9 +30,9 @@ const projects = [
     video: "https://www.youtube.com/watch?v=mOV8O6jPwC4",
     github: "http://github.com/pibelanzallamas/calles-construction",
     description:
-      "Website built for the construction company Calle's Construction, located in New York City.",
+      "Website built for Calle's Construction, contruction compay located in New York City.",
     descripcion:
-      "Sitio web realizado para la empresa de construccion Call'es Construction ubicada en la ciudad de New York.",
+      "Sitio web realizado para Calle's Construction empresa de construcción ubicada en Nueva York.",
     tags: ["react", "vite", "sass", "axios", "javascript"],
   },
   {
