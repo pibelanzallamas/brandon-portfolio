@@ -148,6 +148,7 @@ iframe {
 }
 .profile-page {
   display: flex;
+  text-align: center;
   gap: 1rem;
 }
 
