@@ -113,7 +113,7 @@ const projects = [
     id: 5,
     name: "Dreamer Paintings",
     year: 2024,
-    month: "May",
+    month: "Apr",
     author: "Brandon Castillo",
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1740082053/Captura_de_Pantalla_2025-02-20_a_la_s_17.06.43_vg9yro.png",
