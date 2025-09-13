@@ -25,9 +25,8 @@ function Navbar() {
     <nav className={dark ? "nav-dark" : "nav-light"}>
       <div className={dark ? "links links-dark" : "links links-light"}>
         <Link to="/">{esp ? "hogar" : "home"}</Link>
-        <Link to="/profile">{esp ? "perfil" : "profile"}</Link>
         <Link to="/projects">{esp ? "proyectos" : "projects"}</Link>
-        {/* <Link to="/videos">videos</Link> */}
+        <Link to="/profile">{esp ? "perfil" : "profile"}</Link>
         <Link to="/contact">{esp ? "contacto" : "contact"}</Link>
       </div>
     </nav>

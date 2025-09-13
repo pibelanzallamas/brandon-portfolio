@@ -17,9 +17,8 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/profile" element={<Profile />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/videos" element={<Videos />} />
+        <Route path="/profile" element={<Profile />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <div style={{flex:"1"}}></div>
