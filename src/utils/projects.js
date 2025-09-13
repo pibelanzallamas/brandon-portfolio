@@ -3,7 +3,7 @@ const projects = [
     id: 11,
     name: "Brandon Castillo Web",
     year: 2025,
-    month: "Feb",
+    month: "Mar",
     author: "Brandon Castillo",
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1754251248/2025-08-03_17-00_hns8sk.png",
@@ -20,8 +20,8 @@ const projects = [
   {
     id: 10,
     name: "Calles Construction",
-    year: 2024,
-    month: "Sep",
+    year: 2025,
+    month: "Feb",
     author: "Brandon Castillo",
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732610191/calles.png",
@@ -112,8 +112,8 @@ const projects = [
   {
     id: 5,
     name: "Dreamer Paintings",
-    year: 2023,
-    month: "nov",
+    year: 2024,
+    month: "May",
     author: "Brandon Castillo",
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1740082053/Captura_de_Pantalla_2025-02-20_a_la_s_17.06.43_vg9yro.png",
