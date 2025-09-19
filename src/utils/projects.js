@@ -12,7 +12,7 @@ const projects = [
     video: "https://www.youtube.com/watch?v=wb4fpWTEs9M",
     github: "http://github.com/pibelanzallamas/brandon-castillo",
     description:
-      "My personal website, where I talk little about myself, my experience and my education.",
+      "My own personal website where I talk a little bit about myself, my experience and my education.",
     descripcion:
       "Mi sitio personal donde hablo un poco sobre mi, mi experiencia y mi educación.",
     tags: ["react", "vite", "sass", "axios", "javascript"],
@@ -30,9 +30,9 @@ const projects = [
     video: "https://www.youtube.com/watch?v=mOV8O6jPwC4",
     github: "http://github.com/pibelanzallamas/calles-construction",
     description:
-      "Website built for Calle's Construction, construction company located in New York City.",
+      "Website built for Calle's Construction company located in New York City.",
     descripcion:
-      "Sitio web realizado para Calle's Construction, empresa de construcción ubicada en Nueva York.",
+      "Sitio web realizado para Calle's Construction, empresa de construcción ubicada en la ciudad de Nueva York.",
     tags: ["react", "vite", "sass", "axios", "javascript"],
   },
   {
@@ -94,8 +94,8 @@ const projects = [
     youtube: "bb8RomFHFdg",
     video: "https://www.youtube.com/watch?v=bb8RomFHFdg",
     github: "https://github.com/pibelanzallamas/carbon-copy",
-    description: "Web application to edit and export code to PNG images.",
-    descripcion: "Aplicación web para editar y exportar código a imágenes PNG.",
+    description: "Web application to format and export snippets of code to PNG images.",
+    descripcion: "Aplicación web para formatear y exportar snippets de código a imágenes PNG.",
     tags: [
       "react",
       "redux",
@@ -123,9 +123,9 @@ const projects = [
     video: "https://www.youtube.com/watch?v=ihcTIHnBINU",
     github: "https://github.com/pibelanzallamas/dreamers-paintings",
     description:
-      "Web site made for Dreamer Paintings, abstract paintings artist from Buenos Aires.",
+      "Web site made for abstract painting artist from Buenos Aires.",
     descripcion:
-      "Sitio web para Dreamer Paintings, pinturas abstractas de la Ciudad de Buenos Aires.",
+      "Sitio web hecho para un artista de pinturas abstractas de Buenos Aires.",
     tags: ["react", "redux", "sass", "vite", "javascript", "html", "css"],
   },
   {
