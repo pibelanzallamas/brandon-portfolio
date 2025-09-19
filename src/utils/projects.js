@@ -12,9 +12,9 @@ const projects = [
     video: "https://www.youtube.com/watch?v=wb4fpWTEs9M",
     github: "http://github.com/pibelanzallamas/brandon-castillo",
     description:
-      "My personal website, where I talk little about myself about my experience and education.",
+      "My personal website, where I talk little about myself, my experience and my education.",
     descripcion:
-      "Mi sitio personal donde hablo un poco sobre mi, acerca de mi experiencia y educación.",
+      "Mi sitio personal donde hablo un poco sobre mi, mi experiencia y mi educación.",
     tags: ["react", "vite", "sass", "axios", "javascript"],
   },
   {
