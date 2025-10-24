@@ -5,7 +5,7 @@ const links = [
   },
   {
     name: "Discord",
-    link: "https://discordapp.com/users/1363126156378771456"
+    link: "https://discordapp.com/users/995051014883381318"
   },
   {
     name: "LinkedIn",
@@ -29,7 +29,7 @@ const links = [
   },
   {
     name: "Gmail",
-    link: "mailto:brancastillo.developer@gmail.com"
+    link: "mailto:brandoncastillo.09@gmail.com"
   },
   {
     name: "Twitch",
