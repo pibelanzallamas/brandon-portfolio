@@ -15,7 +15,7 @@ const projects = [
       "My own personal website where I talk a little bit about myself, my experience and my education.",
     descripcion:
       "Mi sitio personal donde hablo un poco sobre mi, mi experiencia y mi educación.",
-    tags: ["react", "vite", "sass", "axios", "javascript"],
+    tags: ["react", "redux", "sass", "axios", "figma", "javascript"],
   },
   {
     id: 10,
@@ -33,7 +33,19 @@ const projects = [
       "Website built for Calle's Construction company located in New York City.",
     descripcion:
       "Sitio web realizado para Calle's Construction, empresa de construcción ubicada en la ciudad de Nueva York.",
-    tags: ["react", "vite", "sass", "axios", "javascript"],
+    tags: [
+        "nodejs",
+        "express",
+        "postgres",
+        "sequelize",
+        "jwt",
+        "dotenv",
+        "miro",
+        "react",
+        "redux",
+        "mui",
+        "sass",
+    ],
   },
   {
     id: 9,
@@ -49,7 +61,7 @@ const projects = [
     github: "http://github.com/pibelanzallamas/givemeayugiohcard",
     description: "Get a random Yu-Gi-Oh! card.",
     descripcion: "Obtené una carta Yu-Gi-Oh! aleatoria.",
-    tags: ["react", "vite", "sass", "axios", "javascript"],
+    tags: ["react", "sass", "axios", "javascript"],
   },
   {
     id: 8,
@@ -65,7 +77,7 @@ const projects = [
     github: "http://github.com/pibelanzallamas/your-mood",
     description: "Website for recommending music based on your mood.",
     descripcion: "Sitio web que recomienda música según tu estado de animo.",
-    tags: ["react", "vite", "sass", "axios", "javascript"],
+    tags: ["react", "sass", "axios", "javascript"],
   },
   {
     id: 7,
@@ -81,7 +93,7 @@ const projects = [
     github: "http://github.com/pibelanzallamas/youfast",
     description: "Youtube song searcher for elders.",
     descripcion: "Buscador de Youtube más simplificado.",
-    tags: ["react", "html", "youtube"],
+    tags: ["react", "redux", "sass", "dotenv"],
   },
   {
     id: 6,
@@ -97,16 +109,18 @@ const projects = [
     description: "Web application to format and export snippets of code to PNG images.",
     descripcion: "Aplicación web para formatear y exportar snippets de código a imágenes PNG.",
     tags: [
+      "nodejs",
+      "express",
+      "postgres",
+      "sequelize",
+      "jwt",
+      "dotenv",
+      "figma",
       "react",
       "redux",
-      "nodejs",
-      "sass",
-      "dotenv",
-      "jwt",
-      "javascript",
       "ace-react",
-      "sequelize",
-      "postgres",
+      "mui",
+      "sass",
     ],
   },
   {
@@ -126,7 +140,7 @@ const projects = [
       "Web site made for abstract painting artist from Buenos Aires.",
     descripcion:
       "Sitio web hecho para un artista de pinturas abstractas de Buenos Aires.",
-    tags: ["react", "redux", "sass", "vite", "javascript", "html", "css"],
+    tags: ["react", "redux", "sass", "javascript"],
   },
   {
     id: 4,
@@ -145,16 +159,16 @@ const projects = [
     descripcion:
       "Aplicación web para buscar propiedades con diversos filtros, opciones de ordenamiento, favoritos, programación de citas, confirmación por correo electrónico y modo administrador.",
     tags: [
-      "html",
-      "css",
-      "javascript",
       "nodejs",
       "express",
       "postgres",
       "sequelize",
       "jwt",
-      "mui",
+      "figma",
+      "react",
       "redux",
+      "mui",
+      "sass",
     ],
   },
   {
@@ -174,15 +188,14 @@ const projects = [
     descripcion:
       "Aplicación web para buscar películas, ver las más populares, guardar favoritas y visitar sus sitios web.",
     tags: [
-      "html",
-      "css",
-      "javascript",
       "nodejs",
       "express",
       "postgres",
       "sequelize",
-      "bulma",
       "jwt",
+      "react",
+      "redux",
+      "bulma",
     ],
   },
   {
@@ -201,7 +214,7 @@ const projects = [
       "Little project that includes a mixtape of ps1 videogames, breakcore music and live nineties bands.",
     descripcion:
       "Pequeño proyecto que incluye una mezcla de videojuegos de psx, música breakcore y presentaciones de bandas en vivo del sigo pasado.",
-    tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
+    tags: ["html", "css", "javascript"]
   },
   {
     id: 1,
@@ -217,7 +230,7 @@ const projects = [
     github: "https://github.com/pibelanzallamas/sacrificialsuicide",
     description: "Little project that counts your days alive.",
     descripcion: "Pequeño proyecto que te cuentas los días en la tierra.",
-    tags: ["html", "css", "nodejs", "express", "postgres", "sql"],
+    tags: ["html", "css", "javascript"],
   },
 ];
 
