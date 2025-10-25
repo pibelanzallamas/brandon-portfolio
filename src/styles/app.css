@@ -94,6 +94,7 @@ nav {
 
 .repo-emoji {
   font-size: 3rem;
+  text-align: center;
 }
 
 @media (min-width: 700px) {
@@ -103,7 +104,8 @@ nav {
   .project-description {
     font-size: 1.4rem;
     margin: 0 auto;
-    width: 25ch;
+    width: 34rem;
+    text-align: center;
   }
   .project-image {
     margin: 0 auto;
@@ -129,7 +131,7 @@ nav {
 iframe {
   border: #ff9900 4px solid;
   width: 100%;
-  height: 210px;
+  aspect-ratio: 15.7/9;
   display: block;
 }
 
@@ -143,8 +145,7 @@ iframe {
   }
   iframe {
     margin: 0 auto;
-    width: 90%;
-    height: 380px;
+    width: 35rem;
   }
 }
 .profile-page {

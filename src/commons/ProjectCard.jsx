@@ -16,22 +16,18 @@ function ProjectCard({ project }) {
         {project.month} {project.year}
       </p>
       <iframe 
-        // width="560" 
-        // height="280" 
         src={`https://www.youtube-nocookie.com/embed/${project.youtube}?autoplay=1&mute=1&rel=0&loop=1&playlist=${project.youtube}`}
         frameborder="0" 
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
         allowFullScreen
         loading="lazy">
       </iframe>
-      <p style={{textAlign:"center"}} className="project-description">
+      <p className="project-description">
         {esp ? project.descripcion : project.description} 
       </p>
-      <div className="repo-emoji" style={{textAlign:"center"}}>
-        <a href={project.github} target="_blank" rel="noopener noreferrer" title="GitHub!">
-          📁
-        </a>
-      </div>
+      <a className="repo-emoji" href={project.github} target="_blank" rel="noopener noreferrer" title="GitHub!">
+        📁
+      </a>
     </div>
   );
 }
