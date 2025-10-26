@@ -1,5 +1,5 @@
 Portfolio Y2K inspired by jungle breakcore music. 
-![Home] (https://res.cloudinary.com/daynclfo8/image/upload/v1761516647/Peek_2025-10-26_18-56_wnpzid.gif)
+![Home](https://res.cloudinary.com/daynclfo8/image/upload/v1761516647/Peek_2025-10-26_18-56_wnpzid.gif)
 
 
 
