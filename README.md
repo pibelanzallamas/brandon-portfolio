@@ -1,4 +1,4 @@
-Brandon Castillo's Portfolio:
+Portfolio Brandon Castillo
 
 ![Home](https://res.cloudinary.com/daynclfo8/image/upload/v1761516647/Peek_2025-10-26_18-56_wnpzid.gif)
 
@@ -19,5 +19,6 @@ Portfolio inspired by breakcore/jungle music and low-poly animations.
 Access the website, view projects, check repositories, watch demos, list of technologies, and contact.
 
 Thank you.
+
 Brandon
 
