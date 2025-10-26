@@ -1,5 +1,9 @@
-Brandon Castillo Portfolio Y2k
+Brandon Castillo Portfolio
 
-![Home](https://res.cloudinary.com/daynclfo8/image/upload/v1761516647/Peek_2025-10-26_18-56_wnpzid.gif
+![Home](https://res.cloudinary.com/daynclfo8/image/upload/v1761516647/Peek_2025-10-26_18-56_wnpzid.gif)
 
-Made with <3 with Vite, React, HTML, CSS, Javascript, SASS, Redux y React-router-dom
+Portfolio inspired by breakcore/jungle music and low-poly animations. 
+
+Made with <3 by Brandon.
+
+Deploy thanks to Vercel.
