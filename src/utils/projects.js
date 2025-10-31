@@ -72,8 +72,8 @@ const projects = [
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1749922322/2025-06-14_14-31_hxnue7.png",
     web: "https://your-mood.vercel.app/",
-    youtube: "AoEKSxLDWao",
-    video: "https://www.youtube.com/watch?v=AoEKSxLDWao",
+    youtube: "IlCOtvEfm_g",
+    video: "https://www.youtube.com/watch?v=IlCOtvEfm_g",
     github: "http://github.com/pibelanzallamas/your-mood",
     description: "Website for recommending music based on your mood.",
     descripcion: "Sitio web que recomienda música según tu estado de animo.",
