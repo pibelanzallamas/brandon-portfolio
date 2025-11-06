@@ -206,7 +206,7 @@ const projects = [
     author: "Brandon Castillo",
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732841668/metal.png",
-    web: "https://pibelanzallamas.github.io/metalhead",
+    web: "https://metalhead.vercel.app",
     youtube: "pN2r5AhwKrU",
     video: "https://www.youtube.com/watch?v=pN2r5AhwKrU",
     github: "https://github.com/pibelanzallamas/metalhead",
