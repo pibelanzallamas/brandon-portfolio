@@ -145,7 +145,8 @@ iframe {
   }
   iframe {
     margin: 0 auto;
-    width: 44rem;
+    width: 38rem;
+    height: auto;
   }
 }
 .profile-page {
