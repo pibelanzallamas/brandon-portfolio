@@ -8,8 +8,8 @@ const projects = [
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1754251248/2025-08-03_17-00_hns8sk.png",
     web: "https://brandon-castillo.vercel.app/",
-    youtube: "wb4fpWTEs9M",
-    video: "https://www.youtube.com/watch?v=wb4fpWTEs9M",
+    youtube: "fQGRjpaZeFk",
+    video: "https://www.youtube.com/watch?v=fQGRjpaZeFk",
     github: "http://github.com/pibelanzallamas/brandon-castillo",
     description:
       "My own personal website where I talk a little bit about myself, my experience and my education.",

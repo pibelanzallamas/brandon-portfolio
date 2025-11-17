@@ -6,7 +6,6 @@ import { useLocation } from "react-router-dom";
 
 function Projects() {
   const esp = useSelector((state) => state.lang.esp);
-  const dark = useSelector((state) => state.theme.dark);
   const [resultados, setResultados] = useState([]);
   const [input, setInput] = useState("");
   const location = useLocation();
@@ -18,7 +17,7 @@ function Projects() {
 
   useEffect(() => {
     setResultados(
-      projects.filter((ele) => ele.tags.some((tag) => tag.startsWith(tech)))
+      projects.filter((ele) => ele.tags.some((tag) => tag.startsWith(tech || input)))
     );
   }, [input, tech]);
 
