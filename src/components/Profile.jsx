@@ -1,7 +1,20 @@
 import { useSelector } from "react-redux";
+import { useNavigate } from "react-router-dom";
 
 function Profile() {
   const esp = useSelector((state) => state.lang.esp);
+  const dark = useSelector((state) => state.theme.dark);
+  const navigate = useNavigate();
+
+  function handleClickTechnologie(tech){
+    navigate("/projects", { 
+      state: { 
+        technologie: tech
+      } 
+    })
+  }
+
+  
 
   return (
     <main className="profile-page">
@@ -26,20 +39,24 @@ function Profile() {
           )}
         </p>
       </section>
+      <br />
       <section>
         <h2>{esp ? <>tecnologías</> : <>technologies</>}</h2>
-        <ul className="lists">
-          <li>NodeJs</li>
-          <li>Express</li>
-          <li>Sequelize</li>
-          <li>JWT</li>
-          <li>React</li>
-          <li>Redux</li>
-          <li>Sass</li>
-          <li>Figma</li>
-          <li>Visual Studio Code</li>
-          <li>Github</li>
+
+        <div className={dark ? "contact-links-dark" : "contact-links-light"}>
+        <ul clkassName="lists" style={{display: "flex", flexDirection: "column"}}>
+          <a onClick={()=>handleClickTechnologie("nodejs")}>NodeJs</a>
+          <a onClick={()=>handleClickTechnologie("express")}>Express</a>
+          <a onClick={()=>handleClickTechnologie("sequelize")}>Sequelize</a>
+          <a onClick={()=>handleClickTechnologie("jwt")}>JWT</a>
+          <a onClick={()=>handleClickTechnologie("react")}>React</a>
+          <a onClick={()=>handleClickTechnologie("redux")}>Redux</a>
+          <a onClick={()=>handleClickTechnologie("sass")}>Sass</a>
+          <a onClick={()=>handleClickTechnologie("figma")}>Figma</a>
+          <a onClick={()=>handleClickTechnologie("visual studio code")}>Visual Studio Code</a>
+          <a onClick={()=>handleClickTechnologie("github")}>Github</a>
         </ul>
+        </div>
       </section>
     </main>
   );
