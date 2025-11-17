@@ -44,7 +44,7 @@ function Profile() {
         <h2>{esp ? <>tecnologías</> : <>technologies</>}</h2>
 
         <div className={dark ? "contact-links-dark" : "contact-links-light"}>
-        <ul clkassName="lists" style={{display: "flex", flexDirection: "column"}}>
+        <ul clkassName="lists" style={{display: "flex", flexDirection: "column", lineHeight: "2.2rem"}}>
           <a onClick={()=>handleClickTechnologie("nodejs")}>NodeJs</a>
           <a onClick={()=>handleClickTechnologie("express")}>Express</a>
           <a onClick={()=>handleClickTechnologie("sequelize")}>Sequelize</a>
@@ -52,6 +52,7 @@ function Profile() {
           <a onClick={()=>handleClickTechnologie("react")}>React</a>
           <a onClick={()=>handleClickTechnologie("redux")}>Redux</a>
           <a onClick={()=>handleClickTechnologie("sass")}>Sass</a>
+          <a onClick={()=>handleClickTechnologie("html/css")}>Html/Css</a>
           <a onClick={()=>handleClickTechnologie("figma")}>Figma</a>
           <a onClick={()=>handleClickTechnologie("visual studio code")}>Visual Studio Code</a>
           <a onClick={()=>handleClickTechnologie("github")}>Github</a>

@@ -61,7 +61,7 @@ const projects = [
     github: "http://github.com/pibelanzallamas/givemeayugiohcard",
     description: "Get a random Yu-Gi-Oh! card.",
     descripcion: "Obtené una carta Yu-Gi-Oh! aleatoria.",
-    tags: ["react", "sass", "axios", "javascript"],
+    tags: ["react", "sass", "axios", "html/css", "javascript"],
   },
   {
     id: 8,
@@ -77,7 +77,7 @@ const projects = [
     github: "http://github.com/pibelanzallamas/your-mood",
     description: "Website for recommending music based on your mood.",
     descripcion: "Sitio web que recomienda música según tu estado de animo.",
-    tags: ["react", "sass", "axios", "javascript"],
+    tags: ["react", "sass", "axios", "html/css", "javascript"],
   },
   {
     id: 7,
@@ -93,7 +93,7 @@ const projects = [
     github: "http://github.com/pibelanzallamas/youfast",
     description: "Youtube song searcher for elders.",
     descripcion: "Buscador de Youtube más simplificado.",
-    tags: ["react", "redux", "sass", "dotenv"],
+    tags: ["react", "redux", "sass", "html/css", "dotenv"],
   },
   {
     id: 6,
@@ -214,7 +214,7 @@ const projects = [
       "Little project that includes a mixtape of ps1 videogames, breakcore music and live nineties bands.",
     descripcion:
       "Pequeño proyecto que incluye una mezcla de videojuegos de psx, música breakcore y presentaciones de bandas en vivo del sigo pasado.",
-    tags: ["html", "css", "javascript"]
+    tags: ["html/css", "javascript"]
   },
   {
     id: 1,
@@ -230,7 +230,7 @@ const projects = [
     github: "https://github.com/pibelanzallamas/sacrificialsuicide",
     description: "Little project that counts your days alive.",
     descripcion: "Pequeño proyecto que te cuentas los días en la tierra.",
-    tags: ["html", "css", "javascript"],
+    tags: ["html/css", "javascript"],
   },
 ];
 
