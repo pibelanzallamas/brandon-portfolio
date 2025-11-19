@@ -24,7 +24,7 @@ function ProjectCard({ project }) {
       <p className="project-description">
         {esp ? project.descripcion : project.description} 
       </p>
-      <a className="repo-emoji" href={project.github} target="_blank" rel="noopener noreferrer" title="GitHub!">
+      <a className="repo-emoji" href={project.github} target="_blank" rel="noopener noreferrer" title="GitHub">
         📁
       </a>
     </div>
