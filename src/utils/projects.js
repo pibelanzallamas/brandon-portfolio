@@ -30,9 +30,9 @@ const projects = [
     video: "https://www.youtube.com/watch?v=mOV8O6jPwC4",
     github: "http://github.com/pibelanzallamas/calles-construction",
     description:
-      "Website built for Calle's Construction company located in New York City.",
+      "Website built for construction company located in New York City.",
     descripcion:
-      "Sitio web realizado para Calle's Construction, empresa de construcción ubicada en la ciudad de Nueva York.",
+      "Sitio web realizado para empresa de construcción ubicada en la ciudad de Nueva York.",
     tags: [
         "nodejs",
         "express",
@@ -137,9 +137,9 @@ const projects = [
     video: "https://www.youtube.com/watch?v=ihcTIHnBINU",
     github: "https://github.com/pibelanzallamas/dreamers-paintings",
     description:
-      "Web site made for abstract painting artist from Buenos Aires.",
+      "Web site made for abstract painting artist from the city of Buenos Aires.",
     descripcion:
-      "Sitio web hecho para un artista de pinturas abstractas de Buenos Aires.",
+      "Sitio web hecho para un artista de pinturas abstractas de la ciudad de Buenos Aires.",
     tags: ["react", "redux", "sass", "javascript"],
   },
   {
@@ -155,9 +155,9 @@ const projects = [
     video: "https://www.youtube.com/watch?v=LiaV7xHjJmk",
     github: "https://github.com/pibelanzallamas/house-of-dev-client-deploy",
     description:
-      "Web application for searching properties with various filters, sorting options, favorites, scheduling appointments, email confirmation, and admin mode.",
+      "A web application similar to a real estate website, with various filters, sorting, appointment scheduling, favorites, email confirmation, admin mode, and more.",
     descripcion:
-      "Aplicación web para buscar propiedades con diversos filtros, opciones de ordenamiento, favoritos, programación de citas, confirmación por correo electrónico y modo administrador.",
+      "Aplicación web simil a sitio inmobiliario, con diversos filtros, ordenamientos, programación de citas, favoritos, confirmación por mail, modo administrador y más.",
     tags: [
       "nodejs",
       "express",
@@ -186,7 +186,7 @@ const projects = [
     description:
       "Web application for searching movies, viewing the trending ones, saving favorites, and visiting their websites.",
     descripcion:
-      "Aplicación web para buscar películas, ver las más populares, guardar favoritas y visitar sus sitios web.",
+      "Aplicación web para buscar películas, ver las más populares, guardar favoritas y más",
     tags: [
       "nodejs",
       "express",
@@ -211,9 +211,9 @@ const projects = [
     video: "https://www.youtube.com/watch?v=pN2r5AhwKrU",
     github: "https://github.com/pibelanzallamas/metalhead",
     description:
-      "Little project that includes a mixtape of ps1 videogames, breakcore music and live nineties bands.",
+      "Little project that includes a mixtape of videogames, music and live bands.",
     descripcion:
-      "Pequeño proyecto que incluye una mezcla de videojuegos de psx, música breakcore y presentaciones de bandas en vivo del sigo pasado.",
+      "Pequeño proyecto que incluye una mezcla de videojuegos, música, y bandas en vivo",
     tags: ["html/css", "javascript"]
   },
   {
@@ -228,8 +228,8 @@ const projects = [
     youtube: "g7rukS6FLNQ",
     video: "https://www.youtube.com/watch?v=g7rukS6FLNQ",
     github: "https://github.com/pibelanzallamas/sacrificialsuicide",
-    description: "Little project that counts your days alive.",
-    descripcion: "Pequeño proyecto que te cuentas los días en la tierra.",
+    description: "Earth days counter.",
+    descripcion: "Contador de dias en la tierra.",
     tags: ["html/css", "javascript"],
   },
 ];
