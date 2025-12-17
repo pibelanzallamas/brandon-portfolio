@@ -1,4 +1,22 @@
 const projects = [
+   {
+    id: 12,
+    name: "CGC minc",
+    year: 2025,
+    month: "DIC",
+    author: "Brandon Castillo",
+    image:
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1765985390/2025-12-17-12-29-31_kcontq.png",
+    web: "https://cgcminc.vercel.app/",
+    youtube: "Q1JMp5_Ufv0",
+    video: "https://www.youtube.com/watch?v=Q1JMp5_Ufv0",
+    github: "https://github.com/pibelanzallamas/minc.cg/",
+    description:
+      "Website for the CGC minc store. [in progress]",
+    descripcion:
+      "Sitio web realizado para la tienda CGC minc. [in progress]",
+    tags: ["react", "redux", "sass", "axios", "figma", "javascript"],
+  },
   {
     id: 11,
     name: "Brandon Castillo Web",
