@@ -145,7 +145,7 @@ iframe {
   }
   iframe {
     margin: 0 auto;
-    width: 38rem;
+    width: 36rem;
     height: auto;
   }
 }
@@ -321,6 +321,10 @@ footer {
 }
 * p {
   letter-spacing: 1px;
+}
+
+html {
+  font-size: 85%;
 }
 
 .full-app {
