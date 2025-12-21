@@ -5,13 +5,13 @@ nav {
 }
 
 .nav-light {
-  background-color: #ff9900;
+  background-color: #f19d1f;
   color: #0575f5;
 }
 
 .nav-dark {
   background-color: #0575f5;
-  color: #ff9900;
+  color: #f19d1f;
 }
 
 .links {
@@ -35,7 +35,7 @@ nav {
 
 .links-dark a:hover, .links-dark a:focus {
   color: #0575f5;
-  background-color: #ff9900;
+  background-color: #f19d1f;
 }
 
 @media (min-width: 700px) {
@@ -129,7 +129,7 @@ nav {
 }
 
 iframe {
-  border: #ff9900 4px solid;
+  border: #f19d1f 4px solid;
   width: 100%;
   aspect-ratio: 15.7/9;
   display: block;
@@ -164,7 +164,7 @@ iframe {
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  border: #ff9900 5px double;
+  border: #f19d1f 5px double;
 }
 
 section {
@@ -196,7 +196,7 @@ section {
     margin-bottom: 1rem;
   }
   .profile-pic img {
-    border: #ff9900 10px double;
+    border: #f19d1f 10px double;
   }
   .profile-description {
     font-size: 1.5rem;
@@ -335,7 +335,7 @@ html {
 }
 
 .light-mode {
-  background-color: #71C1FB;
+  background-color: #60b8f7;
   color: #0575f5;
 }
 .light-mode h2 {
@@ -367,11 +367,11 @@ main {
 .image img {
   height: 100%;
   width: 100%;
-  border: #ff9900 4px solid;
+  border: #f19d1f 4px solid;
 }
 
 .youtube-lite {
-  border: #ff9900 4px solid;
+  border: #f19d1f 4px solid;
 }
 
 @media (min-width: 700px) {
