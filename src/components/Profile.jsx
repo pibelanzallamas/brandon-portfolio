@@ -27,13 +27,12 @@ function Profile() {
         <p className="profile-description">
           {esp ? (
             <>
-              Nací en Argentina. Tengo una pasión por el diseño y la innovación.
-              {/* Aprecio el valor de los productos bien elaborados. */}
-              Aprecio el valor de los buenos productos.
+              Tengo una pasión por el diseño y la innovación.
+              Me gusta el trabajo en equipo y la colaboracion. 
             </>
           ) : (
             <>
-              I was born in Argentina. I have a passion for design and innovation. 
+              I have a passion for design and good work. 
               I appreciate the value of well-crafted products.
             </>
           )}
