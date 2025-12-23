@@ -227,7 +227,7 @@ const projects = [
     web: "https://metalhead.vercel.app",
     youtube: "pN2r5AhwKrU",
     video: "https://www.youtube.com/watch?v=pN2r5AhwKrU",
-    github: "https://github.com/pibelanzallamas/metalhead",
+    github: "https://metalhead.vercel.app",
     description:
       "Little project that includes a mixtape of videogames, music and live bands.",
     descripcion:
@@ -245,7 +245,7 @@ const projects = [
     web: "https://pibelanzallamas.github.io/sacrificial-suicide/",
     youtube: "g7rukS6FLNQ",
     video: "https://www.youtube.com/watch?v=g7rukS6FLNQ",
-    github: "https://github.com/pibelanzallamas/sacrificialsuicide",
+    github: "https://sacrificial-suicide.vercel.app",
     description: "Earth days counter.",
     descripcion: "Contador de dias en la tierra.",
     tags: ["html/css", "javascript"],
