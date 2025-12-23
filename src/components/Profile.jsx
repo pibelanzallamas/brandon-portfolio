@@ -29,11 +29,13 @@ function Profile() {
             <>
               Tengo una pasión por el diseño y la innovación.
               Me gusta el trabajo en equipo y la colaboracion. 
+              Soy disciplinado y me gusta hacer las cosas a tiempo.
             </>
           ) : (
             <>
               I have a passion for design and good work. 
               I appreciate the value of well-crafted products.
+              I am disciplined and I like to get things done on time.
             </>
           )}
         </p>
