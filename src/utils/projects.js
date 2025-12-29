@@ -8,11 +8,11 @@ const projects = [
     image:
       "https://res.cloudinary.com/daynclfo8/image/upload/v1765985390/2025-12-17-12-29-31_kcontq.png",
     web: "https://cgcminc.vercel.app/",
-    youtube: "rwL2Xs2cmB4",
-    video: "https://www.youtube.com/watch?v=rwL2Xs2cmB4",
+    youtube: "d9R3duNF7eg",
+    video: "https://www.youtube.com/watch?v=d9R3duNF7eg",
     github: "https://github.com/pibelanzallamas/minc.cg/",
     description:
-      "Website for the CGC minc store. [in progress]",
+      "Website for the enterprise CGC Minc. [in progress]",
     descripcion:
       "Sitio web realizado para la tienda CGC minc. [in progress]",
     tags: ["react", "redux", "sass", "axios", "figma", "javascript"],
