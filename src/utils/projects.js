@@ -24,7 +24,7 @@ const projects = [
     month: "Mar",
     author: "Brandon Castillo",
     image:
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1754251248/2025-08-03_17-00_hns8sk.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1767358568/2026-01-02-09-55-52_elwszo.png",
     web: "https://brandon-castillo.vercel.app/",
     youtube: "fQGRjpaZeFk",
     video: "https://www.youtube.com/watch?v=fQGRjpaZeFk",
@@ -42,7 +42,7 @@ const projects = [
     month: "Feb",
     author: "Brandon Castillo",
     image:
-      "https://res.cloudinary.com/daynclfo8/image/upload/f_webp,q_80/v1732610191/calles.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1767358479/2026-01-02-09-54-11_cz8zaq.png",
     web: "https://calles-construction.vercel.app/",
     youtube: "mOV8O6jPwC4",
     video: "https://www.youtube.com/watch?v=mOV8O6jPwC4",
@@ -109,8 +109,8 @@ const projects = [
     youtube: "pIdznUzPm54",
     video: "https://www.youtube.com/watch?v=pIdznUzPm54",
     github: "http://github.com/pibelanzallamas/youfast",
-    description: "Youtube song searcher for elders.",
-    descripcion: "Buscador de Youtube más simplificado.",
+    description: "Youtube song searcher for our elders.",
+    descripcion: "Buscador de canciones para abuelos y abuelas. Escribis cancion + artista (aveces sin artista) y ya suena la canción.",
     tags: ["react", "redux", "sass", "html/css", "dotenv"],
   },
   {
@@ -157,7 +157,7 @@ const projects = [
     description:
       "Web site made for abstract painting artist from the city of Buenos Aires.",
     descripcion:
-      "Sitio web hecho para un artista de pinturas abstractas de la ciudad de Buenos Aires.",
+      "Sitio web hecho para artista de pinturas abstractas desde la ciudad de Buenos Aires.",
     tags: ["react", "redux", "sass", "javascript"],
   },
   {
