@@ -6,7 +6,7 @@ const projects = [
     month: "DIC",
     author: "Brandon Castillo",
     image:
-      "https://res.cloudinary.com/daynclfo8/image/upload/v1765985390/2025-12-17-12-29-31_kcontq.png",
+      "https://res.cloudinary.com/daynclfo8/image/upload/v1767315491/2026-01-01-21-57-29_c8rsci.png",
     web: "https://cgcminc.vercel.app/",
     youtube: "d9R3duNF7eg",
     video: "https://www.youtube.com/watch?v=d9R3duNF7eg",

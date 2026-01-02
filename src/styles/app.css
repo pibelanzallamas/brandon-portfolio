@@ -76,6 +76,10 @@ nav {
   aspect-ratio: 1278/741;
 }
 
+.project-image-div {
+  width: 100%;
+}
+
 .project-description {
   line-height: 150%;
   font-size: 1.1rem;
@@ -107,9 +111,9 @@ nav {
     width: 38rem;
     text-align: center;
   }
-  .project-image {
-    margin: 0 auto;
-    width: 43vw;
+  .project-image-div {
+    margin: 0.5rem auto;
+    width: 60rem;
   }
   .project-logos img {
     height: 5rem;
@@ -324,7 +328,7 @@ footer {
 }
 
 html {
-  font-size: 85%;
+  font-size: 75%;
 }
 
 .full-app {
@@ -368,6 +372,11 @@ main {
   height: 100%;
   width: 100%;
   border: #ff9900 4px solid;
+}
+
+img {
+  height: 100%;
+  width: 100%;
 }
 
 .youtube-lite {
