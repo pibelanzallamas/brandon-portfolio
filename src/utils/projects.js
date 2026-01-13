@@ -47,8 +47,8 @@ const projects = [
     youtube: "IoIIYAMlT6g",
     video: "https://www.youtube.com/watch?v=IoIIYAMlT6g",
     github: "http://github.com/pibelanzallamas/youfast",
-    description: "Youtube song searcher for our elders.",
-    descripcion: "Buscador de canciones para abuelos y abuelas. Escribis cancion + artista (aveces sin artista) y ya suena la canción.",
+    description: "Fast youtube video search ⚡",
+    descripcion: "Rápido buscador de youtube ⚡",
     tags: ["react", "redux", "sass", "html/css", "dotenv"],
   },
 
@@ -64,8 +64,8 @@ const projects = [
     youtube: "2PzNBIX46Wc",
     video: "https://www.youtube.com/watch?v=2PzNBIX46Wc",
     github: "http://github.com/pibelanzallamas/your-mood",
-    description: "Website for recommending music based on your mood.",
-    descripcion: "Sitio web que recomienda música según tu estado de animo.",
+    description: "Website that recomends random songs based on your mood.",
+    descripcion: "Sitio que recomienda canciones según tu estado de animo.",
     tags: ["react", "sass", "axios", "html/css", "javascript"],
   },
   {
@@ -209,7 +209,7 @@ const projects = [
     description:
       "Web application for searching movies, viewing the trending ones, saving favorites, and visiting their websites.",
     descripcion:
-      "Aplicación web para buscar películas, ver las más populares, guardar favoritas y más",
+      "Aplicación web para buscar películas, ver populares, guardar favoritos y más",
     tags: [
       "nodejs",
       "express",
