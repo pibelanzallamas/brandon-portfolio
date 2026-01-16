@@ -83,6 +83,7 @@ nav {
 .project-description {
   line-height: 150%;
   font-size: 1.1rem;
+  font-family: Roboto;
 }
 
 .project-logos ul {
@@ -306,8 +307,8 @@ footer {
   font-style: normal;
 }
 @font-face {
-  font-family: "popstar";
-  src: url("../assets/fonts/popstar.ttf") format("truetype");
+  font-family: "Roboto";
+  src: url("../assets/fonts/Roboto-Black.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
 }
