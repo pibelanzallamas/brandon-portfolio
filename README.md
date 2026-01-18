@@ -1,6 +1,6 @@
 Brandon Castillo's Portfolio
 
-![Home](https://res.cloudinary.com/daynclfo8/image/upload/v1761516647/Peek_2025-10-26_18-56_wnpzid.gif)
+![Home](https://res.cloudinary.com/daynclfo8/image/upload/v1768701655/2026-01-17-22-50-50_vqr2bc.png)
 
 [Sitio web](https://brandon-portfolio-phi.vercel.app/)
 
