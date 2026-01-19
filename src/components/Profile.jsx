@@ -27,9 +27,8 @@ function Profile() {
         <p className="profile-description">
           {esp ? (
             <>
-              Tengo una pasión por el diseño y la innovación.
-              Me gusta el trabajo en equipo y la colaboracion. 
-              Soy disciplinado y me gusta hacer las cosas a tiempo.
+              Me especializo en convertir diseños profesionales de alta fidelidad en interfaces exactas, accesibles y responsivas.
+              Tengo experiencia de 
             </>
           ) : (
             <>
