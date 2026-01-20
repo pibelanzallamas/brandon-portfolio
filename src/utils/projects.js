@@ -79,8 +79,8 @@ const projects = [
     youtube: "bb8RomFHFdg",
     video: "https://www.youtube.com/watch?v=bb8RomFHFdg",
     github: "https://github.com/pibelanzallamas/carbon-copy",
-    description: "Web application to format and export snippets of code to PNG images.",
-    descripcion: "Aplicación web para formatear y exportar snippets de código a imágenes PNG.",
+    description: "Web application to format and export code snippets from different languages to PNG format.",
+    descripcion: "Aplicación web para formatear y exportar fragmentos de código de diferentes lenguajes a formato PNG.",
     tags: [
       "nodejs",
       "express",
@@ -191,7 +191,7 @@ const projects = [
     video: "https://www.youtube.com/watch?v=NEzQ7VnWCLI",
     github: "http://github.com/pibelanzallamas/givemeayugiohcard",
     description: "Get a random Yu-Gi-Oh! card.",
-    descripcion: "Obtené una carta Yu-Gi-Oh! aleatoria.",
+    descripcion: "Obtené una carta aleatoria de Yu-Gi-Oh!.",
     tags: ["react", "sass", "axios", "html/css", "javascript"],
   },
   {
