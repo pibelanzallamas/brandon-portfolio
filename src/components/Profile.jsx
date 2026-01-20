@@ -27,8 +27,8 @@ function Profile() {
         <p className="profile-description">
           {esp ? (
             <>
-              Me especializo en convertir diseños profesionales de alta fidelidad en interfaces exactas, accesibles y responsivas.
-              Tengo experiencia de 
+              Me especializo en convertir diseños profesionales de alta fidelidad en interfaces exactas. 
+              Me gusta el trabajo en equipo y la colaboración. Soy diciplinado y me gusta hacer las cosas a tiempo.
             </>
           ) : (
             <>

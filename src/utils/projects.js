@@ -14,7 +14,7 @@ const projects = [
     description:
       "Website created for the company CGC minc, focused on building community and a marketplace for clothing and accessories. [in development]",
     descripcion:
-      "Sitio web realizado para la compañia CGC minc, enfocada en crear comunidad y marketplace para indumentaria y accesorios. [en desarrollo]",
+      "Sitio web realizado para la compañia CGC minc, enfocada en crear comunidad y un marketplace de indumentaria y accesorios. [en desarrollo]",
     tags: ["react", "redux", "sass", "axios", "figma", "javascript"],
   },
     {
@@ -30,9 +30,9 @@ const projects = [
     video: "https://www.youtube.com/watch?v=fQGRjpaZeFk",
     github: "http://github.com/pibelanzallamas/brandon-castillo",
     description:
-      "My own personal website where I talk a little bit about myself, my experience and my education.",
+      "My personal website where I share my experience, education, and professional background.",
     descripcion:
-      "Mi sitio personal donde hablo un poco sobre mi, mi experiencia y mi educación.",
+      "Mi sitio personal donde hablo sobre mi experiencia, mi educación y sobre mi trayectoria.",
     tags: ["react", "redux", "sass", "axios", "figma", "javascript"],
   },
     {
