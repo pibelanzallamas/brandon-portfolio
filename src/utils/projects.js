@@ -47,8 +47,8 @@ const projects = [
     youtube: "IoIIYAMlT6g",
     video: "https://www.youtube.com/watch?v=IoIIYAMlT6g",
     github: "http://github.com/pibelanzallamas/youfast",
-    description: "Fast youtube video search ⚡",
-    descripcion: "Rápido buscador de youtube ⚡",
+    description: "Song search app for grandparents: type the song, artist, press Enter, and the song starts playing instantly.⚡",
+    descripcion: "Buscador de canciones para abuelos y abuelas, escribis cancion, artista, presionas enter y ya suena la cancion.⚡",
     tags: ["react", "redux", "sass", "html/css", "dotenv"],
   },
 
