@@ -14,7 +14,7 @@ function Home() {
     <main>
       <h1><a className="name" href="https://linkedin.com/in/brandon-castillo-dev" target="_blank">brandon castillo</a></h1>
       <h2>
-        <a className="name"  href="https://api.constata.eu/certificate/research+riding+veal+bonfire+dedicator" target="_blank">{esp ? <>Desarrollador Front End</> : <>Front End Developer</>}</a>
+        <a className="name"  href="https://api.constata.eu/certificate/research+riding+veal+bonfire+dedicator" target="_blank">{esp ? <>Front End y diseño ux</> : <>Front End & UX Designer</>}</a>
       </h2>
       <figure
         className="image home-image"
