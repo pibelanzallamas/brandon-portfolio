@@ -27,14 +27,17 @@ function Profile() {
         <p className="profile-description">
           {esp ? (
             <>
-              Me especializo en convertir diseños profesionales de alta fidelidad en interfaces exactas. 
-              Me gusta el trabajo en equipo y la colaboración. Soy diciplinado y me gusta hacer las cosas a tiempo.
+              Me especializo en implementar diseños UX/UI con presición pixel perfect. Asegurando que sean accesibles, 
+              funcionales y responsivos.
+              Me gusta el trabajo y la colaboración en equipo. Soy detallista y me gusta hacer las cosas a tiempo.
             </>
           ) : (
             <>
-              I have a passion for design and good work. 
-              I appreciate the value of well-crafted products.
-              I am disciplined and I like to get things done on time.
+              I have a passion for UX/UI Design and front end development. 
+              I appreciate the value of well-crafted user interfaces
+              I value teamwork and companionship. 
+              I am patient and self-driven.
+            
             </>
           )}
         </p>
