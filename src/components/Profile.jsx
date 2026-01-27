@@ -27,9 +27,9 @@ function Profile() {
         <p className="profile-description">
           {esp ? (
             <>
-              Me especializo en implementar diseños UX/UI con presición pixel perfect. Asegurando que sean accesibles, 
+              Me especializo en implementar diseños UX/UI con presición pixel perfect, Asegurando que sean accesibles, 
               funcionales y responsivos.
-              Me gusta el trabajo y la colaboración en equipo. Soy detallista y me gusta hacer las cosas a tiempo.
+              Me gusta el trabajo en equipo, la colaboración y hacer las cosas en tiempo.
             </>
           ) : (
             <>
