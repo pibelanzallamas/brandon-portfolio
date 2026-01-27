@@ -33,10 +33,9 @@ function Profile() {
             </>
           ) : (
             <>
-              I have a passion for UX/UI Design and front end development. 
-              I appreciate the value of well-crafted user interfaces
-              I value teamwork and companionship. 
-              I am patient and self-driven.
+              I specialize in implementing UX/UI designs with pixel-perfect precision, ensuring they are accessible, 
+              functional, and responsive. 
+              I enjoy working on teams, collaboration, and delivering work on time.
             
             </>
           )}
