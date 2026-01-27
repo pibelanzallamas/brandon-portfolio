@@ -29,7 +29,7 @@ function Profile() {
             <>
               Me especializo en implementar diseños UX/UI con presición pixel perfect, Asegurando que sean accesibles, 
               funcionales y responsivos.
-              Me gusta el trabajo en equipo, la colaboración y hacer las cosas en tiempo.
+              Me gusta el trabajo en equipo, la colaboración y hacer las cosas a tiempo.
             </>
           ) : (
             <>
