@@ -7,21 +7,24 @@
   display: flex
   flex-direction: column
   gap: 0.5rem
+  margin-top: 1rem
 
 iframe
-  border: colors.$orange-peel 4px solid 
   width: 100%
-  aspect-ratio: 15.7 / 9
+  height: 231px
   display: block
 
+.iframe-light
+  border: colors.$orange-peel 3px ridge
+
+.iframe-dark
+  border: colors.$red-crayola 3px ridge
+
+
 @media (min-width: 700px)
-  .videos-page
-    gap: 2rem
   .one-video-card
-    width:  500px
-    max-width: 85%
+    width:  550px
   iframe
-    margin: 0 auto
-    width: 36rem
-    height: auto
+    height: 308px
+    
   

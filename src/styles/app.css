@@ -56,6 +56,12 @@ nav {
   text-align: center;
 }
 
+#sub-titles {
+  font-size: 1.4rem;
+  width: 36rem;
+  color: #e84855;
+}
+
 @media (min-width: 700px) {
   .home-image {
     aspect-ratio: 498/336;
@@ -130,27 +136,29 @@ nav {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  margin-top: 1rem;
 }
 
 iframe {
-  border: #ff9900 4px solid;
   width: 100%;
-  aspect-ratio: 15.7/9;
+  height: 231px;
   display: block;
 }
 
+.iframe-light {
+  border: #ff9900 3px ridge;
+}
+
+.iframe-dark {
+  border: #e84855 3px ridge;
+}
+
 @media (min-width: 700px) {
-  .videos-page {
-    gap: 2rem;
-  }
   .one-video-card {
-    width: 500px;
-    max-width: 85%;
+    width: 550px;
   }
   iframe {
-    margin: 0 auto;
-    width: 36rem;
-    height: auto;
+    height: 308px;
   }
 }
 .profile-page {
@@ -378,10 +386,6 @@ main {
 img {
   height: 100%;
   width: 100%;
-}
-
-.youtube-lite {
-  border: #ff9900 4px solid;
 }
 
 @media (min-width: 700px) {

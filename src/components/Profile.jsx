@@ -14,8 +14,6 @@ function Profile() {
     })
   }
 
-  
-
   return (
     <main className="profile-page">
       <h1>{esp ? "Perfil" : "Profile"}</h1>
@@ -27,16 +25,13 @@ function Profile() {
         <p className="profile-description">
           {esp ? (
             <>
-              Me especializo en implementar diseños UX/UI con presición pixel perfect, Asegurando que sean accesibles, 
-              funcionales y responsivos.
-              Me gusta el trabajo en equipo, la colaboración y hacer las cosas a tiempo.
+              Front-end. Back-end. Ux Designer. 1 año de experiencia. Pasión por realizar diseños originales
+              de manera pixel perfect, asegurando funcionalidad.
             </>
           ) : (
             <>
-              I specialize in implementing UX/UI designs with pixel-perfect precision, ensuring they are accessible, 
-              functional, and responsive. 
-              I enjoy working on teams, collaboration, and delivering work on time.
-            
+              Front-end. Back-end. Ux Designer. 1 year of experience. Passion to deliver pixel-perfect originals ui designs
+              ensuring functionality.
             </>
           )}
         </p>
