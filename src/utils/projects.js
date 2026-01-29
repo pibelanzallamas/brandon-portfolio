@@ -2,7 +2,7 @@ const projects = [
    {
     id: 12,
     name: "CGC minc",
-    year: 2025,
+    year: "2025 - Now" ,
     month: "DIC",
     author: "Brandon Castillo",
     image:
@@ -12,9 +12,9 @@ const projects = [
     video: "https://www.youtube.com/watch?v=d9R3duNF7eg",
     github: "https://github.com/pibelanzallamas/minc.cg/",
     description:
-      "Website created for the company CGC minc, focused on building community and a marketplace for clothing and accessories. [in development]",
+      "Website created for the company CGC minc, focused on building community and a marketplace for clothing and accessories.",
     descripcion:
-      "Sitio web realizado para la compañia CGC minc, enfocada en crear comunidad y un marketplace de indumentaria y accesorios. [en desarrollo]",
+      "Sitio web realizado para la compañia CGC minc, enfocada en crear comunidad y un marketplace de indumentaria y accesorios.",
     tags: ["react", "redux", "sass", "axios", "figma", "javascript"],
   },
     {
