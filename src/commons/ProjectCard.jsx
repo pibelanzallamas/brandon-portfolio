@@ -22,9 +22,11 @@ function ProjectCard({ project }) {
         allowFullScreen
         loading="lazy">
       </iframe> */}
-      <figure className="project-image-div">
-        <img src={project.image}></img>
-      </figure>
+      <a  href={project.video} target="_blank">
+        <figure className="project-image-div">
+          <img src={project.image}></img>
+        </figure>
+      </a>
       <p className="project-description">
         {esp ? project.descripcion : project.description} 
       </p>
