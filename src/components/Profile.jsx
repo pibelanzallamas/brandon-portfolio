@@ -26,12 +26,12 @@ function Profile() {
           {esp ? (
             <>
               Front-end. Back-end. Ux Designer. 1 año de experiencia. Pasión por realizar diseños originales
-              de manera pixel perfect, asegurando funcionalidad.
+              de manera pixel perfect, asegurando funcionalidad y compatibilidad.
             </>
           ) : (
             <>
               Front-end. Back-end. Ux Designer. 1 year of experience. Passion to deliver pixel-perfect originals ui designs
-              ensuring functionality.
+              ensuring functionality and Compatibility. 
             </>
           )}
         </p>
